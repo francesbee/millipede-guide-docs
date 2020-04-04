@@ -14,6 +14,7 @@
 
 ## Contribution Guidelines
 
+- When you edit a document, please add your name to the end of the `copyright` list, separated by a comma.
 - Documents must only relate to the natural world and natural wonders
 - All documents must pass validation (tests) based on the predefined schema
 - Fact-based data only
