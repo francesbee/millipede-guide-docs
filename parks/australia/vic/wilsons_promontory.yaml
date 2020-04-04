@@ -1,0 +1,43 @@
+name: Wilsons Promontory National Park
+region: Vic
+country: Australia
+location: [-39.033333, 146.383333]
+osm:
+  relation: 554585
+iucn: 2
+links:
+  official_website: "https://www.parks.vic.gov.au/places-to-see/parks/wilsons-promontory-national-park"
+  wikipedia: "https://en.wikipedia.org/wiki/Wilsons_Promontory_National_Park"
+  wikivoyage: "https://en.wikivoyage.org/wiki/Wilsons_Promontory"
+photos:
+  - src: "https://live.staticflickr.com/65535/48834525112_d1e4807566_b.jpg"
+    license: CC BY-ND 2.0
+    attr: Amitinder Cheema
+    href: "https://www.flickr.com/photos/163236208@N08/48834525112"
+    year: 2019
+  - src: "https://farm8.staticflickr.com/7026/6551897645_6103d53459_b.jpg"
+    license: CC BY-NC 2.0
+    attr: Parks Victoria
+    href: "https://www.flickr.com/photos/56027284@N03/6551897645"
+    year: 2011
+  - src: "https://upload.wikimedia.org/wikipedia/commons/0/05/A194%2C_Wilson%27s_Promontory_National_Park%2C_Australia%2C_rocky_beach%2C_2007.JPG"
+    license: CC BY-NC-SA 4.0
+    attr: Brian W. Schaller
+    href: "https://commons.wikimedia.org/wiki/File:A194,_Wilson%27s_Promontory_National_Park,_Australia,_rocky_beach,_2007.JPG"
+    year: 2007
+parking:
+  - name: Telegraph Saddle
+    location: [-39.032695, 146.35539]
+    fee: free
+  - name: Tidal River
+    location: [-39.03047,146.32189]
+    fee: free
+    osm:
+      way: 30161859
+park_office: &visitor_centre
+  location: [-39.03069,146.32174]
+  osm:
+    way: 257722206
+visitor_centre: *visitor_centre
+copyright: Reilly Beacom
+license: CC BY-NC-SA 4.0

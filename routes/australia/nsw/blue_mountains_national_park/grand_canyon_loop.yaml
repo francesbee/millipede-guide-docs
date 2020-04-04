@@ -1,0 +1,72 @@
+name: Grand Canyon loop
+park: Blue Mountains National Park
+region: NSW
+country: Australia
+location: [-33.649444, 150.319752]
+photos:
+  - src: "https://reillybeacom.net/photos/shared/outdoors/aus/nsw/grand_canyon_loop/IMG_4709.jpg"
+    license: "CC BY-NC-SA 4.0"
+    attr: "Reilly Beacom"
+  - src: "https://reillybeacom.net/photos/shared/outdoors/aus/nsw/grand_canyon_loop/IMG_4715.jpg"
+    license: "CC BY-NC-SA 4.0"
+    attr: "Reilly Beacom"
+  - src: "https://reillybeacom.net/photos/shared/outdoors/aus/nsw/grand_canyon_loop/P3120978.jpg"
+    license: "CC BY-NC-SA 4.0"
+    attr: "Reilly Beacom"
+  - src: "https://reillybeacom.net/photos/shared/outdoors/aus/nsw/grand_canyon_loop/P3120993.jpg"
+    license: "CC BY-NC-SA 4.0"
+    attr: "Reilly Beacom"
+  - src: "https://reillybeacom.net/photos/shared/outdoors/aus/nsw/grand_canyon_loop/IMG_8446.jpg"
+    license: "CC BY-NC-SA 4.0"
+    attr: "Reilly Beacom"
+  - src: "https://reillybeacom.net/photos/shared/outdoors/aus/nsw/grand_canyon_loop/IMG_4789.jpg"
+    license: "CC BY-NC-SA 4.0"
+    attr: "Reilly Beacom"
+  - src: "https://reillybeacom.net/photos/shared/outdoors/aus/nsw/grand_canyon_loop/IMG_4814.jpg"
+    license: "CC BY-NC-SA 4.0"
+    attr: "Reilly Beacom"
+  - src: "https://reillybeacom.net/photos/shared/outdoors/aus/nsw/grand_canyon_loop/IMG_4817.jpg"
+    license: "CC BY-NC-SA 4.0"
+    attr: "Reilly Beacom"
+parking:
+  - name: Evans Lookout
+    location: [-33.646618, 150.325067]
+    osm:
+      way: 355963421
+    sealed_surface: true
+  - name: Bus and RV
+    location: [-33.649135, 150.319797]
+    sealed_surface: false
+  - name: Neates Glen
+    location: [-33.6514579, 150.3145925]
+    osm:
+      node: 2459173321
+features:
+  rainforest: true
+  canyon: true
+  cliff_edges: true
+  stairs: true
+  stroller: false
+  walk: true
+  accessible: false
+  mountain_bike: false
+  slippery: true
+  flood_risk: true
+  stepping_stones_water_crossing: true
+  loop: true
+  lookout: true
+access:
+  car: true
+  sealed_road: true
+toilets:
+  - name: Evans Lookout
+    location: [-33.6466230, 150.3245870]
+    osm:
+      node: 2619197951
+  - name: Bus and RV Parking
+    location: [-33.6489, 150.32069]
+water: []
+links:
+  official_website: "https://www.nationalparks.nsw.gov.au/things-to-do/walking-tracks/grand-canyon-track"
+copyright: Reilly Beacom
+license: CC BY-NC-SA 4.0

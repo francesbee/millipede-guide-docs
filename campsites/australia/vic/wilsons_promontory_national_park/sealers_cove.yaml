@@ -1,0 +1,82 @@
+name: Sealers Cove
+park: Wilsons Promontory National Park
+region: Vic
+country: Australia
+location: [-39.022545, 146.443613]
+photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/1/16/Sealers_Cove%2C_Wilsons_Promontory_National_Park_04.jpg"
+    href: "https://commons.wikimedia.org/wiki/File:Sealers_Cove,_Wilsons_Promontory_National_Park_04.jpg"
+    license: CC0
+    attr: Dhx1
+  - src: "https://upload.wikimedia.org/wikipedia/commons/f/f0/Sealers_Cove%2C_Wilsons_Promontory_National_Park_02.jpg"
+    href: "https://commons.wikimedia.org/wiki/File:Sealers_Cove,_Wilsons_Promontory_National_Park_02.jpg"
+    license: CC0
+    attr: Dhx1
+  - src: "https://upload.wikimedia.org/wikipedia/commons/d/db/Sealers_Cove%2C_Wilsons_Promontory_National_Park_01.jpg"
+    href: "https://commons.wikimedia.org/wiki/File:Sealers_Cove,_Wilsons_Promontory_National_Park_01.jpg"
+    license: CC0
+    attr: Dhx1
+  - src: "https://upload.wikimedia.org/wikipedia/commons/a/a4/Sealers_Cove_to_Refuge_Cove_walking_track%2C_Wilsons_Promontory_National_Park_02.jpg"
+    href: "https://commons.wikimedia.org/wiki/File:Sealers_Cove_to_Refuge_Cove_walking_track,_Wilsons_Promontory_National_Park_02.jpg"
+    license: CC0
+    attr: Dhx1
+  - src: "https://upload.wikimedia.org/wikipedia/commons/0/0c/Sealers_Cove%2C_Wilsons_Promontory_National_Park_12.jpg"
+    href: "https://commons.wikimedia.org/wiki/File:Sealers_Cove,_Wilsons_Promontory_National_Park_12.jpg"
+    license: CC0
+    attr: Dhx1
+  - src: "https://freeaussiestock.com/free/Victoria/Wilsons%20Promontory/sealers_cove_gulls.jpg"
+    href: "https://freeaussiestock.com/free/Victoria/Wilsons%20Promontory/slides/sealers_cove_gulls.htm"
+    license: CC BY 3.0
+    attr: freeaussiestock.com
+features:
+  water: true
+  toilet: true
+  dogs: false
+  pets: false
+  horses: false
+  bicycles: false
+  campfires: false
+  firearms: false
+  generators: false
+  tree_fall_risk: true
+  booking_required: false
+  beach: true
+  accessible: false
+  hikers_only: true
+access:
+  hike_in: true
+  car: false
+  motorcycle: false
+  mountain_bike: false
+  road_bicycle: false
+  wheelchair: false
+  boat: true
+  kayak: true
+parking:
+  - name: Telegraph Saddle
+    location: [-39.032695, 146.35539]
+    fee: free
+  - name: Overnight Hikers Carpark, Tidal River (with shuttle bus to Telegraph Saddle)
+    location: [-39.030996, 146.326805]
+    fee: free
+water:
+  - type: tap
+    source: river
+    potable: true
+    treated: false
+    location: [-39.022393, 146.443883]
+    osm:
+      node: 2857264122
+toilets:
+  - type: pit
+    location: [-39.022872, 146.443322]
+    osm:
+      node: 312991693
+  - type: pit
+    location: [-39.0208520, 146.4356785]
+    osm:
+      node: 262793502
+links:
+  official_website: "https://www.parks.vic.gov.au/places-to-see/sites/sealers-cove-hike-in-camping-area"
+copyright: Reilly Beacom
+license: CC BY-NC-SA 4.0

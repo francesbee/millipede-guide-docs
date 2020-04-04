@@ -1,0 +1,17 @@
+{
+  "name": "millipede-guide-docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scripts/validate.js",
+  "dependencies": {
+    "glob": "^7.1.6",
+    "js-yaml": "^3.13.1",
+    "jsonschema": "^1.2.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node scripts/validate.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

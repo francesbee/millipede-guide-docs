@@ -1,0 +1,71 @@
+name: Bennetts Ridge - Euroka
+park: Blue Mountains National Park
+region: NSW
+country: Australia
+location: [-33.800874, 150.618716]
+nearest_town:
+  name: Glenbrook
+  location: [-33.767126, 150.622493]
+photos:
+  - src: "https://reillybeacom.net/photos/shared/outdoors/aus/nsw/euroka_bennetts_ridge/IMG_4448.jpg"
+    license: "CC BY-NC-SA 4.0"
+    attr: "Reilly Beacom"
+  - src: "https://reillybeacom.net/photos/shared/outdoors/aus/nsw/euroka_bennetts_ridge/IMG_4449.jpg"
+    license: "CC BY-NC-SA 4.0"
+    attr: "Reilly Beacom"
+  - src: "https://reillybeacom.net/photos/shared/outdoors/aus/nsw/euroka_bennetts_ridge/IMG_4450.jpg"
+    license: "CC BY-NC-SA 4.0"
+    attr: "Reilly Beacom"
+  - src: "https://reillybeacom.net/photos/shared/outdoors/aus/nsw/euroka_bennetts_ridge/IMG_4452.jpg"
+    license: "CC BY-NC-SA 4.0"
+    attr: "Reilly Beacom"
+  - src: "https://reillybeacom.net/photos/shared/outdoors/aus/nsw/euroka_bennetts_ridge/IMG_4453.jpg"
+    license: "CC BY-NC-SA 4.0"
+    attr: "Reilly Beacom"
+  - src: "https://reillybeacom.net/photos/shared/outdoors/aus/nsw/euroka_bennetts_ridge/IMG_4454.jpg"
+    license: "CC BY-NC-SA 4.0"
+    attr: "Reilly Beacom"
+  - src: "https://reillybeacom.net/photos/shared/outdoors/aus/nsw/euroka_bennetts_ridge/IMG_4455.jpg"
+    license: "CC BY-NC-SA 4.0"
+    attr: "Reilly Beacom"
+features:
+  water: true
+  toilet: true
+  tree_fall_risk: true
+  allocated_sites: false
+  showers: false
+  tables: true
+  campfires: true
+  gathering_firewood: false
+  generators: false
+  pets: false
+  smoking: false
+  amplified_music: false
+  rubbish_bins: true
+  accessible: true
+  drive_in: false
+access:
+  car: true
+  sealed_road: false
+  causeway: true
+parking:
+  - name: Bennett Ridge Trail
+    location: [-33.80020, 150.61875]
+    osm:
+      way: 48990761
+    photos:
+      - src: "https://reillybeacom.net/photos/shared/outdoors/aus/nsw/euroka_bennetts_ridge/IMG_4447.jpg"
+        license: "CC BY-NC-SA 4.0"
+        attr: "Reilly Beacom"
+toilets:
+  - type: pit
+    wheelchair: true
+    location: [-33.80045, 150.61907]
+    photos:
+      - src: "https://reillybeacom.net/photos/shared/outdoors/aus/nsw/euroka_bennetts_ridge/IMG_4451.jpg"
+        license: "CC BY-NC-SA 4.0"
+        attr: "Reilly Beacom"
+links:
+  official_website: "https://www.nationalparks.nsw.gov.au/camping-and-accommodation/campgrounds/euroka-campground"
+copyright: Reilly Beacom
+license: CC BY-NC-SA 4.0
