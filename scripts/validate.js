@@ -10,8 +10,16 @@ const schema = YAML.safeLoad(FS.readFileSync('./schema.yaml'));
 
 ['attractions', 'campsites', 'parks', 'routes'].forEach(category => {
     Glob.sync(`./${category}/**/*.yaml`).forEach(filePath => {
-        console.log(filePath);
         const doc = YAML.safeLoad(FS.readFileSync(filePath));
-        validator.validate(doc, schema, { throwError: true });
+        const result = validator.validate(doc, schema, { throwError: false });
+        if (result.errors.length === 0) {
+            console.log(`OK: ${filePath}`);
+        } else {
+            pass = false;
+            console.log(`FAIL: ${filePath}`);
+            console.log(result.errors);
+        }
     });
 });
+
+if (!pass) throw "There were document validation errors!";
