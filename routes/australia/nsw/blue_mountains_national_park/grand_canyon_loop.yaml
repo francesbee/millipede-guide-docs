@@ -65,7 +65,6 @@ toilets:
       node: 2619197951
   - name: Bus and RV Parking
     location: [-33.6489, 150.32069]
-water: []
 links:
   official_website: "https://www.nationalparks.nsw.gov.au/things-to-do/walking-tracks/grand-canyon-track"
 copyright: Reilly Beacom

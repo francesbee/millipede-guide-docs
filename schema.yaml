@@ -15,6 +15,7 @@ definitions:
         maximum: 180
   osm:
     type: object
+    minProperties: 1
     additionalProperties: false
     properties:
       relation:
@@ -31,8 +32,10 @@ definitions:
     properties:
       src:
         type: string
+        format: uri
       href:
         type: string
+        format: uri
       license:
         type: string
       attr:
@@ -40,13 +43,16 @@ definitions:
       year:
         type: number
   office:
-    type: object
-    additionalProperties: false
-    properties:
-      location:
-        $ref: '#/definitions/location'
-      osm:
-        $ref: '#/definitions/osm'
+    type: array
+    minItems: 1
+    items:
+      type: object
+      additionalProperties: false
+      properties:
+        location:
+          $ref: '#/definitions/location'
+        osm:
+          $ref: '#/definitions/osm'
 required:
   - name
   - location
@@ -56,18 +62,24 @@ additionalProperties: false
 properties:
   name:
     type: string
+    minLength: 1
   park:
     type: string
+    minLength: 1
   region:
     type: string
+    minLength: 1
   country:
     type: string
+    minLength: 1
   location:
     $ref: '#/definitions/location'
   osm:
     $ref: '#/definitions/osm'
   iucn:
-    type: number
+    type: string
+    description: https://www.iucn.org/theme/protected-areas/about/protected-area-categories
+    pattern: ^(Ia|Ib|II|III|IV|V|VI)$
   nearest_town:
     type: object
     required:
@@ -81,10 +93,12 @@ properties:
         $ref: '#/definitions/location'
   photos:
     type: array
+    minItems: 1
     items:
       $ref: '#/definitions/photo'
   features:
     type: object
+    minProperties: 1
     additionalProperties: false
     properties:
       rainforest:
@@ -159,6 +173,7 @@ properties:
         type: boolean
   access:
     type: object
+    minProperties: 1
     additionalProperties: false
     properties:
       car:
@@ -183,34 +198,44 @@ properties:
         type: boolean
   toilets:
     type: array
+    minItems: 1
     items:
       type: object
   water:
     type: array
+    minItems: 1
     items:
       type: object
   parking:
     type: array
+    minItems: 1
     items:
       type: object
   fees:
     type: array
+    minItems: 1
   park_office:
     $ref: '#/definitions/office'
   visitor_centre:
     $ref: '#/definitions/office'
   links:
     type: object
+    minProperties: 1
     additionalProperties: false
     properties:
       official_website:
         type: string
+        format: uri
       wikipedia:
         type: string
+        format: uri
       wikivoyage:
         type: string
+        format: uri
   copyright:
     type: string
+    minLength: 1
   license:
     type: string
-    pattern: CC BY-NC-SA 4.0
+    minLength: 1
+    pattern: ^CC BY\-NC\-SA 4\.0$

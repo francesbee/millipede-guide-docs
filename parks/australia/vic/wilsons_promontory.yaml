@@ -4,7 +4,7 @@ country: Australia
 location: [-39.033333, 146.383333]
 osm:
   relation: 554585
-iucn: 2
+iucn: II
 links:
   official_website: "https://www.parks.vic.gov.au/places-to-see/parks/wilsons-promontory-national-park"
   wikipedia: "https://en.wikipedia.org/wiki/Wilsons_Promontory_National_Park"
@@ -35,9 +35,9 @@ parking:
     osm:
       way: 30161859
 park_office: &visitor_centre
-  location: [-39.03069,146.32174]
-  osm:
-    way: 257722206
+  - location: [-39.03069,146.32174]
+    osm:
+      way: 257722206
 visitor_centre: *visitor_centre
 copyright: Reilly Beacom
 license: CC BY-NC-SA 4.0

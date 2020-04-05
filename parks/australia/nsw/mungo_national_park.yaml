@@ -6,7 +6,7 @@ osm:
   relation: 6321578
 features:
   unesco_world_heritage: true
-iucn: 2
+iucn: II
 fees:
   - fee: 8
     unit: vehicle
