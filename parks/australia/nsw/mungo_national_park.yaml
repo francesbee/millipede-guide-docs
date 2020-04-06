@@ -20,5 +20,6 @@ links:
   wikipedia: "https://en.wikipedia.org/wiki/Mungo_National_Park"
   official_website: "https://www.nationalparks.nsw.gov.au/visit-a-park/parks/mungo-national-park"
   wikivoyage: "https://en.wikivoyage.org/wiki/Mungo_National_Park"
-copyright: Reilly Beacom
+copyright:
+  - Reilly Beacom
 license: CC BY-NC-SA 4.0

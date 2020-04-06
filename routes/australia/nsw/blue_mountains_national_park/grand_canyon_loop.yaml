@@ -52,7 +52,7 @@ features:
   mountain_bike: false
   slippery: true
   flood_risk: true
-  stepping_stones_water_crossing: true
+  water_crossing_with_stepping_stones: true
   loop: true
   lookout: true
 access:
@@ -67,5 +67,6 @@ toilets:
     location: [-33.6489, 150.32069]
 links:
   official_website: "https://www.nationalparks.nsw.gov.au/things-to-do/walking-tracks/grand-canyon-track"
-copyright: Reilly Beacom
+copyright:
+  - Reilly Beacom
 license: CC BY-NC-SA 4.0

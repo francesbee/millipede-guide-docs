@@ -34,10 +34,11 @@ parking:
     fee: free
     osm:
       way: 30161859
-park_office: &visitor_centre
+park_office: &park_office
   - location: [-39.03069,146.32174]
     osm:
       way: 257722206
-visitor_centre: *visitor_centre
-copyright: Reilly Beacom
+visitor_centre: *park_office
+copyright:
+  - Reilly Beacom
 license: CC BY-NC-SA 4.0

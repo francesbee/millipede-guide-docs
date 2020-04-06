@@ -39,5 +39,6 @@ photos:
 parking:
   - name: Big Drift / Stockyard Camp
     location: [-38.85902,146.24717]
-copyright: Reilly Beacom
+copyright:
+  - Reilly Beacom
 license: CC BY-NC-SA 4.0

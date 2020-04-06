@@ -78,5 +78,6 @@ toilets:
       node: 262793502
 links:
   official_website: "https://www.parks.vic.gov.au/places-to-see/sites/sealers-cove-hike-in-camping-area"
-copyright: Reilly Beacom
+copyright:
+  - Reilly Beacom
 license: CC BY-NC-SA 4.0

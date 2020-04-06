@@ -94,6 +94,7 @@ properties:
   photos:
     type: array
     minItems: 1
+    maxItems: 12
     items:
       $ref: '#/definitions/photo'
   features:
@@ -121,7 +122,9 @@ properties:
         type: boolean
       flood_risk:
         type: boolean
-      stepping_stones_water_crossing:
+      water_crossing:
+        type: boolean
+      water_crossing_with_stepping_stones:
         type: boolean
       loop:
         type: boolean
@@ -233,8 +236,11 @@ properties:
         type: string
         format: uri
   copyright:
-    type: string
+    type: array
     minLength: 1
+    items:
+      type: string
+      minLength: 1
   license:
     type: string
     minLength: 1
