@@ -1,0 +1,86 @@
+name: Wentworth Pass
+park: Blue Mountains National Park
+region: NSW
+country: Australia
+location: [-33.72779,150.37087]
+nearest_town:
+  name: Wentworth Falls
+  location: [-33.716667, 150.366667]
+  links:
+    wikipedia: "https://en.wikipedia.org/wiki/Wentworth_Falls%2C_New_South_Wales"
+features:
+  waterfall: true
+  rainforest: true
+  stairs: true
+accessibility:
+  wheelchair: false
+  stroller: false
+getting_there:
+  car: true
+  sealed_road: true
+  public_transport: true
+photos:
+  - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/nsw/blue_mountains_national_park/wentworth_pass/IMG_4565.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/nsw/blue_mountains_national_park/wentworth_pass/IMG_4565.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+  - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/nsw/blue_mountains_national_park/wentworth_pass/IMG_4566.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/nsw/blue_mountains_national_park/wentworth_pass/IMG_4566.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+  - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/nsw/blue_mountains_national_park/wentworth_pass/IMG_4567.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/nsw/blue_mountains_national_park/wentworth_pass/IMG_4567.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+  - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/nsw/blue_mountains_national_park/wentworth_pass/IMG_4568.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/nsw/blue_mountains_national_park/wentworth_pass/IMG_4568.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+  - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/nsw/blue_mountains_national_park/wentworth_pass/IMG_4569.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/nsw/blue_mountains_national_park/wentworth_pass/IMG_4569.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+  - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/nsw/blue_mountains_national_park/wentworth_pass/IMG_4570.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/nsw/blue_mountains_national_park/wentworth_pass/IMG_4570.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+  - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/nsw/blue_mountains_national_park/wentworth_pass/IMG_4571.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/nsw/blue_mountains_national_park/wentworth_pass/IMG_4571.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+  - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/nsw/blue_mountains_national_park/wentworth_pass/IMG_4573.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/nsw/blue_mountains_national_park/wentworth_pass/IMG_4573.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+  - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/nsw/blue_mountains_national_park/wentworth_pass/IMG_4576.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/nsw/blue_mountains_national_park/wentworth_pass/IMG_4576.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+  - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/nsw/blue_mountains_national_park/wentworth_pass/IMG_4600.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/nsw/blue_mountains_national_park/wentworth_pass/IMG_4600.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+  - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/nsw/blue_mountains_national_park/wentworth_pass/IMG_4601.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/nsw/blue_mountains_national_park/wentworth_pass/IMG_4601.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+
+parking:
+  - location: [-33.72513,150.36863]
+    osm:
+      node: 243838453
+  - location: [-33.72000,150.36333]
+    osm:
+      way: 692401163
+toilets:
+  - location: [-33.7249744, 150.3692618]
+    osm:
+      node: 244314452
+  - location: [-33.7199796, 150.3629289]
+    osm:
+      node: 250302984
+links:
+  official: "https://www.nationalparks.nsw.gov.au/things-to-do/walking-tracks/wentworth-pass-loop-walking-track"
+copyright:
+  - Reilly Beacom
+license: CC BY-NC-SA 4.0

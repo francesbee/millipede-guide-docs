@@ -1,0 +1,51 @@
+name: Den Fenella Track
+park: Blue Mountains National Park
+region: NSW
+country: Australia
+location: [-33.72544,150.36862]
+nearest_town:
+  name: Wentworth Falls
+  location: [-33.716667, 150.366667]
+  links:
+    wikipedia: "https://en.wikipedia.org/wiki/Wentworth_Falls%2C_New_South_Wales"
+features:
+  waterfall: true
+  rainforest: true
+  stairs: true
+accessibility:
+  wheelchair: false
+  stroller: false
+getting_there:
+  car: true
+  sealed_road: true
+  public_transport: true
+photos:
+  - src: 'https://reillybeacom.net/photos/shared/millipede/attractions/australia/nsw/blue_mountains_national_park/den_fenella_lookout/IMG_4483.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/attractions/australia/nsw/blue_mountains_national_park/den_fenella_lookout/IMG_4483.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+  - src: 'https://reillybeacom.net/photos/shared/millipede/attractions/australia/nsw/blue_mountains_national_park/den_fenella_lookout/IMG_4486.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/attractions/australia/nsw/blue_mountains_national_park/den_fenella_lookout/IMG_4486.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+  - src: 'https://reillybeacom.net/photos/shared/millipede/attractions/australia/nsw/blue_mountains_national_park/den_fenella_lookout/IMG_4487.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/attractions/australia/nsw/blue_mountains_national_park/den_fenella_lookout/IMG_4487.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+  - src: 'https://reillybeacom.net/photos/shared/millipede/attractions/australia/nsw/blue_mountains_national_park/den_fenella_lookout/IMG_4488.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/attractions/australia/nsw/blue_mountains_national_park/den_fenella_lookout/IMG_4488.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+parking:
+  - location: [-33.72513,150.36863]
+    osm:
+      node: 243838453
+toilets:
+  - location: [-33.7249744, 150.3692618]
+    osm:
+      node: 244314452
+links:
+  official: "https://www.nationalparks.nsw.gov.au/things-to-do/walking-tracks/den-fenella-walking-track"
+copyright:
+  - Reilly Beacom
+license: CC BY-NC-SA 4.0

@@ -1,0 +1,45 @@
+name: Evans Lookout
+park: Blue Mountains National Park
+region: NSW
+country: Australia
+location: [-33.6468138, 150.3263141]
+nearest_town:
+  name: Blackheath
+  location: [-33.635556, 150.283611]
+  links:
+    wikipedia: "https://en.wikipedia.org/wiki/Blackheath,_New_South_Wales"
+photos:
+  - src: 'https://reillybeacom.net/photos/shared/millipede/attractions/australia/nsw/blue_mountains_national_park/evans_lookout/IMG_4694.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/attractions/australia/nsw/blue_mountains_national_park/evans_lookout/IMG_4694.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+  - src: 'https://reillybeacom.net/photos/shared/millipede/attractions/australia/nsw/blue_mountains_national_park/evans_lookout/IMG_4821.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/attractions/australia/nsw/blue_mountains_national_park/evans_lookout/IMG_4821.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+  - src: 'https://reillybeacom.net/photos/shared/millipede/attractions/australia/nsw/blue_mountains_national_park/evans_lookout/IMG_4675.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/attractions/australia/nsw/blue_mountains_national_park/evans_lookout/IMG_4675.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+features:
+  lookout: true
+getting_there:
+  car: true
+  sealed_road: true
+parking:
+  - name: Evans Lookout
+    location: [-33.646618, 150.325067]
+    osm:
+      way: 355963421
+    sealed_surface: true
+toilets:
+  - name: Evans Lookout
+    location: [-33.6466230, 150.3245870]
+    osm:
+      node: 2619197951
+links:
+  official: "https://www.nationalparks.nsw.gov.au/things-to-do/lookouts/evans-lookout"
+  wikipedia: "https://en.wikipedia.org/wiki/Evans_Lookout"
+copyright:
+  - Reilly Beacom
+license: CC BY-NC-SA 4.0

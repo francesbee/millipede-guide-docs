@@ -1,0 +1,30 @@
+name: Wentworth Falls
+park: Blue Mountains National Park
+region: NSW
+country: Australia
+location: [-33.728056, 150.374167]
+nearest_town:
+  name: Wentworth Falls
+  location: [-33.716667, 150.366667]
+osm:
+  node: 247038705
+photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/3/30/Upper_Wentworth_Falls_3%2C_NSW%2C_Australia_-_Nov_2008.jpg"
+    href: "https://commons.wikimedia.org/wiki/File:Upper_Wentworth_Falls_3,_NSW,_Australia_-_Nov_2008.jpg"
+    attr: Diliff
+    license: CC BY-SA 3.0
+  - src: "https://upload.wikimedia.org/wikipedia/commons/4/4a/Upper_Wentworth_Falls%2C_NSW%2C_Australia_2_-_Nov_2008.jpg"
+    href: "https://commons.wikimedia.org/wiki/File:Upper_Wentworth_Falls,_NSW,_Australia_2_-_Nov_2008.jpg"
+    attr: Diliff
+    license: CC BY-SA 3.0
+features:
+  waterfall: true
+accessibility:
+  short_walk: true
+links:
+  wikipedia: "https://en.wikipedia.org/wiki/Wentworth_Falls_(waterfall)"
+routes:
+  - australia/nsw/blue_mountains_national_park/wentworth_falls
+copyright:
+  - Reilly Beacom
+license: CC BY-NC-SA 4.0

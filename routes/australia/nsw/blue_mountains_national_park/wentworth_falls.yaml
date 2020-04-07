@@ -1,0 +1,68 @@
+name: Wentworth Falls Track
+park: Blue Mountains National Park
+region: NSW
+country: Australia
+location: [-33.72556, 150.36889]
+nearest_town:
+  name: Wentworth Falls
+  location: [-33.716667, 150.366667]
+  links:
+    wikipedia: "https://en.wikipedia.org/wiki/Wentworth_Falls%2C_New_South_Wales"
+photos:
+  - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/nsw/blue_mountains_national_park/wentworth_falls/IMG_4534.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/nsw/blue_mountains_national_park/wentworth_falls/IMG_4534.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+  - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/nsw/blue_mountains_national_park/wentworth_falls/IMG_4541.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/nsw/blue_mountains_national_park/wentworth_falls/IMG_4541.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+  - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/nsw/blue_mountains_national_park/wentworth_falls/IMG_4545.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/nsw/blue_mountains_national_park/wentworth_falls/IMG_4545.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+  - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/nsw/blue_mountains_national_park/wentworth_falls/IMG_4546.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/nsw/blue_mountains_national_park/wentworth_falls/IMG_4546.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+  - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/nsw/blue_mountains_national_park/wentworth_falls/IMG_4547.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/nsw/blue_mountains_national_park/wentworth_falls/IMG_4547.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+  - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/nsw/blue_mountains_national_park/wentworth_falls/IMG_4549.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/nsw/blue_mountains_national_park/wentworth_falls/IMG_4549.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+  - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/nsw/blue_mountains_national_park/wentworth_falls/IMG_4553.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/nsw/blue_mountains_national_park/wentworth_falls/IMG_4553.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+  - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/nsw/blue_mountains_national_park/wentworth_falls/IMG_4562.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/nsw/blue_mountains_national_park/wentworth_falls/IMG_4562.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+features:
+  waterfall: true
+  stairs: true
+  lookout: true
+accessibility:
+  wheelchair: false
+  stroller: false
+getting_there:
+  car: true
+  sealed_road: true
+  public_transport: true
+parking:
+  - location: [-33.72513,150.36863]
+    osm:
+      node: 243838453
+toilets:
+  - location: [-33.7249744, 150.3692618]
+    osm:
+      node: 244314452
+links:
+  official: "https://www.nationalparks.nsw.gov.au/things-to-do/walking-tracks/wentworth-falls-track"
+  wikipedia: "https://en.wikipedia.org/wiki/Wentworth_Falls_(waterfall)"
+copyright:
+  - Reilly Beacom
+license: CC BY-NC-SA 4.0
