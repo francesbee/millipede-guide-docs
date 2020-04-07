@@ -3,13 +3,14 @@ park: Wilsons Promontory National Park
 region: Victoria
 country: Australia
 location: [-38.86906, 146.235479]
-features:
-  accessible: false
+accessibility:
+  short_walk: true
+getting_there:
+  car: true
+restrictions:
   dogs: false
-access:
-  hike_in: true
 links:
-  official_website: "https://www.parks.vic.gov.au/places-to-see/parks/wilsons-promontory-national-park/things-to-do/big-drift-walk"
+  official: "https://www.parks.vic.gov.au/places-to-see/parks/wilsons-promontory-national-park/things-to-do/big-drift-walk"
   wikipedia: "https://en.wikipedia.org/wiki/Wilsons_Promontory"
 photos:
   - src: "https://live.staticflickr.com/4619/40133417252_c964631eac_o_d.jpg"

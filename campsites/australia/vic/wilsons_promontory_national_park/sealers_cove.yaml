@@ -29,29 +29,24 @@ photos:
     license: CC BY 3.0
     attr: freeaussiestock.com
 features:
-  water: true
-  toilet: true
+  tree_fall_risk: true
+  booking_required: false
+  beach: true
+restrictions:
   dogs: false
-  pets: false
   horses: false
   bicycles: false
   campfires: false
   firearms: false
   generators: false
-  tree_fall_risk: true
-  booking_required: false
-  beach: true
-  accessible: false
   hikers_only: true
-access:
-  hike_in: true
-  car: false
-  motorcycle: false
-  mountain_bike: false
-  road_bicycle: false
+accessibility:
   wheelchair: false
+getting_there:
+  hike_in: true
+  car: true
+  sealed_road: true
   boat: true
-  kayak: true
 parking:
   - name: Telegraph Saddle
     location: [-39.032695, 146.35539]
@@ -77,7 +72,7 @@ toilets:
     osm:
       node: 262793502
 links:
-  official_website: "https://www.parks.vic.gov.au/places-to-see/sites/sealers-cove-hike-in-camping-area"
+  official: "https://www.parks.vic.gov.au/places-to-see/sites/sealers-cove-hike-in-camping-area"
 copyright:
   - Reilly Beacom
 license: CC BY-NC-SA 4.0

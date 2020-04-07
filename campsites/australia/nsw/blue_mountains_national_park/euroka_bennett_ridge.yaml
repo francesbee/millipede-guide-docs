@@ -7,44 +7,60 @@ nearest_town:
   name: Glenbrook
   location: [-33.767126, 150.622493]
 photos:
-  - src: "https://reillybeacom.net/photos/shared/outdoors/aus/nsw/euroka_bennetts_ridge/IMG_4448.jpg"
-    license: "CC BY-NC-SA 4.0"
-    attr: "Reilly Beacom"
-  - src: "https://reillybeacom.net/photos/shared/outdoors/aus/nsw/euroka_bennetts_ridge/IMG_4449.jpg"
-    license: "CC BY-NC-SA 4.0"
-    attr: "Reilly Beacom"
-  - src: "https://reillybeacom.net/photos/shared/outdoors/aus/nsw/euroka_bennetts_ridge/IMG_4450.jpg"
-    license: "CC BY-NC-SA 4.0"
-    attr: "Reilly Beacom"
-  - src: "https://reillybeacom.net/photos/shared/outdoors/aus/nsw/euroka_bennetts_ridge/IMG_4452.jpg"
-    license: "CC BY-NC-SA 4.0"
-    attr: "Reilly Beacom"
-  - src: "https://reillybeacom.net/photos/shared/outdoors/aus/nsw/euroka_bennetts_ridge/IMG_4453.jpg"
-    license: "CC BY-NC-SA 4.0"
-    attr: "Reilly Beacom"
-  - src: "https://reillybeacom.net/photos/shared/outdoors/aus/nsw/euroka_bennetts_ridge/IMG_4454.jpg"
-    license: "CC BY-NC-SA 4.0"
-    attr: "Reilly Beacom"
-  - src: "https://reillybeacom.net/photos/shared/outdoors/aus/nsw/euroka_bennetts_ridge/IMG_4455.jpg"
-    license: "CC BY-NC-SA 4.0"
-    attr: "Reilly Beacom"
+  - src: 'https://reillybeacom.net/photos/shared/millipede/campsites/australia/nsw/blue_mountains_national_park/euroka_bennetts_ridge/IMG_4447.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/campsites/australia/nsw/blue_mountains_national_park/euroka_bennetts_ridge/IMG_4447.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+  - src: 'https://reillybeacom.net/photos/shared/millipede/campsites/australia/nsw/blue_mountains_national_park/euroka_bennetts_ridge/IMG_4448.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/campsites/australia/nsw/blue_mountains_national_park/euroka_bennetts_ridge/IMG_4448.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+  - src: 'https://reillybeacom.net/photos/shared/millipede/campsites/australia/nsw/blue_mountains_national_park/euroka_bennetts_ridge/IMG_4449.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/campsites/australia/nsw/blue_mountains_national_park/euroka_bennetts_ridge/IMG_4449.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+  - src: 'https://reillybeacom.net/photos/shared/millipede/campsites/australia/nsw/blue_mountains_national_park/euroka_bennetts_ridge/IMG_4450.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/campsites/australia/nsw/blue_mountains_national_park/euroka_bennetts_ridge/IMG_4450.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+  - src: 'https://reillybeacom.net/photos/shared/millipede/campsites/australia/nsw/blue_mountains_national_park/euroka_bennetts_ridge/IMG_4451.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/campsites/australia/nsw/blue_mountains_national_park/euroka_bennetts_ridge/IMG_4451.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+  - src: 'https://reillybeacom.net/photos/shared/millipede/campsites/australia/nsw/blue_mountains_national_park/euroka_bennetts_ridge/IMG_4452.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/campsites/australia/nsw/blue_mountains_national_park/euroka_bennetts_ridge/IMG_4452.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+  - src: 'https://reillybeacom.net/photos/shared/millipede/campsites/australia/nsw/blue_mountains_national_park/euroka_bennetts_ridge/IMG_4453.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/campsites/australia/nsw/blue_mountains_national_park/euroka_bennetts_ridge/IMG_4453.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+  - src: 'https://reillybeacom.net/photos/shared/millipede/campsites/australia/nsw/blue_mountains_national_park/euroka_bennetts_ridge/IMG_4454.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/campsites/australia/nsw/blue_mountains_national_park/euroka_bennetts_ridge/IMG_4454.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+  - src: 'https://reillybeacom.net/photos/shared/millipede/campsites/australia/nsw/blue_mountains_national_park/euroka_bennetts_ridge/IMG_4455.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/campsites/australia/nsw/blue_mountains_national_park/euroka_bennetts_ridge/IMG_4455.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
 features:
-  water: true
-  toilet: true
   tree_fall_risk: true
-  allocated_sites: false
+  allocated_campsites: false
   showers: false
   tables: true
+  rubbish_bins: true
+  drive_in_campsites: false
+accessibility:
+  short_walk: true
+  wheelchair: true
+restrictions:
   campfires: true
   gathering_firewood: false
   generators: false
-  pets: false
+  dogs: false
   smoking: false
   amplified_music: false
-  rubbish_bins: true
-  accessible: true
-  drive_in: false
-access:
+getting_there:
   car: true
   sealed_road: false
   causeway: true
@@ -66,7 +82,7 @@ toilets:
         license: "CC BY-NC-SA 4.0"
         attr: "Reilly Beacom"
 links:
-  official_website: "https://www.nationalparks.nsw.gov.au/camping-and-accommodation/campgrounds/euroka-campground"
+  official: "https://www.nationalparks.nsw.gov.au/camping-and-accommodation/campgrounds/euroka-campground"
 copyright:
   - Reilly Beacom
 license: CC BY-NC-SA 4.0

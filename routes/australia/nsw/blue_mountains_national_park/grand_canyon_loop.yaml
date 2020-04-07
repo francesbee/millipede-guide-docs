@@ -3,31 +3,62 @@ park: Blue Mountains National Park
 region: NSW
 country: Australia
 location: [-33.649444, 150.319752]
+nearest_town:
+  name: Blackheath
+  location: [-33.635556, 150.283611]
+  links:
+    wikipedia: "https://en.wikipedia.org/wiki/Blackheath,_New_South_Wales"
 photos:
-  - src: "https://reillybeacom.net/photos/shared/outdoors/aus/nsw/grand_canyon_loop/IMG_4709.jpg"
-    license: "CC BY-NC-SA 4.0"
-    attr: "Reilly Beacom"
-  - src: "https://reillybeacom.net/photos/shared/outdoors/aus/nsw/grand_canyon_loop/IMG_4715.jpg"
-    license: "CC BY-NC-SA 4.0"
-    attr: "Reilly Beacom"
-  - src: "https://reillybeacom.net/photos/shared/outdoors/aus/nsw/grand_canyon_loop/P3120978.jpg"
-    license: "CC BY-NC-SA 4.0"
-    attr: "Reilly Beacom"
-  - src: "https://reillybeacom.net/photos/shared/outdoors/aus/nsw/grand_canyon_loop/P3120993.jpg"
-    license: "CC BY-NC-SA 4.0"
-    attr: "Reilly Beacom"
-  - src: "https://reillybeacom.net/photos/shared/outdoors/aus/nsw/grand_canyon_loop/IMG_8446.jpg"
-    license: "CC BY-NC-SA 4.0"
-    attr: "Reilly Beacom"
-  - src: "https://reillybeacom.net/photos/shared/outdoors/aus/nsw/grand_canyon_loop/IMG_4789.jpg"
-    license: "CC BY-NC-SA 4.0"
-    attr: "Reilly Beacom"
-  - src: "https://reillybeacom.net/photos/shared/outdoors/aus/nsw/grand_canyon_loop/IMG_4814.jpg"
-    license: "CC BY-NC-SA 4.0"
-    attr: "Reilly Beacom"
-  - src: "https://reillybeacom.net/photos/shared/outdoors/aus/nsw/grand_canyon_loop/IMG_4817.jpg"
-    license: "CC BY-NC-SA 4.0"
-    attr: "Reilly Beacom"
+  - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/nsw/blue_mountains_national_park/grand_canyon_loop/IMG_4709.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/nsw/blue_mountains_national_park/grand_canyon_loop/IMG_4709.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+  - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/nsw/blue_mountains_national_park/grand_canyon_loop/IMG_4715.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/nsw/blue_mountains_national_park/grand_canyon_loop/IMG_4715.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+  - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/nsw/blue_mountains_national_park/grand_canyon_loop/IMG_4789.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/nsw/blue_mountains_national_park/grand_canyon_loop/IMG_4789.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+  - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/nsw/blue_mountains_national_park/grand_canyon_loop/IMG_4814.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/nsw/blue_mountains_national_park/grand_canyon_loop/IMG_4814.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+  - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/nsw/blue_mountains_national_park/grand_canyon_loop/IMG_4817.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/nsw/blue_mountains_national_park/grand_canyon_loop/IMG_4817.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+  - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/nsw/blue_mountains_national_park/grand_canyon_loop/IMG_8446.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/nsw/blue_mountains_national_park/grand_canyon_loop/IMG_8446.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+  - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/nsw/blue_mountains_national_park/grand_canyon_loop/P3120978.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/nsw/blue_mountains_national_park/grand_canyon_loop/P3120978.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+  - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/nsw/blue_mountains_national_park/grand_canyon_loop/P3120993.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/nsw/blue_mountains_national_park/grand_canyon_loop/P3120993.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+features:
+  rainforest: true
+  canyon: true
+  cliff_edges: true
+  stairs: true
+  mountain_biking: false
+  slippery: true
+  flood_risk: true
+  water_crossing_with_stepping_stones: true
+  loop: true
+  lookout: true
+accessibility:
+  wheelchair: false
+  stroller: false
+getting_there:
+  public_transport: true
+  car: true
+  sealed_road: true
 parking:
   - name: Evans Lookout
     location: [-33.646618, 150.325067]
@@ -41,23 +72,6 @@ parking:
     location: [-33.6514579, 150.3145925]
     osm:
       node: 2459173321
-features:
-  rainforest: true
-  canyon: true
-  cliff_edges: true
-  stairs: true
-  stroller: false
-  walk: true
-  accessible: false
-  mountain_bike: false
-  slippery: true
-  flood_risk: true
-  water_crossing_with_stepping_stones: true
-  loop: true
-  lookout: true
-access:
-  car: true
-  sealed_road: true
 toilets:
   - name: Evans Lookout
     location: [-33.6466230, 150.3245870]
@@ -66,7 +80,7 @@ toilets:
   - name: Bus and RV Parking
     location: [-33.6489, 150.32069]
 links:
-  official_website: "https://www.nationalparks.nsw.gov.au/things-to-do/walking-tracks/grand-canyon-track"
+  official: "https://www.nationalparks.nsw.gov.au/things-to-do/walking-tracks/grand-canyon-track"
 copyright:
   - Reilly Beacom
 license: CC BY-NC-SA 4.0

@@ -6,7 +6,7 @@ osm:
   relation: 554585
 iucn: II
 links:
-  official_website: "https://www.parks.vic.gov.au/places-to-see/parks/wilsons-promontory-national-park"
+  official: "https://www.parks.vic.gov.au/places-to-see/parks/wilsons-promontory-national-park"
   wikipedia: "https://en.wikipedia.org/wiki/Wilsons_Promontory_National_Park"
   wikivoyage: "https://en.wikivoyage.org/wiki/Wilsons_Promontory"
 photos:
