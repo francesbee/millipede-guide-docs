@@ -22,6 +22,8 @@ definitions:
         type: number
       way:
         type: number
+      node:
+        type: number
   photo:
     type: object
     required:
@@ -42,6 +44,20 @@ definitions:
         type: string
       year:
         type: number
+  links:
+    type: object
+    minProperties: 1
+    additionalProperties: false
+    properties:
+      official:
+        type: string
+        format: uri
+      wikipedia:
+        type: string
+        format: uri
+      wikivoyage:
+        type: string
+        format: uri
   office:
     type: array
     minItems: 1
@@ -91,6 +107,8 @@ properties:
         type: string
       location:
         $ref: '#/definitions/location'
+      links:
+        $ref: '#/definitions/links'
   photos:
     type: array
     minItems: 1
@@ -104,19 +122,15 @@ properties:
     properties:
       rainforest:
         type: boolean
+      waterfall:
+        type: boolean
       canyon:
         type: boolean
       cliff_edges:
         type: boolean
       stairs:
         type: boolean
-      stroller:
-        type: boolean
-      walk:
-        type: boolean
-      accessible:
-        type: boolean
-      mountain_bike:
+      mountain_biking:
         type: boolean
       slippery:
         type: boolean
@@ -130,35 +144,42 @@ properties:
         type: boolean
       lookout:
         type: boolean
-      hikers_only:
-        type: boolean
-      dogs:
-        type: boolean
-      water:
-        type: boolean
-      toilet:
-        type: boolean
       tree_fall_risk:
         type: boolean
-      allocated_sites:
+      allocated_campsites:
         type: boolean
       showers:
         type: boolean
       tables:
         type: boolean
-      campfires:
+      rubbish_bins:
         type: boolean
-      gathering_firewood:
+      beach:
         type: boolean
-      generators:
+      unesco_world_heritage:
         type: boolean
-      pets:
+      booking_required:
+        type: boolean
+      drive_in_campsites:
+        type: boolean
+  restrictions:
+    type: object
+    minProperties: 1
+    additionalProperties: false
+    properties:
+      hikers_only:
+        type: boolean
+      dogs:
         type: boolean
       smoking:
         type: boolean
       amplified_music:
         type: boolean
-      rubbish_bins:
+      generators:
+        type: boolean
+      gathering_firewood:
+        type: boolean
+      campfires:
         type: boolean
       drive_in:
         type: boolean
@@ -168,36 +189,43 @@ properties:
         type: boolean
       firearms:
         type: boolean
-      booking_required:
-        type: boolean
-      beach:
-        type: boolean
-      unesco_world_heritage:
-        type: boolean
-  access:
+  accessibility:
     type: object
     minProperties: 1
     additionalProperties: false
     properties:
+      short_walk:
+        type: boolean
+      stroller:
+        type: boolean
+      wheelchair:
+        type: boolean
+  getting_there:
+    type: object
+    minProperties: 1
+    additionalProperties: false
+    properties:
+      hike_in:
+        type: boolean
+      public_transport:
+        type: boolean
       car:
+        type: boolean
+      4x4:
         type: boolean
       sealed_road:
         type: boolean
       causeway:
         type: boolean
-      hike_in:
-        type: boolean
       motorcycle:
+        type: boolean
+      atv:
         type: boolean
       mountain_bike:
         type: boolean
       road_bicycle:
         type: boolean
-      wheelchair:
-        type: boolean
       boat:
-        type: boolean
-      kayak:
         type: boolean
   toilets:
     type: array
@@ -222,19 +250,19 @@ properties:
   visitor_centre:
     $ref: '#/definitions/office'
   links:
-    type: object
-    minProperties: 1
-    additionalProperties: false
-    properties:
-      official_website:
-        type: string
-        format: uri
-      wikipedia:
-        type: string
-        format: uri
-      wikivoyage:
-        type: string
-        format: uri
+    $ref: '#/definitions/links'
+  attractions:
+    type: array
+    items:
+      type: string
+  routes:
+    type: array
+    items:
+      type: string
+  campsites:
+    type: array
+    items:
+      type: string
   copyright:
     type: array
     minLength: 1

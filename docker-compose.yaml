@@ -7,7 +7,7 @@ services:
       - .:/app:delegated
       - node_modules:/app/node_modules
     working_dir: /app
-    command: npm run test
+    command: bash -c "npm install && npm run convert_gpx && npm run test"
     
 volumes:
   node_modules:
