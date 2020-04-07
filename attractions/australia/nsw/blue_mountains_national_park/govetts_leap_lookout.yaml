@@ -9,12 +9,12 @@ nearest_town:
   links:
     wikipedia: "https://en.wikipedia.org/wiki/Blackheath,_New_South_Wales"
 photos:
-  - src: 'https://reillybeacom.net/photos/shared/millipede/attractions/australia/nsw/blue_mountains_national_park/govetts_leap_lookout/IMG_2586.jpg'
-    href: 'https://reillybeacom.net/photos/shared/millipede/attractions/australia/nsw/blue_mountains_national_park/govetts_leap_lookout/IMG_2586.jpg'
-    attr: Reilly Beacom
-    license: CC BY-NC-SA 4.0
   - src: 'https://reillybeacom.net/photos/shared/millipede/attractions/australia/nsw/blue_mountains_national_park/govetts_leap_lookout/IMG_4827.jpg'
     href: 'https://reillybeacom.net/photos/shared/millipede/attractions/australia/nsw/blue_mountains_national_park/govetts_leap_lookout/IMG_4827.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+  - src: 'https://reillybeacom.net/photos/shared/millipede/attractions/australia/nsw/blue_mountains_national_park/govetts_leap_lookout/IMG_2586.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/attractions/australia/nsw/blue_mountains_national_park/govetts_leap_lookout/IMG_2586.jpg'
     attr: Reilly Beacom
     license: CC BY-NC-SA 4.0
   - src: 'https://reillybeacom.net/photos/shared/millipede/attractions/australia/nsw/blue_mountains_national_park/govetts_leap_lookout/IMG_4838.jpg'

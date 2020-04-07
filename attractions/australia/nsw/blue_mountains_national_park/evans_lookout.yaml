@@ -9,12 +9,12 @@ nearest_town:
   links:
     wikipedia: "https://en.wikipedia.org/wiki/Blackheath,_New_South_Wales"
 photos:
-  - src: 'https://reillybeacom.net/photos/shared/millipede/attractions/australia/nsw/blue_mountains_national_park/evans_lookout/IMG_4694.jpg'
-    href: 'https://reillybeacom.net/photos/shared/millipede/attractions/australia/nsw/blue_mountains_national_park/evans_lookout/IMG_4694.jpg'
-    attr: Reilly Beacom
-    license: CC BY-NC-SA 4.0
   - src: 'https://reillybeacom.net/photos/shared/millipede/attractions/australia/nsw/blue_mountains_national_park/evans_lookout/IMG_4821.jpg'
     href: 'https://reillybeacom.net/photos/shared/millipede/attractions/australia/nsw/blue_mountains_national_park/evans_lookout/IMG_4821.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+  - src: 'https://reillybeacom.net/photos/shared/millipede/attractions/australia/nsw/blue_mountains_national_park/evans_lookout/IMG_4694.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/attractions/australia/nsw/blue_mountains_national_park/evans_lookout/IMG_4694.jpg'
     attr: Reilly Beacom
     license: CC BY-NC-SA 4.0
   - src: 'https://reillybeacom.net/photos/shared/millipede/attractions/australia/nsw/blue_mountains_national_park/evans_lookout/IMG_4675.jpg'
