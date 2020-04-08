@@ -7,10 +7,6 @@ nearest_town:
   name: Glenbrook
   location: [-33.767126, 150.622493]
 photos:
-  - src: 'https://reillybeacom.net/photos/shared/millipede/campsites/australia/nsw/blue_mountains_national_park/euroka_bennetts_ridge/IMG_4447.jpg'
-    href: 'https://reillybeacom.net/photos/shared/millipede/campsites/australia/nsw/blue_mountains_national_park/euroka_bennetts_ridge/IMG_4447.jpg'
-    attr: Reilly Beacom
-    license: CC BY-NC-SA 4.0
   - src: 'https://reillybeacom.net/photos/shared/millipede/campsites/australia/nsw/blue_mountains_national_park/euroka_bennetts_ridge/IMG_4448.jpg'
     href: 'https://reillybeacom.net/photos/shared/millipede/campsites/australia/nsw/blue_mountains_national_park/euroka_bennetts_ridge/IMG_4448.jpg'
     attr: Reilly Beacom
@@ -21,10 +17,6 @@ photos:
     license: CC BY-NC-SA 4.0
   - src: 'https://reillybeacom.net/photos/shared/millipede/campsites/australia/nsw/blue_mountains_national_park/euroka_bennetts_ridge/IMG_4450.jpg'
     href: 'https://reillybeacom.net/photos/shared/millipede/campsites/australia/nsw/blue_mountains_national_park/euroka_bennetts_ridge/IMG_4450.jpg'
-    attr: Reilly Beacom
-    license: CC BY-NC-SA 4.0
-  - src: 'https://reillybeacom.net/photos/shared/millipede/campsites/australia/nsw/blue_mountains_national_park/euroka_bennetts_ridge/IMG_4451.jpg'
-    href: 'https://reillybeacom.net/photos/shared/millipede/campsites/australia/nsw/blue_mountains_national_park/euroka_bennetts_ridge/IMG_4451.jpg'
     attr: Reilly Beacom
     license: CC BY-NC-SA 4.0
   - src: 'https://reillybeacom.net/photos/shared/millipede/campsites/australia/nsw/blue_mountains_national_park/euroka_bennetts_ridge/IMG_4452.jpg'
@@ -70,17 +62,19 @@ parking:
     osm:
       way: 48990761
     photos:
-      - src: "https://reillybeacom.net/photos/shared/outdoors/aus/nsw/euroka_bennetts_ridge/IMG_4447.jpg"
-        license: "CC BY-NC-SA 4.0"
-        attr: "Reilly Beacom"
+      - src: 'https://reillybeacom.net/photos/shared/millipede/campsites/australia/nsw/blue_mountains_national_park/euroka_bennetts_ridge/IMG_4447.jpg'
+        href: 'https://reillybeacom.net/photos/shared/millipede/campsites/australia/nsw/blue_mountains_national_park/euroka_bennetts_ridge/IMG_4447.jpg'
+        attr: Reilly Beacom
+        license: CC BY-NC-SA 4.0
 toilets:
   - type: pit
     wheelchair: true
     location: [-33.80045, 150.61907]
     photos:
-      - src: "https://reillybeacom.net/photos/shared/outdoors/aus/nsw/euroka_bennetts_ridge/IMG_4451.jpg"
-        license: "CC BY-NC-SA 4.0"
-        attr: "Reilly Beacom"
+      - src: 'https://reillybeacom.net/photos/shared/millipede/campsites/australia/nsw/blue_mountains_national_park/euroka_bennetts_ridge/IMG_4451.jpg'
+        href: 'https://reillybeacom.net/photos/shared/millipede/campsites/australia/nsw/blue_mountains_national_park/euroka_bennetts_ridge/IMG_4451.jpg'
+        attr: Reilly Beacom
+        license: CC BY-NC-SA 4.0
 links:
   official: "https://www.nationalparks.nsw.gov.au/camping-and-accommodation/campgrounds/euroka-campground"
 copyright:
