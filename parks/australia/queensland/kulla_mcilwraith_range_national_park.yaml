@@ -1,0 +1,21 @@
+draft: t
+name: KULLA (McIlwraith Range) National Park
+country: Australia
+region: Queensland
+location:
+  - -13.9
+  - 143.342222
+osm:
+  relation:
+    - 1476099
+    - 1476103
+    - 1476100
+    - 1476104
+    - 1476105
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/w/index.php?title=KULLA_(McIlwraith_Range)_National_Park&action=edit&redlink=1'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

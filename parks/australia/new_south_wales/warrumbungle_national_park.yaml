@@ -1,0 +1,14 @@
+draft: t
+name: Warrumbungle National Park
+country: Australia
+region: New South Wales
+location:
+  - -31.292222
+  - 149.008056
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Warrumbungle_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

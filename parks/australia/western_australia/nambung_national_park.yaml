@@ -1,0 +1,17 @@
+draft: t
+name: Nambung National Park
+country: Australia
+region: Western Australia
+location:
+  - -30.576111
+  - 115.17
+osm:
+  relation:
+    - 3201965
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Nambung_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

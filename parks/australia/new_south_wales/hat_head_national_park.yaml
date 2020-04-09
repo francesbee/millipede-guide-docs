@@ -1,0 +1,14 @@
+draft: t
+name: Hat Head National Park
+country: Australia
+region: New South Wales
+location:
+  - -31.080278
+  - 153.03
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Hat_Head_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

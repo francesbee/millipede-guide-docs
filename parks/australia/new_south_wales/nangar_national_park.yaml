@@ -1,0 +1,14 @@
+draft: t
+name: Nangar National Park
+country: Australia
+region: New South Wales
+location:
+  - -33.425556
+  - 148.504167
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Nangar_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

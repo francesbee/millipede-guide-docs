@@ -1,0 +1,14 @@
+draft: t
+name: Kondalilla National Park
+country: Australia
+region: Queensland
+location:
+  - -26.668056
+  - 152.858333
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Kondalilla_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

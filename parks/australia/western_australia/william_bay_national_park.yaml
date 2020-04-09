@@ -1,0 +1,14 @@
+draft: t
+name: William Bay National Park
+country: Australia
+region: Western Australia
+location:
+  - -35.026389
+  - 117.235
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/William_Bay_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

@@ -1,0 +1,14 @@
+draft: t
+name: Murrumbidgee Valley National Park
+country: Australia
+region: New South Wales
+location:
+  - -34.715
+  - 146.201111
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Murrumbidgee_Valley_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

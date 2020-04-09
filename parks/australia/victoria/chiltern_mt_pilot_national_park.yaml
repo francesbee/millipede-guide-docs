@@ -1,0 +1,17 @@
+draft: t
+name: Chiltern-Mt Pilot National Park
+country: Australia
+region: Victoria
+location:
+  - -36.133056
+  - 146.601111
+osm:
+  relation:
+    - 545138
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Chiltern-Mt_Pilot_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

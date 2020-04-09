@@ -1,0 +1,14 @@
+draft: t
+name: Bald Rock National Park
+country: Australia
+region: New South Wales
+location:
+  - -28.8525
+  - 152.055556
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Bald_Rock_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

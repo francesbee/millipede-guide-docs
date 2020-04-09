@@ -1,0 +1,22 @@
+draft: t
+name: Redwood National and State Parks
+country: USA
+region: California
+location:
+  - 41.3
+  - -124
+osm:
+  relation:
+    - 41
+features:
+  national_park: true
+photos:
+  - src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Redwood_National_Park%2C_fog_in_the_forest.jpg/200px-Redwood_National_Park%2C_fog_in_the_forest.jpg'
+    href: 'https://en.wikipedia.org/wiki/File:Redwood_National_Park,_fog_in_the_forest.jpg'
+    attr: Wikipedia
+    license: '?'
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Redwood_National_and_State_Parks'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

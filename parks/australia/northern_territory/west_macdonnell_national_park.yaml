@@ -1,0 +1,17 @@
+draft: t
+name: West MacDonnell National Park
+country: Australia
+region: Northern Territory
+location:
+  - -23.436389
+  - 132.418056
+osm:
+  relation:
+    - 5611722
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/West_MacDonnell_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

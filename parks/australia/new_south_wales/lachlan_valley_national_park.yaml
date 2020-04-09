@@ -1,0 +1,14 @@
+draft: t
+name: Lachlan Valley National Park
+country: Australia
+region: New South Wales
+location:
+  - -33.756667
+  - 145.112778
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/w/index.php?title=Lachlan_Valley_National_Park&action=edit&redlink=1'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

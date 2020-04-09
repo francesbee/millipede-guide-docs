@@ -1,0 +1,14 @@
+draft: t
+name: Garigal National Park
+country: Australia
+region: New South Wales
+location:
+  - -33.705833
+  - 151.236111
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Garigal_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

@@ -1,0 +1,24 @@
+draft: t
+name: Herberton Range National Park
+country: Australia
+region: Queensland
+location:
+  - -17.365278
+  - 145.468056
+osm:
+  relation:
+    - 1481357
+    - 1481348
+    - 1481345
+    - 1481360
+    - 1481356
+    - 1481361
+    - 1481346
+    - 1481358
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/w/index.php?title=Herberton_Range_National_Park&action=edit&redlink=1'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

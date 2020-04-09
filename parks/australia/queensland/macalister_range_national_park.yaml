@@ -1,0 +1,19 @@
+draft: t
+name: Macalister Range National Park
+country: Australia
+region: Queensland
+location:
+  - -16.695
+  - 145.573333
+osm:
+  relation:
+    - 1518871
+    - 1518795
+    - 1518793
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Macalister_Range_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

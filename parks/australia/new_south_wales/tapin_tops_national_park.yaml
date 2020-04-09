@@ -1,0 +1,14 @@
+draft: t
+name: Tapin Tops National Park
+country: Australia
+region: New South Wales
+location:
+  - -31.663611
+  - 152.186944
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Tapin_Tops_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

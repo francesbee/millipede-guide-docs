@@ -1,0 +1,22 @@
+draft: t
+name: Shenandoah National Park
+country: USA
+region: Virginia
+location:
+  - 38.53
+  - -78.35
+osm:
+  relation:
+    - 38
+features:
+  national_park: true
+photos:
+  - src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Early_Fall_at_Dark_Hollow_Falls_%2822028259442%29.jpg/200px-Early_Fall_at_Dark_Hollow_Falls_%2822028259442%29.jpg'
+    href: 'https://en.wikipedia.org/wiki/File:Early_Fall_at_Dark_Hollow_Falls_(22028259442).jpg'
+    attr: Wikipedia
+    license: '?'
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Shenandoah_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

@@ -1,0 +1,14 @@
+draft: t
+name: Leeuwin-Naturaliste National Park
+country: Australia
+region: Western Australia
+location:
+  - -34.238611
+  - 115.046944
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Leeuwin-Naturaliste_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

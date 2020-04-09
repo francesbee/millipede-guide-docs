@@ -1,0 +1,17 @@
+draft: t
+name: Lake Eildon National Park
+country: Australia
+region: Victoria
+location:
+  - -37.129444
+  - 145.868889
+osm:
+  relation:
+    - 1176681
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Lake_Eildon_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

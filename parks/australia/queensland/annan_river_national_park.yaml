@@ -1,0 +1,18 @@
+draft: t
+name: Annan River National Park
+country: Australia
+region: Queensland
+location:
+  - -15.566667
+  - 145.206944
+osm:
+  relation:
+    - 1476153
+    - 1476154
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Annan_River_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

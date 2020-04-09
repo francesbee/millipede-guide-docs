@@ -1,0 +1,14 @@
+draft: t
+name: Abercrombie River National Park
+country: Australia
+region: New South Wales
+location:
+  - -34.093889
+  - 149.708056
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Abercrombie_River_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

@@ -1,0 +1,17 @@
+draft: t
+name: Point Addis Marine National Park
+country: Australia
+region: Victoria
+location:
+  - -38.416667
+  - 144.233333
+osm:
+  relation:
+    - 3159241
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Point_Addis_Marine_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

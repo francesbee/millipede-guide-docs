@@ -1,0 +1,14 @@
+draft: t
+name: Eucla National Park
+country: Australia
+region: Western Australia
+location:
+  - -31.680278
+  - 128.945
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Eucla_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

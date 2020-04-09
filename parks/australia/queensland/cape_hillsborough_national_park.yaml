@@ -1,0 +1,14 @@
+draft: t
+name: Cape Hillsborough National Park
+country: Australia
+region: Queensland
+location:
+  - -20.898889
+  - 148.993889
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Cape_Hillsborough_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

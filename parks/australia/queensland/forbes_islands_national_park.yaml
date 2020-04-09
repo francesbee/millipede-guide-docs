@@ -1,0 +1,14 @@
+draft: t
+name: Forbes Islands National Park
+country: Australia
+region: Queensland
+location:
+  - -12.286111
+  - 143.411111
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Forbes_Islands_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

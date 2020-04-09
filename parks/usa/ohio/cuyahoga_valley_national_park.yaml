@@ -1,0 +1,22 @@
+draft: t
+name: Cuyahoga Valley National Park
+country: USA
+region: Ohio
+location:
+  - 41.24
+  - -81.55
+osm:
+  relation:
+    - 41
+features:
+  national_park: true
+photos:
+  - src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Cuyahoga_Valley_National_Park_03.jpg/200px-Cuyahoga_Valley_National_Park_03.jpg'
+    href: 'https://en.wikipedia.org/wiki/File:Cuyahoga_Valley_National_Park_03.jpg'
+    attr: Wikipedia
+    license: '?'
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Cuyahoga_Valley_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

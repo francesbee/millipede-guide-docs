@@ -1,0 +1,14 @@
+draft: t
+name: Rocky Islets National Park
+country: Australia
+region: Queensland
+location:
+  - -14.858889
+  - 145.477778
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Rocky_Islets_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

@@ -1,0 +1,14 @@
+draft: t
+name: Budderoo National Park
+country: Australia
+region: New South Wales
+location:
+  - -34.666389
+  - 150.658056
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Budderoo_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

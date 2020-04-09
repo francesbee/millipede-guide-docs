@@ -1,0 +1,22 @@
+draft: t
+name: Black Canyon of the Gunnison National Park
+country: USA
+region: Colorado
+location:
+  - 38.57
+  - -107.72
+osm:
+  relation:
+    - 38
+features:
+  national_park: true
+photos:
+  - src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Black_canyon_gunnison_Colorado.jpg/200px-Black_canyon_gunnison_Colorado.jpg'
+    href: 'https://en.wikipedia.org/wiki/File:Black_canyon_gunnison_Colorado.jpg'
+    attr: Wikipedia
+    license: '?'
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Black_Canyon_of_the_Gunnison_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

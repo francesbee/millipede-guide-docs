@@ -1,0 +1,14 @@
+draft: t
+name: Stokes National Park
+country: Australia
+region: Western Australia
+location:
+  - -33.822778
+  - 121.135
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Stokes_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

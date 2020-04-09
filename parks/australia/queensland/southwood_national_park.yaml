@@ -1,0 +1,14 @@
+draft: t
+name: Southwood National Park
+country: Australia
+region: Queensland
+location:
+  - -27.814722
+  - 150.135556
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Southwood_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

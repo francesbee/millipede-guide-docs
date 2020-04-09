@@ -1,0 +1,14 @@
+draft: t
+name: Wollemi National Park
+country: Australia
+region: New South Wales
+location:
+  - -32.873889
+  - 150.491944
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Wollemi_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

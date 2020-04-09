@@ -1,0 +1,17 @@
+draft: t
+name: Francois Peron National Park
+country: Australia
+region: Western Australia
+location:
+  - -25.699444
+  - 113.551944
+osm:
+  relation:
+    - 2478914
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Francois_Peron_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

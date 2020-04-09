@@ -1,0 +1,14 @@
+draft: t
+name: Dharug National Park
+country: Australia
+region: New South Wales
+location:
+  - -33.368889
+  - 151.051944
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Dharug_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

@@ -1,0 +1,14 @@
+draft: t
+name: Wollumbin National Park
+country: Australia
+region: New South Wales
+location:
+  - -28.389722
+  - 153.268611
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Wollumbin_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

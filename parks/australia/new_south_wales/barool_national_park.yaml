@@ -1,0 +1,14 @@
+draft: t
+name: Barool National Park
+country: Australia
+region: New South Wales
+location:
+  - -29.660278
+  - 152.1925
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Barool_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

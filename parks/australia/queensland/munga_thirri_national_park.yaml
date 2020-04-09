@@ -1,0 +1,14 @@
+draft: t
+name: Munga-Thirri National Park
+country: Australia
+region: Queensland
+location:
+  - -25.1425
+  - 138.24
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Munga-Thirri_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

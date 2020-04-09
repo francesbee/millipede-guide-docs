@@ -1,0 +1,22 @@
+draft: t
+name: Carlsbad Caverns National Park
+country: USA
+region: New Mexico
+location:
+  - 32.17
+  - -104.44
+osm:
+  relation:
+    - 32
+features:
+  national_park: true
+photos:
+  - src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Carlsbad_Interior_Formations.jpg/200px-Carlsbad_Interior_Formations.jpg'
+    href: 'https://en.wikipedia.org/wiki/File:Carlsbad_Interior_Formations.jpg'
+    attr: Wikipedia
+    license: '?'
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Carlsbad_Caverns_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

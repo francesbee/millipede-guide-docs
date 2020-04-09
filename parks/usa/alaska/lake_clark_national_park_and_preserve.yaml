@@ -1,0 +1,22 @@
+draft: t
+name: Lake Clark National Park and Preserve
+country: USA
+region: Alaska
+location:
+  - 60.97
+  - -153.42
+osm:
+  relation:
+    - 60
+features:
+  national_park: true
+photos:
+  - src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Lake_Clark_National_Park.jpg/200px-Lake_Clark_National_Park.jpg'
+    href: 'https://en.wikipedia.org/wiki/File:Lake_Clark_National_Park.jpg'
+    attr: Wikipedia
+    license: '?'
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Lake_Clark_National_Park_and_Preserve'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

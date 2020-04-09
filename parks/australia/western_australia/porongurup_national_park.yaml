@@ -1,0 +1,14 @@
+draft: t
+name: Porongurup National Park
+country: Australia
+region: Western Australia
+location:
+  - -34.679444
+  - 117.873056
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Porongurup_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

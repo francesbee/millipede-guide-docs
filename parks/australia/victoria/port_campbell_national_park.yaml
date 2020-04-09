@@ -1,0 +1,14 @@
+draft: t
+name: Port Campbell National Park
+country: Australia
+region: Victoria
+location:
+  - -38.650278
+  - 143.0625
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Port_Campbell_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

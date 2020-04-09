@@ -1,0 +1,22 @@
+draft: t
+name: Great Smoky Mountains National Park
+country: USA
+region: North Carolina
+location:
+  - 35.68
+  - -83.53
+osm:
+  relation:
+    - 35
+features:
+  national_park: true
+photos:
+  - src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Fall_at_Oconaluftee_Overlook.JPG/200px-Fall_at_Oconaluftee_Overlook.JPG'
+    href: 'https://en.wikipedia.org/wiki/File:Fall_at_Oconaluftee_Overlook.JPG'
+    attr: Wikipedia
+    license: '?'
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Great_Smoky_Mountains_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

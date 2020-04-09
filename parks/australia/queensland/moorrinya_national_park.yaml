@@ -1,0 +1,14 @@
+draft: t
+name: Moorrinya National Park
+country: Australia
+region: Queensland
+location:
+  - -21.394167
+  - 144.941111
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Moorrinya_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

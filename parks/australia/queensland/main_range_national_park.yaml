@@ -1,0 +1,14 @@
+draft: t
+name: Main Range National Park
+country: Australia
+region: Queensland
+location:
+  - -27.815833
+  - 152.266111
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Main_Range_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

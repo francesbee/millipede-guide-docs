@@ -1,0 +1,18 @@
+draft: t
+name: Errk Oykangand National Park
+country: Australia
+region: Queensland
+location:
+  - -15.469444
+  - 142.085
+osm:
+  relation:
+    - 1476094
+    - 1476095
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Errk_Oykangand_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

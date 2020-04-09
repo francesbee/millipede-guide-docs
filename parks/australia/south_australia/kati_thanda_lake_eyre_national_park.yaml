@@ -1,0 +1,17 @@
+draft: t
+name: Kati Thanda-Lake Eyre National Park
+country: Australia
+region: South Australia
+location:
+  - -28.668889
+  - 137.523889
+osm:
+  relation:
+    - 552159
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Kati_Thanda-Lake_Eyre_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

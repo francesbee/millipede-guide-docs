@@ -1,0 +1,14 @@
+draft: t
+name: Great Sandy National Park
+country: Australia
+region: Queensland
+location:
+  - -25.045
+  - 153.209722
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Great_Sandy_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

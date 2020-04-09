@@ -1,0 +1,14 @@
+draft: t
+name: Guy Fawkes River National Park
+country: Australia
+region: New South Wales
+location:
+  - -29.963056
+  - 152.233333
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Guy_Fawkes_River_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

@@ -1,0 +1,22 @@
+draft: t
+name: Hot Springs National Park
+country: USA
+region: Arkansas
+location:
+  - 34.51
+  - -93.05
+osm:
+  relation:
+    - 34
+features:
+  national_park: true
+photos:
+  - src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Hots_Springs_National_Park_aerial.jpg/200px-Hots_Springs_National_Park_aerial.jpg'
+    href: 'https://en.wikipedia.org/wiki/File:Hots_Springs_National_Park_aerial.jpg'
+    attr: Wikipedia
+    license: '?'
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Hot_Springs_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

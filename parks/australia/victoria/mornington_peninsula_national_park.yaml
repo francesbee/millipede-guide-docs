@@ -1,0 +1,17 @@
+draft: t
+name: Mornington Peninsula National Park
+country: Australia
+region: Victoria
+location:
+  - -38.502222
+  - 144.888333
+osm:
+  relation:
+    - 3361243
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Mornington_Peninsula_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

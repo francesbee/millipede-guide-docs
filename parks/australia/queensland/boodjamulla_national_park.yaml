@@ -1,0 +1,17 @@
+draft: t
+name: Boodjamulla National Park
+country: Australia
+region: Queensland
+location:
+  - -18.701389
+  - 138.488056
+osm:
+  relation:
+    - 1069701
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Boodjamulla_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

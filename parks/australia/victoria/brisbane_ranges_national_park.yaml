@@ -1,0 +1,14 @@
+draft: t
+name: Brisbane Ranges National Park
+country: Australia
+region: Victoria
+location:
+  - -37.795278
+  - 144.278889
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Brisbane_Ranges_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

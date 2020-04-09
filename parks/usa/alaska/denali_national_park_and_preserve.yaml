@@ -1,0 +1,22 @@
+draft: t
+name: Denali National Park and Preserve
+country: USA
+region: Alaska
+location:
+  - 63.33
+  - -150.5
+osm:
+  relation:
+    - 63
+features:
+  national_park: true
+photos:
+  - src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Mount_McKinley_and_Denali_National_Park_Road_2048px.jpg/200px-Mount_McKinley_and_Denali_National_Park_Road_2048px.jpg'
+    href: 'https://en.wikipedia.org/wiki/File:Mount_McKinley_and_Denali_National_Park_Road_2048px.jpg'
+    attr: Wikipedia
+    license: '?'
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Denali_National_Park_and_Preserve'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

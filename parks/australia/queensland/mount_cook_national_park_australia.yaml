@@ -1,0 +1,14 @@
+draft: t
+name: 'Mount Cook National Park, Australia'
+country: Australia
+region: Queensland
+location:
+  - -15.492778
+  - 145.259167
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Mount_Cook_National_Park,_Australia'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

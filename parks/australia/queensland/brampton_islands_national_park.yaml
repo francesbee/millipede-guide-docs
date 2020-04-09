@@ -1,0 +1,14 @@
+draft: t
+name: Brampton Islands National Park
+country: Australia
+region: Queensland
+location:
+  - -20.7875
+  - 149.285556
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Brampton_Islands_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

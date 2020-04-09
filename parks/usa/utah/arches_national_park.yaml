@@ -1,0 +1,22 @@
+draft: t
+name: Arches National Park
+country: USA
+region: Utah
+location:
+  - 38.68
+  - -109.57
+osm:
+  relation:
+    - 38
+features:
+  national_park: true
+photos:
+  - src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Delicatearch1.jpg/200px-Delicatearch1.jpg'
+    href: 'https://en.wikipedia.org/wiki/File:Delicatearch1.jpg'
+    attr: Wikipedia
+    license: '?'
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Arches_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

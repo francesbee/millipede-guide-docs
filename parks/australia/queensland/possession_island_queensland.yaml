@@ -1,0 +1,14 @@
+draft: t
+name: Possession Island (Queensland)
+country: Australia
+region: Queensland
+location:
+  - -10.726667
+  - 142.396944
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Possession_Island_(Queensland)'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

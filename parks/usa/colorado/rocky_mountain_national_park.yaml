@@ -1,0 +1,22 @@
+draft: t
+name: Rocky Mountain National Park
+country: USA
+region: Colorado
+location:
+  - 40.4
+  - -105.58
+osm:
+  relation:
+    - 40
+features:
+  national_park: true
+photos:
+  - src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Bierstadt_Lake%2C_Rocky_Mountain_National_Park%2C_USA.jpg/200px-Bierstadt_Lake%2C_Rocky_Mountain_National_Park%2C_USA.jpg'
+    href: 'https://en.wikipedia.org/wiki/File:Bierstadt_Lake,_Rocky_Mountain_National_Park,_USA.jpg'
+    attr: Wikipedia
+    license: '?'
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Rocky_Mountain_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

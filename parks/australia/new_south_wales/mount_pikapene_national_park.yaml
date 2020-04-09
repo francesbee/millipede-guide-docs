@@ -1,0 +1,14 @@
+draft: t
+name: Mount Pikapene National Park
+country: Australia
+region: New South Wales
+location:
+  - -29.011111
+  - 152.695
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Mount_Pikapene_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

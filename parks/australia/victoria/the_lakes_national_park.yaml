@@ -1,0 +1,14 @@
+draft: t
+name: The Lakes National Park
+country: Australia
+region: Victoria
+location:
+  - -37.970278
+  - 147.741944
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/The_Lakes_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

@@ -1,0 +1,22 @@
+draft: t
+name: Bryce Canyon National Park
+country: USA
+region: Utah
+location:
+  - 37.57
+  - -112.18
+osm:
+  relation:
+    - 37
+features:
+  national_park: true
+photos:
+  - src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Bryce_Canyon_Hoodoos_Amphitheater.jpg/200px-Bryce_Canyon_Hoodoos_Amphitheater.jpg'
+    href: 'https://en.wikipedia.org/wiki/File:Bryce_Canyon_Hoodoos_Amphitheater.jpg'
+    attr: Wikipedia
+    license: '?'
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Bryce_Canyon_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

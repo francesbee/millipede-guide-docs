@@ -1,0 +1,14 @@
+draft: t
+name: Ben Boyd National Park
+country: Australia
+region: New South Wales
+location:
+  - -37.178611
+  - 149.982222
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Ben_Boyd_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

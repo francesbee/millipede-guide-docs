@@ -1,0 +1,20 @@
+draft: t
+name: Japoon National Park
+country: Australia
+region: Queensland
+location:
+  - -17.739722
+  - 145.887222
+osm:
+  relation:
+    - 1518854
+    - 1518778
+    - 1518761
+    - 1518794
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Japoon_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

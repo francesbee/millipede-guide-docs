@@ -1,0 +1,14 @@
+draft: t
+name: Alwal National Park
+country: Australia
+region: Queensland
+location:
+  - -15.203333
+  - 143.58
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Alwal_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

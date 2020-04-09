@@ -1,0 +1,14 @@
+draft: t
+name: Toonumbar National Park
+country: Australia
+region: New South Wales
+location:
+  - -28.487778
+  - 152.725833
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Toonumbar_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

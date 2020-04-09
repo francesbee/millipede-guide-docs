@@ -1,0 +1,22 @@
+draft: t
+name: Hawaiʻi Volcanoes National Park
+country: USA
+region: Hawaii
+location:
+  - 19.38
+  - -155.2
+osm:
+  relation:
+    - 19
+features:
+  national_park: true
+photos:
+  - src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Puu_Oo_cropped.jpg/200px-Puu_Oo_cropped.jpg'
+    href: 'https://en.wikipedia.org/wiki/File:Puu_Oo_cropped.jpg'
+    attr: Wikipedia
+    license: '?'
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Hawai%CA%BBi_Volcanoes_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

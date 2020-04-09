@@ -1,0 +1,14 @@
+draft: t
+name: Taunton National Park
+country: Australia
+region: Queensland
+location:
+  - -23.533333
+  - 149.221389
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Taunton_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

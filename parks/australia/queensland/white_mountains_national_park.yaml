@@ -1,0 +1,14 @@
+draft: t
+name: White Mountains National Park
+country: Australia
+region: Queensland
+location:
+  - -20.541111
+  - 144.966667
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/White_Mountains_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

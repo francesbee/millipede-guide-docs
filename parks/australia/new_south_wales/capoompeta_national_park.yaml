@@ -1,0 +1,14 @@
+draft: t
+name: Capoompeta National Park
+country: Australia
+region: New South Wales
+location:
+  - -29.392778
+  - 152.008889
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Capoompeta_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

@@ -1,0 +1,22 @@
+draft: t
+name: Gateway Arch National Park
+country: USA
+region: Missouri
+location:
+  - 38.63
+  - -90.19
+osm:
+  relation:
+    - 38
+features:
+  national_park: true
+photos:
+  - src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/St_Louis_night_expblend.jpg/200px-St_Louis_night_expblend.jpg'
+    href: 'https://en.wikipedia.org/wiki/File:St_Louis_night_expblend.jpg'
+    attr: Wikipedia
+    license: '?'
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Gateway_Arch_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

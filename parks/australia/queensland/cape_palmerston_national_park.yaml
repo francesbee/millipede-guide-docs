@@ -1,0 +1,14 @@
+draft: t
+name: Cape Palmerston National Park
+country: Australia
+region: Queensland
+location:
+  - -21.590278
+  - 149.4275
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Cape_Palmerston_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

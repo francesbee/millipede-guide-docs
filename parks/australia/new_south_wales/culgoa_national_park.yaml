@@ -1,0 +1,14 @@
+draft: t
+name: Culgoa National Park
+country: Australia
+region: New South Wales
+location:
+  - -29.080556
+  - 147.035278
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Culgoa_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

@@ -1,0 +1,14 @@
+draft: t
+name: Mount Buangor State Park
+country: Australia
+region: Victoria
+location:
+  - -37.328611
+  - 143.223056
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Mount_Buangor_State_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

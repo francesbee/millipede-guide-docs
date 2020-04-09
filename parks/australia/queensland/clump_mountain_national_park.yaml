@@ -1,0 +1,17 @@
+draft: t
+name: Clump Mountain National Park
+country: Australia
+region: Queensland
+location:
+  - -17.820278
+  - 146.095556
+osm:
+  relation:
+    - 1515423
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Clump_Mountain_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

@@ -1,0 +1,14 @@
+draft: t
+name: Carnarvon National Park
+country: Australia
+region: Queensland
+location:
+  - -24.635833
+  - 147.996944
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Carnarvon_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

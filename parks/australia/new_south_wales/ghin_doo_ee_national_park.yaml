@@ -1,0 +1,14 @@
+draft: t
+name: Ghin-Doo-Ee National Park
+country: Australia
+region: New South Wales
+location:
+  - -32.262222
+  - 152.116944
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Ghin-Doo-Ee_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

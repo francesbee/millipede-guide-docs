@@ -1,0 +1,17 @@
+draft: t
+name: Murray-Sunset National Park
+country: Australia
+region: Victoria
+location:
+  - -34.776389
+  - 141.483889
+osm:
+  relation:
+    - 5470870
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Murray-Sunset_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

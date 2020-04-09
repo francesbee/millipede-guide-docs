@@ -1,0 +1,14 @@
+draft: t
+name: Pulu Keeling National Park
+country: Australia
+region: External territories
+location:
+  - -11.833333
+  - 96.816667
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Pulu_Keeling_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

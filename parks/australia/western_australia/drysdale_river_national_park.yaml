@@ -1,0 +1,14 @@
+draft: t
+name: Drysdale River National Park
+country: Australia
+region: Western Australia
+location:
+  - -15.161389
+  - 126.776111
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Drysdale_River_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

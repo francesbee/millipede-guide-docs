@@ -1,0 +1,14 @@
+draft: t
+name: Ku-ring-gai Chase National Park
+country: Australia
+region: New South Wales
+location:
+  - -33.651111
+  - 151.201111
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Ku-ring-gai_Chase_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

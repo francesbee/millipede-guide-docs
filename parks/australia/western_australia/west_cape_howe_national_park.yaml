@@ -1,0 +1,14 @@
+draft: t
+name: West Cape Howe National Park
+country: Australia
+region: Western Australia
+location:
+  - -35.106111
+  - 117.593056
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/West_Cape_Howe_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

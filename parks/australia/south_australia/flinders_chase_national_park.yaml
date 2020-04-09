@@ -1,0 +1,17 @@
+draft: t
+name: Flinders Chase National Park
+country: Australia
+region: South Australia
+location:
+  - -35.977222
+  - 136.673056
+osm:
+  relation:
+    - 812876
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Flinders_Chase_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

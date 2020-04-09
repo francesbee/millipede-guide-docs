@@ -1,0 +1,14 @@
+draft: t
+name: Dandenong Ranges National Park
+country: Australia
+region: Victoria
+location:
+  - -37.810278
+  - 145.386111
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Dandenong_Ranges_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

@@ -1,0 +1,22 @@
+draft: t
+name: Kings Canyon National Park
+country: USA
+region: California
+location:
+  - 36.8
+  - -118.55
+osm:
+  relation:
+    - 36
+features:
+  national_park: true
+photos:
+  - src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/KingsCanyonNP.JPG/200px-KingsCanyonNP.JPG'
+    href: 'https://en.wikipedia.org/wiki/File:KingsCanyonNP.JPG'
+    attr: Wikipedia
+    license: '?'
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Kings_Canyon_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

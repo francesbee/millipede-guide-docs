@@ -1,0 +1,17 @@
+draft: t
+name: Mount Remarkable National Park
+country: Australia
+region: South Australia
+location:
+  - -32.781389
+  - 138.062778
+osm:
+  relation:
+    - 555482
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Mount_Remarkable_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

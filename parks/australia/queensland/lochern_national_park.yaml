@@ -1,0 +1,14 @@
+draft: t
+name: Lochern National Park
+country: Australia
+region: Queensland
+location:
+  - -24.237222
+  - 143.325833
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Lochern_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

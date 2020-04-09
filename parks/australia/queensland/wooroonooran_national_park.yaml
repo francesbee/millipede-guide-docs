@@ -1,0 +1,23 @@
+draft: t
+name: Wooroonooran National Park
+country: Australia
+region: Queensland
+location:
+  - -17.146389
+  - 145.793056
+osm:
+  relation:
+    - 1518774
+    - 1518780
+    - 1518873
+    - 1518822
+    - 1518786
+    - 1518880
+    - 1518846
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Wooroonooran_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

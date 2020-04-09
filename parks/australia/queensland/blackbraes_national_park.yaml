@@ -1,0 +1,14 @@
+draft: t
+name: Blackbraes National Park
+country: Australia
+region: Queensland
+location:
+  - -19.478889
+  - 144.181389
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Blackbraes_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

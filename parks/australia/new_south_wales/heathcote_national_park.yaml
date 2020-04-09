@@ -1,0 +1,14 @@
+draft: t
+name: Heathcote National Park
+country: Australia
+region: New South Wales
+location:
+  - -34.130278
+  - 150.971111
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Heathcote_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

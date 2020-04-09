@@ -1,0 +1,14 @@
+draft: t
+name: Welford National Park
+country: Australia
+region: Queensland
+location:
+  - -25.058611
+  - 143.433889
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Welford_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

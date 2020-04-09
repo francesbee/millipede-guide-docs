@@ -1,0 +1,14 @@
+draft: t
+name: Cocoparra National Park
+country: Australia
+region: New South Wales
+location:
+  - -34.115833
+  - 146.223056
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Cocoparra_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

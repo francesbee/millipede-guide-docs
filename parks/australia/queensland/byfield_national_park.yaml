@@ -1,0 +1,14 @@
+draft: t
+name: Byfield National Park
+country: Australia
+region: Queensland
+location:
+  - -22.783889
+  - 150.731667
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Byfield_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

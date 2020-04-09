@@ -1,0 +1,22 @@
+draft: t
+name: North Cascades National Park
+country: USA
+region: Washington (state)
+location:
+  - 48.7
+  - -121.2
+osm:
+  relation:
+    - 48
+features:
+  national_park: true
+photos:
+  - src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Cascade_pass.jpg/200px-Cascade_pass.jpg'
+    href: 'https://en.wikipedia.org/wiki/File:Cascade_pass.jpg'
+    attr: Wikipedia
+    license: '?'
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/North_Cascades_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

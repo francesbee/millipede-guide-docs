@@ -1,0 +1,14 @@
+draft: t
+name: New England National Park
+country: Australia
+region: New South Wales
+location:
+  - -30.592778
+  - 152.458056
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/New_England_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

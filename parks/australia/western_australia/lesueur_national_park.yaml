@@ -1,0 +1,17 @@
+draft: t
+name: Lesueur National Park
+country: Australia
+region: Western Australia
+location:
+  - -30.134444
+  - 115.101111
+osm:
+  relation:
+    - 3240150
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Lesueur_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

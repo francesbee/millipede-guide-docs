@@ -1,0 +1,14 @@
+draft: t
+name: Royal National Park
+country: Australia
+region: New South Wales
+location:
+  - -34.1225
+  - 151.063889
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Royal_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

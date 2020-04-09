@@ -1,0 +1,14 @@
+draft: t
+name: Junuy Juluum National Park
+country: Australia
+region: New South Wales
+location:
+  - -30.299167
+  - 152.727222
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Junuy_Juluum_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

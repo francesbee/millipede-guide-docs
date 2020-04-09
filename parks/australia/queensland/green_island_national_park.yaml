@@ -1,0 +1,14 @@
+draft: t
+name: Green Island National Park
+country: Australia
+region: Queensland
+location:
+  - -16.759722
+  - 145.974444
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Green_Island_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

@@ -1,0 +1,14 @@
+draft: t
+name: Yanga National Park
+country: Australia
+region: New South Wales
+location:
+  - -34.65
+  - 143.583056
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Yanga_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

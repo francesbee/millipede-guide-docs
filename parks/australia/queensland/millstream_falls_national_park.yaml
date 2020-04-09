@@ -1,0 +1,17 @@
+draft: t
+name: Millstream Falls National Park
+country: Australia
+region: Queensland
+location:
+  - -17.636389
+  - 145.459167
+osm:
+  relation:
+    - 1481341
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Millstream_Falls_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

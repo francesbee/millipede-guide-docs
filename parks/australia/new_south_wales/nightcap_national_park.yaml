@@ -1,0 +1,14 @@
+draft: t
+name: Nightcap National Park
+country: Australia
+region: New South Wales
+location:
+  - -28.543889
+  - 153.293056
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Nightcap_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

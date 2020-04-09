@@ -1,0 +1,14 @@
+draft: t
+name: Glass House Mountains National Park
+country: Australia
+region: Queensland
+location:
+  - -26.8475
+  - 152.953889
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Glass_House_Mountains_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

@@ -1,0 +1,14 @@
+draft: t
+name: Boonoo Boonoo National Park
+country: Australia
+region: New South Wales
+location:
+  - -28.8175
+  - 152.178333
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Boonoo_Boonoo_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

@@ -1,0 +1,14 @@
+draft: t
+name: Tunnel Creek National Park
+country: Australia
+region: Western Australia
+location:
+  - -17.611944
+  - 125.143056
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Tunnel_Creek_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

@@ -1,0 +1,17 @@
+draft: t
+name: Cedar Bay National Park
+country: Australia
+region: Queensland
+location:
+  - -15.776944
+  - 145.346111
+osm:
+  relation:
+    - 1478693
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Cedar_Bay_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

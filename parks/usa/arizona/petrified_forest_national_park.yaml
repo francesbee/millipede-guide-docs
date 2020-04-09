@@ -1,0 +1,22 @@
+draft: t
+name: Petrified Forest National Park
+country: USA
+region: Arizona
+location:
+  - 35.07
+  - -109.78
+osm:
+  relation:
+    - 35
+features:
+  national_park: true
+photos:
+  - src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/PAINTED_DESERT_BADLANDS.jpg/200px-PAINTED_DESERT_BADLANDS.jpg'
+    href: 'https://en.wikipedia.org/wiki/File:PAINTED_DESERT_BADLANDS.jpg'
+    attr: Wikipedia
+    license: '?'
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Petrified_Forest_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

@@ -1,0 +1,14 @@
+draft: t
+name: Nuga Nuga National Park
+country: Australia
+region: Queensland
+location:
+  - -24.965278
+  - 148.684444
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Nuga_Nuga_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

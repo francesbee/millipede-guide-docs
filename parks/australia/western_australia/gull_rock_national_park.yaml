@@ -1,0 +1,14 @@
+draft: t
+name: Gull Rock National Park
+country: Australia
+region: Western Australia
+location:
+  - -35.0075
+  - 118.003056
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Gull_Rock_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

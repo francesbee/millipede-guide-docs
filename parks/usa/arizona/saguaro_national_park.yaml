@@ -1,0 +1,22 @@
+draft: t
+name: Saguaro National Park
+country: USA
+region: Arizona
+location:
+  - 32.25
+  - -110.5
+osm:
+  relation:
+    - 32
+features:
+  national_park: true
+photos:
+  - src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Saguaronationalparl17102008.jpg/200px-Saguaronationalparl17102008.jpg'
+    href: 'https://en.wikipedia.org/wiki/File:Saguaronationalparl17102008.jpg'
+    attr: Wikipedia
+    license: '?'
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Saguaro_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

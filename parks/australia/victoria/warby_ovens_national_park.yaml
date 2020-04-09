@@ -1,0 +1,14 @@
+draft: t
+name: Warby-Ovens National Park
+country: Australia
+region: Victoria
+location:
+  - -36.329722
+  - 146.188056
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Warby-Ovens_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

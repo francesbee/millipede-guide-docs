@@ -1,0 +1,14 @@
+draft: t
+name: Bladensburg National Park
+country: Australia
+region: Queensland
+location:
+  - -22.503333
+  - 142.988056
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Bladensburg_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

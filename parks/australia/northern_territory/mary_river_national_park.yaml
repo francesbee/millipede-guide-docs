@@ -1,0 +1,14 @@
+draft: t
+name: Mary River National Park
+country: Australia
+region: Northern Territory
+location:
+  - -12.133333
+  - 131.285556
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Mary_River_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

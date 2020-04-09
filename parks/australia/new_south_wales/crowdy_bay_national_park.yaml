@@ -1,0 +1,14 @@
+draft: t
+name: Crowdy Bay National Park
+country: Australia
+region: New South Wales
+location:
+  - -31.816389
+  - 152.721389
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Crowdy_Bay_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

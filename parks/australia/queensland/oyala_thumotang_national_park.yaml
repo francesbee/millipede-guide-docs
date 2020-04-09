@@ -1,0 +1,17 @@
+draft: t
+name: Oyala Thumotang National Park
+country: Australia
+region: Queensland
+location:
+  - -13.481667
+  - 142.278056
+osm:
+  relation:
+    - 1476127
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Oyala_Thumotang_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

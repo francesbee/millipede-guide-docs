@@ -1,0 +1,22 @@
+draft: t
+name: Virgin Islands National Park
+country: USA
+region: United States Virgin Islands
+location:
+  - 18.33
+  - -64.73
+osm:
+  relation:
+    - 18
+features:
+  national_park: true
+photos:
+  - src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/St_John_Trunk_Bay_1.jpg/200px-St_John_Trunk_Bay_1.jpg'
+    href: 'https://en.wikipedia.org/wiki/File:St_John_Trunk_Bay_1.jpg'
+    attr: Wikipedia
+    license: '?'
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Virgin_Islands_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

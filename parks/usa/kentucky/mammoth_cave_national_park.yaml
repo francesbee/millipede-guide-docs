@@ -1,0 +1,22 @@
+draft: t
+name: Mammoth Cave National Park
+country: USA
+region: Kentucky
+location:
+  - 37.18
+  - -86.1
+osm:
+  relation:
+    - 37
+features:
+  national_park: true
+photos:
+  - src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Mammoth_Cave_National_Park_007.jpg/200px-Mammoth_Cave_National_Park_007.jpg'
+    href: 'https://en.wikipedia.org/wiki/File:Mammoth_Cave_National_Park_007.jpg'
+    attr: Wikipedia
+    license: '?'
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Mammoth_Cave_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

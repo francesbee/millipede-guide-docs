@@ -1,0 +1,14 @@
+draft: t
+name: Biriwal Bulga National Park
+country: Australia
+region: New South Wales
+location:
+  - -31.507222
+  - 152.306389
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Biriwal_Bulga_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

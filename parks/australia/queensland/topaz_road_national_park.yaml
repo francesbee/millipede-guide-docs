@@ -1,0 +1,14 @@
+draft: t
+name: Topaz Road National Park
+country: Australia
+region: Queensland
+location:
+  - -17.4
+  - 145.699722
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Topaz_Road_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

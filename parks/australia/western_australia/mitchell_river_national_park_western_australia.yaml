@@ -1,0 +1,14 @@
+draft: t
+name: Mitchell River National Park (Western Australia)
+country: Australia
+region: Western Australia
+location:
+  - -14.806667
+  - 125.708056
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Mitchell_River_National_Park_(Western_Australia)'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

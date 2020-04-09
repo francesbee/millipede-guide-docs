@@ -1,0 +1,17 @@
+draft: t
+name: Magnetic Island National Park
+country: Australia
+region: Queensland
+location:
+  - -19.135833
+  - 146.842222
+osm:
+  relation:
+    - 1066559
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Magnetic_Island_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

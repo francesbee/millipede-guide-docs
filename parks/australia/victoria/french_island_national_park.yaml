@@ -1,0 +1,17 @@
+draft: t
+name: French Island National Park
+country: Australia
+region: Victoria
+location:
+  - -38.330833
+  - 145.388056
+osm:
+  relation:
+    - 1531607
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/French_Island_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

@@ -1,0 +1,17 @@
+draft: t
+name: Innes National Park
+country: Australia
+region: South Australia
+location:
+  - -35.227778
+  - 136.895
+osm:
+  relation:
+    - 541798
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Innes_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

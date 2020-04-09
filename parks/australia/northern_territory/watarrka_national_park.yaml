@@ -1,0 +1,14 @@
+draft: t
+name: Watarrka National Park
+country: Australia
+region: Northern Territory
+location:
+  - -24.251667
+  - 131.631944
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Watarrka_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

@@ -1,0 +1,22 @@
+draft: t
+name: Mount Rainier National Park
+country: USA
+region: Washington (state)
+location:
+  - 46.85
+  - -121.75
+osm:
+  relation:
+    - 46
+features:
+  national_park: true
+photos:
+  - src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Mount_Rainier_from_west.jpg/200px-Mount_Rainier_from_west.jpg'
+    href: 'https://en.wikipedia.org/wiki/File:Mount_Rainier_from_west.jpg'
+    attr: Wikipedia
+    license: '?'
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Mount_Rainier_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

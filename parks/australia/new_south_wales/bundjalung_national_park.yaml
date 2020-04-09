@@ -1,0 +1,14 @@
+draft: t
+name: Bundjalung National Park
+country: Australia
+region: New South Wales
+location:
+  - -29.2475
+  - 153.328611
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Bundjalung_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

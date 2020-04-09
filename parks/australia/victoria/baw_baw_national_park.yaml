@@ -1,0 +1,14 @@
+draft: t
+name: Baw Baw National Park
+country: Australia
+region: Victoria
+location:
+  - -37.763889
+  - 146.223056
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Baw_Baw_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

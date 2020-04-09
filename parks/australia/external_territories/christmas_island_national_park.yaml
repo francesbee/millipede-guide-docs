@@ -1,0 +1,14 @@
+draft: t
+name: Christmas Island National Park
+country: Australia
+region: External territories
+location:
+  - -10.483333
+  - 105.633333
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Christmas_Island_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

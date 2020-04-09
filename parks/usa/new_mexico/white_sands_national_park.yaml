@@ -1,0 +1,22 @@
+draft: t
+name: White Sands National Park
+country: USA
+region: New Mexico
+location:
+  - 32.78
+  - -106.17
+osm:
+  relation:
+    - 32
+features:
+  national_park: true
+photos:
+  - src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/White_Sands_New_Mexico_USA.jpg/200px-White_Sands_New_Mexico_USA.jpg'
+    href: 'https://en.wikipedia.org/wiki/File:White_Sands_New_Mexico_USA.jpg'
+    attr: Wikipedia
+    license: '?'
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/White_Sands_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

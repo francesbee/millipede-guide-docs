@@ -1,0 +1,14 @@
+draft: t
+name: Mount Kaputar National Park
+country: Australia
+region: New South Wales
+location:
+  - -30.290556
+  - 150.142778
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Mount_Kaputar_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

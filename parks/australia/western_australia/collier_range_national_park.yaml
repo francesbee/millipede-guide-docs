@@ -1,0 +1,14 @@
+draft: t
+name: Collier Range National Park
+country: Australia
+region: Western Australia
+location:
+  - -24.623611
+  - 119.271944
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Collier_Range_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

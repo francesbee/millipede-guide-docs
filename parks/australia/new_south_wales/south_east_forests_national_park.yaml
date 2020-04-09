@@ -1,0 +1,14 @@
+draft: t
+name: South East Forests National Park
+country: Australia
+region: New South Wales
+location:
+  - -36.987222
+  - 149.476111
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/South_East_Forests_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

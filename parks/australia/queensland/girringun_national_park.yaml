@@ -1,0 +1,18 @@
+draft: t
+name: Girringun National Park
+country: Australia
+region: Queensland
+location:
+  - -18.083333
+  - 145.598889
+osm:
+  relation:
+    - 1518815
+    - 2313399
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Girringun_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

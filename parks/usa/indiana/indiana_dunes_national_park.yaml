@@ -1,0 +1,22 @@
+draft: t
+name: Indiana Dunes National Park
+country: USA
+region: Indiana
+location:
+  - 41.6533
+  - -87.0524
+osm:
+  relation:
+    - 41
+features:
+  national_park: true
+photos:
+  - src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/2010-11-26_3060x2040_portage_indiana_dunes.jpg/200px-2010-11-26_3060x2040_portage_indiana_dunes.jpg'
+    href: 'https://en.wikipedia.org/wiki/File:2010-11-26_3060x2040_portage_indiana_dunes.jpg'
+    attr: Wikipedia
+    license: '?'
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Indiana_Dunes_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

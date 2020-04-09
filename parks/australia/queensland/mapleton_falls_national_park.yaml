@@ -1,0 +1,14 @@
+draft: t
+name: Mapleton Falls National Park
+country: Australia
+region: Queensland
+location:
+  - -26.630556
+  - 152.838889
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Mapleton_Falls_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

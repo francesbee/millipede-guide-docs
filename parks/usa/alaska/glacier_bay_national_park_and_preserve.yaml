@@ -1,0 +1,22 @@
+draft: t
+name: Glacier Bay National Park and Preserve
+country: USA
+region: Alaska
+location:
+  - 58.5
+  - -137
+osm:
+  relation:
+    - 58
+features:
+  national_park: true
+photos:
+  - src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/GlacierBay3.jpg/200px-GlacierBay3.jpg'
+    href: 'https://en.wikipedia.org/wiki/File:GlacierBay3.jpg'
+    attr: Wikipedia
+    license: '?'
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Glacier_Bay_National_Park_and_Preserve'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

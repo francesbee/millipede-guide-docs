@@ -1,0 +1,14 @@
+draft: t
+name: Alexander Morrison National Park
+country: Australia
+region: Western Australia
+location:
+  - -30.083889
+  - 115.486111
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Alexander_Morrison_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

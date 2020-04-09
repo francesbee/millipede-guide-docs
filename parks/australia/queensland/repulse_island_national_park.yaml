@@ -1,0 +1,14 @@
+draft: t
+name: Repulse Island National Park
+country: Australia
+region: Queensland
+location:
+  - -20.6
+  - 148.876111
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Repulse_Island_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

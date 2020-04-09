@@ -1,0 +1,14 @@
+draft: t
+name: Arakwal National Park
+country: Australia
+region: New South Wales
+location:
+  - -28.660278
+  - 153.621111
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Arakwal_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

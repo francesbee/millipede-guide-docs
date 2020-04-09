@@ -1,0 +1,14 @@
+draft: t
+name: John Forrest National Park
+country: Australia
+region: Western Australia
+location:
+  - -31.881944
+  - 116.073889
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/John_Forrest_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

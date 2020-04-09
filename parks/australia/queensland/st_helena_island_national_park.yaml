@@ -1,0 +1,14 @@
+draft: t
+name: St Helena Island National Park
+country: Australia
+region: Queensland
+location:
+  - -27.393333
+  - 153.231667
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/St_Helena_Island_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

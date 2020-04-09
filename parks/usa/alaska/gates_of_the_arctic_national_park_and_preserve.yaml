@@ -1,0 +1,22 @@
+draft: t
+name: Gates of the Arctic National Park and Preserve
+country: USA
+region: Alaska
+location:
+  - 67.78
+  - -153.3
+osm:
+  relation:
+    - 67
+features:
+  national_park: true
+photos:
+  - src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/GatesofArctic.jpg/200px-GatesofArctic.jpg'
+    href: 'https://en.wikipedia.org/wiki/File:GatesofArctic.jpg'
+    attr: Wikipedia
+    license: '?'
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Gates_of_the_Arctic_National_Park_and_Preserve'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

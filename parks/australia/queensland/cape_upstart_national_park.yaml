@@ -1,0 +1,14 @@
+draft: t
+name: Cape Upstart National Park
+country: Australia
+region: Queensland
+location:
+  - -19.713333
+  - 147.760833
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Cape_Upstart_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

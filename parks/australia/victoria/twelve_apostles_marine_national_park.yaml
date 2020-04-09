@@ -1,0 +1,17 @@
+draft: t
+name: Twelve Apostles Marine National Park
+country: Australia
+region: Victoria
+location:
+  - -38.666667
+  - 143.1
+osm:
+  relation:
+    - 3159240
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Twelve_Apostles_Marine_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

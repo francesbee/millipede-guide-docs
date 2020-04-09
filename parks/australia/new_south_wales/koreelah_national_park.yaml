@@ -1,0 +1,14 @@
+draft: t
+name: Koreelah National Park
+country: Australia
+region: New South Wales
+location:
+  - -28.305278
+  - 152.438889
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Koreelah_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

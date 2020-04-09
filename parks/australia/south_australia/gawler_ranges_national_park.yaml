@@ -1,0 +1,17 @@
+draft: t
+name: Gawler Ranges National Park
+country: Australia
+region: South Australia
+location:
+  - -32.553889
+  - 135.463889
+osm:
+  relation:
+    - 542961
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Gawler_Ranges_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

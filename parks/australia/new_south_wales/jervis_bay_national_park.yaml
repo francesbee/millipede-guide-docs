@@ -1,0 +1,14 @@
+draft: t
+name: Jervis Bay National Park
+country: Australia
+region: New South Wales
+location:
+  - -34.987222
+  - 150.756111
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Jervis_Bay_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

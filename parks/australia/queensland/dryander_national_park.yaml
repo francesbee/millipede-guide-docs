@@ -1,0 +1,14 @@
+draft: t
+name: Dryander National Park
+country: Australia
+region: Queensland
+location:
+  - -20.218056
+  - 148.565833
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Dryander_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

@@ -1,0 +1,23 @@
+draft: t
+name: Kuranda National Park
+country: Australia
+region: Queensland
+location:
+  - -17.009722
+  - 145.616667
+osm:
+  relation:
+    - 1518757
+    - 1518818
+    - 1518792
+    - 1518768
+    - 1518813
+    - 1518875
+    - 1518776
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Kuranda_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

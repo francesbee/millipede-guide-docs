@@ -1,0 +1,22 @@
+draft: t
+name: Channel Islands National Park
+country: USA
+region: California
+location:
+  - 34.01
+  - -119.42
+osm:
+  relation:
+    - 34
+features:
+  national_park: true
+photos:
+  - src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Channel_Islands_National_Park.jpg/200px-Channel_Islands_National_Park.jpg'
+    href: 'https://en.wikipedia.org/wiki/File:Channel_Islands_National_Park.jpg'
+    attr: Wikipedia
+    license: '?'
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Channel_Islands_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

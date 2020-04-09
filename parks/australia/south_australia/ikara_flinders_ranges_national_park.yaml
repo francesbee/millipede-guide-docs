@@ -1,0 +1,17 @@
+draft: t
+name: Ikara-Flinders Ranges National Park
+country: Australia
+region: South Australia
+location:
+  - -31.422222
+  - 138.705
+osm:
+  relation:
+    - 541743
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Ikara-Flinders_Ranges_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

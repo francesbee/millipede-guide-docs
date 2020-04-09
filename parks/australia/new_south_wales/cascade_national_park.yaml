@@ -1,0 +1,14 @@
+draft: t
+name: Cascade National Park
+country: Australia
+region: New South Wales
+location:
+  - -30.258056
+  - 152.808611
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Cascade_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

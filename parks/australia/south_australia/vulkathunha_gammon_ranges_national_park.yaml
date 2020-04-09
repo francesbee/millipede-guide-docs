@@ -1,0 +1,17 @@
+draft: t
+name: Vulkathunha-Gammon Ranges National Park
+country: Australia
+region: South Australia
+location:
+  - -30.447222
+  - 139.276944
+osm:
+  relation:
+    - 552150
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Vulkathunha-Gammon_Ranges_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

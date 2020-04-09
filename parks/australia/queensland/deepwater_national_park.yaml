@@ -1,0 +1,14 @@
+draft: t
+name: Deepwater National Park
+country: Australia
+region: Queensland
+location:
+  - -24.261111
+  - 151.891944
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Deepwater_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

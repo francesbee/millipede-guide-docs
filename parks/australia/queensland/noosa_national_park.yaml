@@ -1,0 +1,14 @@
+draft: t
+name: Noosa National Park
+country: Australia
+region: Queensland
+location:
+  - -26.384444
+  - 153.112778
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Noosa_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

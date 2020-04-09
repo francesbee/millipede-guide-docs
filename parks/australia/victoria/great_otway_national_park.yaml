@@ -1,0 +1,14 @@
+draft: t
+name: Great Otway National Park
+country: Australia
+region: Victoria
+location:
+  - -38.773333
+  - 143.556944
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Great_Otway_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

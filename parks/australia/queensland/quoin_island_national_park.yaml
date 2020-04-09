@@ -1,0 +1,14 @@
+draft: t
+name: Quoin Island National Park
+country: Australia
+region: Queensland
+location:
+  - -12.405833
+  - 143.488056
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Quoin_Island_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

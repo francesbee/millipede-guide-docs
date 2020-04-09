@@ -1,0 +1,29 @@
+draft: t
+name: Mungo National Park
+region: New South Wales
+country: Australia
+location:
+  - -33.748889
+  - 143.136111
+osm:
+  relation: 6321578
+features:
+  unesco_world_heritage: true
+  national_park: true
+iucn: II
+fees:
+  - fee: 8
+    unit: vehicle
+    time: day
+photos:
+  - src: 'https://live.staticflickr.com/8734/16594221037_57707b7dea_k_d.jpg'
+    href: 'https://www.flickr.com/photos/sarmu/16594221037/in/photostream/'
+    attr: Sam Gao
+    license: CC BY-NC-SA 2.0
+links:
+  official: 'https://www.nationalparks.nsw.gov.au/visit-a-park/parks/mungo-national-park'
+  wikipedia: 'https://en.wikipedia.org/wiki/Mungo_National_Park'
+  wikivoyage: 'https://en.wikivoyage.org/wiki/Mungo_National_Park'
+copyright:
+  - Reilly Beacom
+license: CC BY-NC-SA 4.0

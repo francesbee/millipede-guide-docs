@@ -1,0 +1,22 @@
+draft: t
+name: Yellowstone National Park
+country: USA
+region: Wyoming
+location:
+  - 44.6
+  - -110.5
+osm:
+  relation:
+    - 44
+features:
+  national_park: true
+photos:
+  - src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Grand_Prismatic_Spring_and_Midway_Geyser_Basin_from_above.jpg/200px-Grand_Prismatic_Spring_and_Midway_Geyser_Basin_from_above.jpg'
+    href: 'https://en.wikipedia.org/wiki/File:Grand_Prismatic_Spring_and_Midway_Geyser_Basin_from_above.jpg'
+    attr: Wikipedia
+    license: '?'
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Yellowstone_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

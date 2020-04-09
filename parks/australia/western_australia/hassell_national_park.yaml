@@ -1,0 +1,14 @@
+draft: t
+name: Hassell National Park
+country: Australia
+region: Western Australia
+location:
+  - -34.678889
+  - 118.37
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Hassell_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

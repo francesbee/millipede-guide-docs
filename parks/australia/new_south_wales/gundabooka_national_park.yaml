@@ -1,0 +1,14 @@
+draft: t
+name: Gundabooka National Park
+country: Australia
+region: New South Wales
+location:
+  - -30.502778
+  - 145.713889
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Gundabooka_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

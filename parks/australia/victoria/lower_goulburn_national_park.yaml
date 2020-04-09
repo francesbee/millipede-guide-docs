@@ -1,0 +1,14 @@
+draft: t
+name: Lower Goulburn National Park
+country: Australia
+region: Victoria
+location:
+  - -36.181667
+  - 145.12
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Lower_Goulburn_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

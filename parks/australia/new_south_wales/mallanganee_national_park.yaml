@@ -1,0 +1,14 @@
+draft: t
+name: Mallanganee National Park
+country: Australia
+region: New South Wales
+location:
+  - -28.919167
+  - 152.753611
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Mallanganee_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

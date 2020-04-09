@@ -1,0 +1,14 @@
+draft: t
+name: Auburn River National Park
+country: Australia
+region: Queensland
+location:
+  - -25.721667
+  - 151.051944
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Auburn_River_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

@@ -1,0 +1,14 @@
+draft: t
+name: Whitsunday Islands National Park
+country: Australia
+region: Queensland
+location:
+  - -20.060278
+  - 148.874167
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Whitsunday_Islands_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

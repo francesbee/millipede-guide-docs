@@ -1,0 +1,14 @@
+draft: t
+name: Yalgorup National Park
+country: Australia
+region: Western Australia
+location:
+  - -32.857222
+  - 115.671944
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Yalgorup_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

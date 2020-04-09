@@ -1,0 +1,14 @@
+draft: t
+name: Eubenangee Swamp National Park
+country: Australia
+region: Queensland
+location:
+  - -17.423333
+  - 145.956944
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Eubenangee_Swamp_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

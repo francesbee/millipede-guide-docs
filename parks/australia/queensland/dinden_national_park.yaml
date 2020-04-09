@@ -1,0 +1,24 @@
+draft: t
+name: Dinden National Park
+country: Australia
+region: Queensland
+location:
+  - -17.009722
+  - 145.616667
+osm:
+  relation:
+    - 1518760
+    - 1518806
+    - 1518788
+    - 1518737
+    - 1518856
+    - 1518879
+    - 1518847
+    - 1518741
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/w/index.php?title=Dinden_National_Park&action=edit&redlink=1'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

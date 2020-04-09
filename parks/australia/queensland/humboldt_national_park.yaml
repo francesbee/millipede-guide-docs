@@ -1,0 +1,14 @@
+draft: t
+name: Humboldt National Park
+country: Australia
+region: Queensland
+location:
+  - -24.241944
+  - 148.933056
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Humboldt_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

@@ -1,0 +1,17 @@
+draft: t
+name: Murray River National Park
+country: Australia
+region: South Australia
+location:
+  - -34.386944
+  - 140.54
+osm:
+  relation:
+    - 568850
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Murray_River_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

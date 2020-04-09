@@ -1,0 +1,14 @@
+draft: t
+name: Blackdown Tableland National Park
+country: Australia
+region: Queensland
+location:
+  - -23.723611
+  - 149.06
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Blackdown_Tableland_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

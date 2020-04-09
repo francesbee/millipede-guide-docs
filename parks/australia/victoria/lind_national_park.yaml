@@ -1,0 +1,14 @@
+draft: t
+name: Lind National Park
+country: Australia
+region: Victoria
+location:
+  - -37.570556
+  - 148.96
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Lind_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

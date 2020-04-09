@@ -1,0 +1,17 @@
+draft: t
+name: Mount Windsor National Park
+country: Australia
+region: Queensland
+location:
+  - -16.273056
+  - 145.003056
+osm:
+  relation:
+    - 1518752
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/w/index.php?title=Mount_Windsor_National_Park&action=edit&redlink=1'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

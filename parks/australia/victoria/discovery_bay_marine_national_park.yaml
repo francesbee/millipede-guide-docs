@@ -1,0 +1,14 @@
+draft: t
+name: Discovery Bay Marine National Park
+country: Australia
+region: Victoria
+location:
+  - -38.35
+  - 141.366667
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Discovery_Bay_Marine_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

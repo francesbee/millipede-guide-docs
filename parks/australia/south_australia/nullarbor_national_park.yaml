@@ -1,0 +1,17 @@
+draft: t
+name: Nullarbor National Park
+country: Australia
+region: South Australia
+location:
+  - -31.398611
+  - 130.137778
+osm:
+  relation:
+    - 540815
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Nullarbor_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

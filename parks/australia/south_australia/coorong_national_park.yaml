@@ -1,0 +1,17 @@
+draft: t
+name: Coorong National Park
+country: Australia
+region: South Australia
+location:
+  - -36.049167
+  - 139.553611
+osm:
+  relation:
+    - 3311305
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Coorong_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

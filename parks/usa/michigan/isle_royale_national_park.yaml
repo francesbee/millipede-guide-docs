@@ -1,0 +1,22 @@
+draft: t
+name: Isle Royale National Park
+country: USA
+region: Michigan
+location:
+  - 48.1
+  - -88.55
+osm:
+  relation:
+    - 48
+features:
+  national_park: true
+photos:
+  - src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/IsleRoyalePlane.jpg/200px-IsleRoyalePlane.jpg'
+    href: 'https://en.wikipedia.org/wiki/File:IsleRoyalePlane.jpg'
+    attr: Wikipedia
+    license: '?'
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Isle_Royale_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

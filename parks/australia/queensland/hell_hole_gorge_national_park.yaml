@@ -1,0 +1,14 @@
+draft: t
+name: Hell Hole Gorge National Park
+country: Australia
+region: Queensland
+location:
+  - -25.5375
+  - 144.154722
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Hell_Hole_Gorge_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

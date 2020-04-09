@@ -1,0 +1,18 @@
+draft: t
+name: Daintree National Park
+country: Australia
+region: Queensland
+location:
+  - -15.959167
+  - 145.401944
+osm:
+  relation:
+    - 1478694
+    - 1518746
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Daintree_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

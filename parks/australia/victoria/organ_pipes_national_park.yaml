@@ -1,0 +1,14 @@
+draft: t
+name: Organ Pipes National Park
+country: Australia
+region: Victoria
+location:
+  - -37.668611
+  - 144.766944
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Organ_Pipes_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

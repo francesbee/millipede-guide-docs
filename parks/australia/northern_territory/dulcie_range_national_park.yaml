@@ -1,0 +1,14 @@
+draft: t
+name: Dulcie Range National Park
+country: Australia
+region: Northern Territory
+location:
+  - -22.577778
+  - 135.608056
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Dulcie_Range_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

@@ -1,0 +1,14 @@
+draft: t
+name: Yuraygir National Park
+country: Australia
+region: New South Wales
+location:
+  - -29.905278
+  - 153.226944
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Yuraygir_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

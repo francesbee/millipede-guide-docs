@@ -1,0 +1,17 @@
+draft: t
+name: Dalrymple National Park
+country: Australia
+region: Queensland
+location:
+  - -19.787778
+  - 146.099444
+osm:
+  relation:
+    - 1478629
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Dalrymple_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

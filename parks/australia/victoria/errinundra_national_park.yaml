@@ -1,0 +1,14 @@
+draft: t
+name: Errinundra National Park
+country: Australia
+region: Victoria
+location:
+  - -37.285833
+  - 148.895
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Errinundra_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

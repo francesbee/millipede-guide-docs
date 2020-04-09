@@ -1,0 +1,14 @@
+draft: t
+name: Nattai National Park
+country: Australia
+region: New South Wales
+location:
+  - -34.289444
+  - 150.36
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Nattai_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

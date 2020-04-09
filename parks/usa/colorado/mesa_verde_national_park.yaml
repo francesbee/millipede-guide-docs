@@ -1,0 +1,22 @@
+draft: t
+name: Mesa Verde National Park
+country: USA
+region: Colorado
+location:
+  - 37.18
+  - -108.49
+osm:
+  relation:
+    - 37
+features:
+  national_park: true
+photos:
+  - src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Mesa_Verde_National_Park_Cliff_Palace_Right_Part_2006_09_12.jpg/200px-Mesa_Verde_National_Park_Cliff_Palace_Right_Part_2006_09_12.jpg'
+    href: 'https://en.wikipedia.org/wiki/File:Mesa_Verde_National_Park_Cliff_Palace_Right_Part_2006_09_12.jpg'
+    attr: Wikipedia
+    license: '?'
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Mesa_Verde_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

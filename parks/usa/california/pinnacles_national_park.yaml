@@ -1,0 +1,22 @@
+draft: t
+name: Pinnacles National Park
+country: USA
+region: California
+location:
+  - 36.48
+  - -121.16
+osm:
+  relation:
+    - 36
+features:
+  national_park: true
+photos:
+  - src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Pinnacles_National_Park.jpg/200px-Pinnacles_National_Park.jpg'
+    href: 'https://en.wikipedia.org/wiki/File:Pinnacles_National_Park.jpg'
+    attr: Wikipedia
+    license: '?'
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Pinnacles_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

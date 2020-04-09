@@ -1,0 +1,14 @@
+draft: t
+name: Dularcha National Park
+country: Australia
+region: Queensland
+location:
+  - -26.776667
+  - 152.961111
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Dularcha_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

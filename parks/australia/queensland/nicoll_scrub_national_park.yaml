@@ -1,0 +1,14 @@
+draft: t
+name: Nicoll Scrub National Park
+country: Australia
+region: Queensland
+location:
+  - -28.189444
+  - 153.423889
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Nicoll_Scrub_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

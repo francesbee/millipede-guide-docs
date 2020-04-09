@@ -1,0 +1,14 @@
+draft: t
+name: Porcupine Gorge National Park
+country: Australia
+region: Queensland
+location:
+  - -20.399167
+  - 144.440278
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Porcupine_Gorge_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

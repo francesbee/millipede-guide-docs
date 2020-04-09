@@ -1,0 +1,14 @@
+draft: t
+name: Goonengerry National Park
+country: Australia
+region: New South Wales
+location:
+  - -28.579722
+  - 153.404722
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Goonengerry_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

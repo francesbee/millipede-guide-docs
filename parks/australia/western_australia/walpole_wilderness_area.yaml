@@ -1,0 +1,14 @@
+draft: t
+name: Walpole Wilderness Area
+country: Australia
+region: Western Australia
+location:
+  - -34.983333
+  - 116.766944
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Walpole_Wilderness_Area'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

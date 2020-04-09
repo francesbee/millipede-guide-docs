@@ -1,0 +1,17 @@
+draft: t
+name: Lincoln National Park
+country: Australia
+region: South Australia
+location:
+  - -34.867778
+  - 135.87
+osm:
+  relation:
+    - 954175
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Lincoln_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

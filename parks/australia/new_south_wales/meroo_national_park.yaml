@@ -1,0 +1,14 @@
+draft: t
+name: Meroo National Park
+country: Australia
+region: New South Wales
+location:
+  - -35.448333
+  - 150.397222
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Meroo_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

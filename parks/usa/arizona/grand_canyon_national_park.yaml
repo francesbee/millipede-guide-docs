@@ -1,0 +1,22 @@
+draft: t
+name: Grand Canyon National Park
+country: USA
+region: Arizona
+location:
+  - 36.06
+  - -112.14
+osm:
+  relation:
+    - 36
+features:
+  national_park: true
+photos:
+  - src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/USA_09847_Grand_Canyon_Luca_Galuzzi_2007.jpg/200px-USA_09847_Grand_Canyon_Luca_Galuzzi_2007.jpg'
+    href: 'https://en.wikipedia.org/wiki/File:USA_09847_Grand_Canyon_Luca_Galuzzi_2007.jpg'
+    attr: Wikipedia
+    license: '?'
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Grand_Canyon_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

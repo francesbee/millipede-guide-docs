@@ -1,0 +1,14 @@
+draft: t
+name: Scheyville National Park
+country: Australia
+region: New South Wales
+location:
+  - -33.606667
+  - 150.888889
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Scheyville_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

@@ -1,0 +1,17 @@
+draft: t
+name: Black Mountain (Kalkajaka) National Park
+country: Australia
+region: Queensland
+location:
+  - -15.668056
+  - 145.231944
+osm:
+  relation:
+    - 1478692
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Black_Mountain_(Kalkajaka)_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

@@ -1,0 +1,14 @@
+draft: t
+name: Mirima National Park
+country: Australia
+region: Western Australia
+location:
+  - -15.773889
+  - 128.763889
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Mirima_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

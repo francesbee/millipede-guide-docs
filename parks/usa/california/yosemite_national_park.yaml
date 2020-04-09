@@ -1,0 +1,22 @@
+draft: t
+name: Yosemite National Park
+country: USA
+region: California
+location:
+  - 37.83
+  - -119.5
+osm:
+  relation:
+    - 37
+features:
+  national_park: true
+photos:
+  - src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/YosemitePark2_amk.jpg/200px-YosemitePark2_amk.jpg'
+    href: 'https://en.wikipedia.org/wiki/File:YosemitePark2_amk.jpg'
+    attr: Wikipedia
+    license: '?'
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Yosemite_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

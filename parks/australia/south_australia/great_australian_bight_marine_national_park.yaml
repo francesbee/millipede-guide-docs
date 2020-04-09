@@ -1,0 +1,17 @@
+draft: t
+name: Great Australian Bight Marine National Park
+country: Australia
+region: South Australia
+location:
+  - -31.915
+  - 131.440556
+osm:
+  relation:
+    - 540817
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Great_Australian_Bight_Marine_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

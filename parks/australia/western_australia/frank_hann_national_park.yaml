@@ -1,0 +1,14 @@
+draft: t
+name: Frank Hann National Park
+country: Australia
+region: Western Australia
+location:
+  - -32.928056
+  - 120.236944
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Frank_Hann_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

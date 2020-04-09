@@ -1,0 +1,14 @@
+draft: t
+name: Geikie Gorge National Park
+country: Australia
+region: Western Australia
+location:
+  - -18.077222
+  - 125.713889
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Geikie_Gorge_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

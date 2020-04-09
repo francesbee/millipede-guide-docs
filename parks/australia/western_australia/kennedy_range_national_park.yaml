@@ -1,0 +1,14 @@
+draft: t
+name: Kennedy Range National Park
+country: Australia
+region: Western Australia
+location:
+  - -24.579167
+  - 115.05
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Kennedy_Range_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

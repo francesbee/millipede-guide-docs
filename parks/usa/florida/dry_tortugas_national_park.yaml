@@ -1,0 +1,22 @@
+draft: t
+name: Dry Tortugas National Park
+country: USA
+region: Florida
+location:
+  - 24.63
+  - -82.87
+osm:
+  relation:
+    - 24
+features:
+  national_park: true
+photos:
+  - src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Fort-Jefferson_Dry-Tortugas.jpg/200px-Fort-Jefferson_Dry-Tortugas.jpg'
+    href: 'https://en.wikipedia.org/wiki/File:Fort-Jefferson_Dry-Tortugas.jpg'
+    attr: Wikipedia
+    license: '?'
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Dry_Tortugas_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

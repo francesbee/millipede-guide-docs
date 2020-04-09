@@ -1,0 +1,14 @@
+draft: t
+name: Smith Islands National Park
+country: Australia
+region: Queensland
+location:
+  - -20.589167
+  - 149.110556
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Smith_Islands_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

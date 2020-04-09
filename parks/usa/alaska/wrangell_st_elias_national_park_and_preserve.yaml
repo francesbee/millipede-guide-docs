@@ -1,0 +1,22 @@
+draft: t
+name: Wrangell–St. Elias National Park and Preserve
+country: USA
+region: Alaska
+location:
+  - 61
+  - -142
+osm:
+  relation:
+    - 61
+features:
+  national_park: true
+photos:
+  - src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/MountJarvis.jpg/200px-MountJarvis.jpg'
+    href: 'https://en.wikipedia.org/wiki/File:MountJarvis.jpg'
+    attr: Wikipedia
+    license: '?'
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Wrangell%E2%80%93St._Elias_National_Park_and_Preserve'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

@@ -1,0 +1,14 @@
+draft: t
+name: Piper Islands National Park
+country: Australia
+region: Queensland
+location:
+  - -12.219444
+  - 143.263611
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Piper_Islands_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

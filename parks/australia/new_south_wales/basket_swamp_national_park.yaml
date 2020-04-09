@@ -1,0 +1,14 @@
+draft: t
+name: Basket Swamp National Park
+country: Australia
+region: New South Wales
+location:
+  - -28.933056
+  - 152.153056
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Basket_Swamp_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

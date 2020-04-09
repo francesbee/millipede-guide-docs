@@ -1,0 +1,14 @@
+draft: t
+name: Booti Booti National Park
+country: Australia
+region: New South Wales
+location:
+  - -32.244444
+  - 152.543333
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Booti_Booti_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

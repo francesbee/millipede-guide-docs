@@ -1,0 +1,14 @@
+draft: t
+name: Wyperfeld National Park
+country: Australia
+region: Victoria
+location:
+  - -35.389167
+  - 141.876944
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Wyperfeld_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

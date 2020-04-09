@@ -1,0 +1,14 @@
+draft: t
+name: Cattai National Park
+country: Australia
+region: New South Wales
+location:
+  - -33.547222
+  - 150.896944
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Cattai_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

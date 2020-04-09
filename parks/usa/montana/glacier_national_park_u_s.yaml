@@ -1,0 +1,22 @@
+draft: t
+name: Glacier National Park (U.S.)
+country: USA
+region: Montana
+location:
+  - 48.8
+  - -114
+osm:
+  relation:
+    - 48
+features:
+  national_park: true
+photos:
+  - src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/St_Mary_Lake_-_Wild_goose_Island.jpg/200px-St_Mary_Lake_-_Wild_goose_Island.jpg'
+    href: 'https://en.wikipedia.org/wiki/File:St_Mary_Lake_-_Wild_goose_Island.jpg'
+    attr: Wikipedia
+    license: '?'
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Glacier_National_Park_(U.S.)'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

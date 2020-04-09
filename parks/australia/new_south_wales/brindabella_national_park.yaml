@@ -1,0 +1,14 @@
+draft: t
+name: Brindabella National Park
+country: Australia
+region: New South Wales
+location:
+  - -35.231667
+  - 148.778889
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Brindabella_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

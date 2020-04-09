@@ -1,0 +1,14 @@
+draft: t
+name: Barranyi (North Island) National Park
+country: Australia
+region: Northern Territory
+location:
+  - -15.569444
+  - 136.868889
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Barranyi_(North_Island)_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

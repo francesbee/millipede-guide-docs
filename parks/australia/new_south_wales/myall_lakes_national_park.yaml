@@ -1,0 +1,14 @@
+draft: t
+name: Myall Lakes National Park
+country: Australia
+region: New South Wales
+location:
+  - -32.494722
+  - 152.336389
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Myall_Lakes_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

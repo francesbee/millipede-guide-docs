@@ -1,0 +1,17 @@
+draft: t
+name: Kakadu National Park
+country: Australia
+region: Northern Territory
+location:
+  - -13.036389
+  - 132.439722
+osm:
+  relation:
+    - 2386081
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Kakadu_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

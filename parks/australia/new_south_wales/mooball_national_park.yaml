@@ -1,0 +1,14 @@
+draft: t
+name: Mooball National Park
+country: Australia
+region: New South Wales
+location:
+  - -28.388333
+  - 153.464722
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Mooball_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

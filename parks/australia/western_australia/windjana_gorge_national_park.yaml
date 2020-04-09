@@ -1,0 +1,14 @@
+draft: t
+name: Windjana Gorge National Park
+country: Australia
+region: Western Australia
+location:
+  - -17.428333
+  - 124.976111
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Windjana_Gorge_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

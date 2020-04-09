@@ -1,0 +1,17 @@
+draft: t
+name: Heathcote-Graytown National Park
+country: Australia
+region: Victoria
+location:
+  - -36.796389
+  - 144.866111
+osm:
+  relation:
+    - 549481
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Heathcote-Graytown_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

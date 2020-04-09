@@ -1,0 +1,14 @@
+draft: t
+name: Newry Islands National Park
+country: Australia
+region: Queensland
+location:
+  - -20.851667
+  - 148.899444
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Newry_Islands_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

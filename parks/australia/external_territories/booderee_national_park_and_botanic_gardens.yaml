@@ -1,0 +1,14 @@
+draft: t
+name: Booderee National Park and Botanic Gardens
+country: Australia
+region: External territories
+location:
+  - -35.150833
+  - 150.645278
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Booderee_National_Park_and_Botanic_Gardens'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

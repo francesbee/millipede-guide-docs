@@ -1,0 +1,14 @@
+draft: t
+name: Cape Le Grand National Park
+country: Australia
+region: Western Australia
+location:
+  - -33.946944
+  - 122.156111
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Cape_Le_Grand_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

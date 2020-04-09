@@ -1,0 +1,14 @@
+draft: t
+name: Goold Island National Park
+country: Australia
+region: Queensland
+location:
+  - -18.166944
+  - 146.171111
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Goold_Island_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

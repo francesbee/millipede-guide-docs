@@ -1,0 +1,17 @@
+draft: t
+name: Litchfield National Park
+country: Australia
+region: Northern Territory
+location:
+  - -13.054722
+  - 130.905
+osm:
+  relation:
+    - 2614041
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Litchfield_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

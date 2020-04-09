@@ -1,0 +1,14 @@
+draft: t
+name: Diamantina National Park
+country: Australia
+region: Queensland
+location:
+  - -23.357222
+  - 141.136111
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Diamantina_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

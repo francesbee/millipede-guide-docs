@@ -1,0 +1,14 @@
+draft: t
+name: Tarong National Park
+country: Australia
+region: Queensland
+location:
+  - -26.811667
+  - 151.861944
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Tarong_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

@@ -1,0 +1,14 @@
+draft: t
+name: Witjira National Park
+country: Australia
+region: South Australia
+location:
+  - -26.371667
+  - 135.63
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Witjira_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

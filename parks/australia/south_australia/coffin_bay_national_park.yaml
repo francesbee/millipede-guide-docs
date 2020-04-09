@@ -1,0 +1,17 @@
+draft: t
+name: Coffin Bay National Park
+country: Australia
+region: South Australia
+location:
+  - -34.582222
+  - 135.321944
+osm:
+  relation:
+    - 954167
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Coffin_Bay_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

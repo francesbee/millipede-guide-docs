@@ -1,0 +1,14 @@
+draft: t
+name: Finke Gorge National Park
+country: Australia
+region: Northern Territory
+location:
+  - -24.144722
+  - 132.818056
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Finke_Gorge_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

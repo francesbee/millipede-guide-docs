@@ -1,0 +1,14 @@
+draft: t
+name: Hasties Swamp National Park
+country: Australia
+region: Queensland
+location:
+  - -17.300278
+  - 145.474167
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Hasties_Swamp_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

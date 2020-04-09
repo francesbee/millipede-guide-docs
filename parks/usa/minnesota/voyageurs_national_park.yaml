@@ -1,0 +1,22 @@
+draft: t
+name: Voyageurs National Park
+country: USA
+region: Minnesota
+location:
+  - 48.5
+  - -92.88
+osm:
+  relation:
+    - 48
+features:
+  national_park: true
+photos:
+  - src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Voyageurs_National_Park.jpg/200px-Voyageurs_National_Park.jpg'
+    href: 'https://en.wikipedia.org/wiki/File:Voyageurs_National_Park.jpg'
+    attr: Wikipedia
+    license: '?'
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Voyageurs_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

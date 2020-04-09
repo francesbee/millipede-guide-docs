@@ -1,0 +1,14 @@
+draft: t
+name: Capricornia Cays National Park
+country: Australia
+region: Queensland
+location:
+  - -23.508056
+  - 152.090833
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Capricornia_Cays_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

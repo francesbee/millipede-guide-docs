@@ -1,0 +1,22 @@
+draft: t
+name: Great Basin National Park
+country: USA
+region: Nevada
+location:
+  - 38.98
+  - -114.3
+osm:
+  relation:
+    - 38
+features:
+  national_park: true
+photos:
+  - src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Prometheus_Wheeler.jpg/200px-Prometheus_Wheeler.jpg'
+    href: 'https://en.wikipedia.org/wiki/File:Prometheus_Wheeler.jpg'
+    attr: Wikipedia
+    license: '?'
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Great_Basin_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

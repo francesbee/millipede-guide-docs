@@ -1,0 +1,14 @@
+draft: t
+name: Barrington Tops National Park
+country: Australia
+region: New South Wales
+location:
+  - -32.052778
+  - 151.493889
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Barrington_Tops_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

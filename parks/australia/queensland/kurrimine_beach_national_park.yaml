@@ -1,0 +1,14 @@
+draft: t
+name: Kurrimine Beach National Park
+country: Australia
+region: Queensland
+location:
+  - -17.732222
+  - 146.095556
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Kurrimine_Beach_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

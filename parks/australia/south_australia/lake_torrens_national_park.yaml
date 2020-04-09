@@ -1,0 +1,17 @@
+draft: t
+name: Lake Torrens National Park
+country: Australia
+region: South Australia
+location:
+  - -31.044444
+  - 137.859722
+osm:
+  relation:
+    - 1603829
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Lake_Torrens_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

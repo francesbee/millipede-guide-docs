@@ -1,0 +1,14 @@
+draft: t
+name: South Cumberland Islands National Park
+country: Australia
+region: Queensland
+location:
+  - -20.741111
+  - 149.473611
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/South_Cumberland_Islands_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

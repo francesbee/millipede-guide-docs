@@ -1,0 +1,22 @@
+draft: t
+name: Joshua Tree National Park
+country: USA
+region: California
+location:
+  - 33.79
+  - -115.9
+osm:
+  relation:
+    - 33
+features:
+  national_park: true
+photos:
+  - src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Joshua_Tree_-_Rock_formation_in_Real_Hidden_Valley_1.jpg/200px-Joshua_Tree_-_Rock_formation_in_Real_Hidden_Valley_1.jpg'
+    href: 'https://en.wikipedia.org/wiki/File:Joshua_Tree_-_Rock_formation_in_Real_Hidden_Valley_1.jpg'
+    attr: Wikipedia
+    license: '?'
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Joshua_Tree_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

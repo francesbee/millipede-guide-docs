@@ -1,0 +1,25 @@
+draft: t
+name: Tully Gorge National Park
+country: Australia
+region: Queensland
+location:
+  - -17.591667
+  - 145.568056
+osm:
+  relation:
+    - 1518843
+    - 1518876
+    - 1518800
+    - 1518749
+    - 1518870
+    - 1518777
+    - 1518839
+    - 1518739
+    - 1518783
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Tully_Gorge_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

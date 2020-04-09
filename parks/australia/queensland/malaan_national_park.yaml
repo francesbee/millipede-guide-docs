@@ -1,0 +1,17 @@
+draft: t
+name: Malaan National Park
+country: Australia
+region: Queensland
+location:
+  - -17.568056
+  - 145.553056
+osm:
+  relation:
+    - 1515491
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Malaan_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

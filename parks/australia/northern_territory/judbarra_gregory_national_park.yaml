@@ -1,0 +1,14 @@
+draft: t
+name: Judbarra / Gregory National Park
+country: Australia
+region: Northern Territory
+location:
+  - -15.633889
+  - 131.266944
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Judbarra_/_Gregory_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

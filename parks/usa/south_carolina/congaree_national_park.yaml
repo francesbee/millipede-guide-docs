@@ -1,0 +1,22 @@
+draft: t
+name: Congaree National Park
+country: USA
+region: South Carolina
+location:
+  - 33.78
+  - -80.78
+osm:
+  relation:
+    - 33
+features:
+  national_park: true
+photos:
+  - src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Bald_cypress_and_creek_%287166139814%29.jpg/200px-Bald_cypress_and_creek_%287166139814%29.jpg'
+    href: 'https://en.wikipedia.org/wiki/File:Bald_cypress_and_creek_(7166139814).jpg'
+    attr: Wikipedia
+    license: '?'
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Congaree_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

@@ -1,0 +1,14 @@
+draft: t
+name: Holbourne Island National Park
+country: Australia
+region: Queensland
+location:
+  - -19.726944
+  - 148.36
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Holbourne_Island_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

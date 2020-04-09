@@ -1,0 +1,14 @@
+draft: t
+name: Flinders Group National Park
+country: Australia
+region: Queensland
+location:
+  - -14.073611
+  - 144.255833
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Flinders_Group_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

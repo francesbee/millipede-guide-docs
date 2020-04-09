@@ -1,0 +1,14 @@
+draft: t
+name: Lane Cove National Park
+country: Australia
+region: New South Wales
+location:
+  - -33.783611
+  - 151.138889
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Lane_Cove_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

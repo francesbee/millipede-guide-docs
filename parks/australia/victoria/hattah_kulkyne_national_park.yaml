@@ -1,0 +1,14 @@
+draft: t
+name: Hattah-Kulkyne National Park
+country: Australia
+region: Victoria
+location:
+  - -34.687222
+  - 142.381944
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Hattah-Kulkyne_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

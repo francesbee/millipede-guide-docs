@@ -1,0 +1,17 @@
+draft: t
+name: Barron Gorge National Park
+country: Australia
+region: Queensland
+location:
+  - -16.842778
+  - 145.651944
+osm:
+  relation:
+    - 1518825
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Barron_Gorge_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

@@ -1,0 +1,14 @@
+draft: t
+name: Moreton Island National Park
+country: Australia
+region: Queensland
+location:
+  - -27.0525
+  - 153.391111
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Moreton_Island_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

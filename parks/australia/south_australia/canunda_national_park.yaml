@@ -1,0 +1,17 @@
+draft: t
+name: Canunda National Park
+country: Australia
+region: South Australia
+location:
+  - -37.715556
+  - 140.283056
+osm:
+  relation:
+    - 548703
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Canunda_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

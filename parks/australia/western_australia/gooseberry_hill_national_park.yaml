@@ -1,0 +1,14 @@
+draft: t
+name: Gooseberry Hill National Park
+country: Australia
+region: Western Australia
+location:
+  - -31.941389
+  - 116.046111
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Gooseberry_Hill_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

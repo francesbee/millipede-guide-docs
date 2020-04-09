@@ -1,0 +1,14 @@
+draft: t
+name: Barnard Island Group National Park
+country: Australia
+region: Queensland
+location:
+  - -17.674722
+  - 146.172778
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Barnard_Island_Group_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

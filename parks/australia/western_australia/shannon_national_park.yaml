@@ -1,0 +1,14 @@
+draft: t
+name: Shannon National Park
+country: Australia
+region: Western Australia
+location:
+  - -34.603056
+  - 116.365
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Shannon_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

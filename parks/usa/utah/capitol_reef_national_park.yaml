@@ -1,0 +1,22 @@
+draft: t
+name: Capitol Reef National Park
+country: USA
+region: Utah
+location:
+  - 38.2
+  - -111.17
+osm:
+  relation:
+    - 38
+features:
+  national_park: true
+photos:
+  - src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Cassidy_Arch%2C_Capitol_Reef_National_Park.JPG/200px-Cassidy_Arch%2C_Capitol_Reef_National_Park.JPG'
+    href: 'https://en.wikipedia.org/wiki/File:Cassidy_Arch,_Capitol_Reef_National_Park.JPG'
+    attr: Wikipedia
+    license: '?'
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Capitol_Reef_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

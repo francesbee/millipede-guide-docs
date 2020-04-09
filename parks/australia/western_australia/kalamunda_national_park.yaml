@@ -1,0 +1,14 @@
+draft: t
+name: Kalamunda National Park
+country: Australia
+region: Western Australia
+location:
+  - -31.958611
+  - 116.071111
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Kalamunda_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

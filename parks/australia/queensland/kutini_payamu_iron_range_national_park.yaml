@@ -1,0 +1,17 @@
+draft: t
+name: Kutini-Payamu (Iron Range) National Park
+country: Australia
+region: Queensland
+location:
+  - -12.659722
+  - 143.348056
+osm:
+  relation:
+    - 1476091
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Kutini-Payamu_(Iron_Range)_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

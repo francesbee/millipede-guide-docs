@@ -1,0 +1,14 @@
+draft: t
+name: Churchill Island Marine National Park
+country: Australia
+region: Victoria
+location:
+  - -38.498056
+  - 145.316944
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Churchill_Island_Marine_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

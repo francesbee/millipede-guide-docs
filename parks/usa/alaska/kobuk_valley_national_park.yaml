@@ -1,0 +1,22 @@
+draft: t
+name: Kobuk Valley National Park
+country: USA
+region: Alaska
+location:
+  - 67.55
+  - -159.28
+osm:
+  relation:
+    - 67
+features:
+  national_park: true
+photos:
+  - src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Agie_River.jpg/200px-Agie_River.jpg'
+    href: 'https://en.wikipedia.org/wiki/File:Agie_River.jpg'
+    attr: Wikipedia
+    license: '?'
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Kobuk_Valley_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

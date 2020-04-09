@@ -1,0 +1,14 @@
+draft: t
+name: Conway National Park
+country: Australia
+region: Queensland
+location:
+  - -20.263333
+  - 148.765
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Conway_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

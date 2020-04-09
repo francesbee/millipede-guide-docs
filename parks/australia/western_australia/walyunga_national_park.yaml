@@ -1,0 +1,17 @@
+draft: t
+name: Walyunga National Park
+country: Australia
+region: Western Australia
+location:
+  - -31.706111
+  - 116.09
+osm:
+  relation:
+    - 2972087
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Walyunga_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

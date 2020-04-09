@@ -1,0 +1,17 @@
+draft: t
+name: Malkumba-Coongie Lakes National Park
+country: Australia
+region: South Australia
+location:
+  - -27.261389
+  - 140.156944
+osm:
+  relation:
+    - 1319920
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Malkumba-Coongie_Lakes_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

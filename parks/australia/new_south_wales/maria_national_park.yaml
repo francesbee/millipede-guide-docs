@@ -1,0 +1,14 @@
+draft: t
+name: Maria National Park
+country: Australia
+region: New South Wales
+location:
+  - -31.162778
+  - 152.873333
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Maria_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

@@ -1,0 +1,14 @@
+draft: t
+name: Yarrobil National Park
+country: Australia
+region: New South Wales
+location:
+  - -32.298889
+  - 149.37
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Yarrobil_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

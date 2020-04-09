@@ -1,0 +1,22 @@
+draft: t
+name: Guadalupe Mountains National Park
+country: USA
+region: Texas
+location:
+  - 31.92
+  - -104.87
+osm:
+  relation:
+    - 31
+features:
+  national_park: true
+photos:
+  - src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/West_face_of_Guadalupe_Mountains_at_sunset_2006.jpg/200px-West_face_of_Guadalupe_Mountains_at_sunset_2006.jpg'
+    href: 'https://en.wikipedia.org/wiki/File:West_face_of_Guadalupe_Mountains_at_sunset_2006.jpg'
+    attr: Wikipedia
+    license: '?'
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Guadalupe_Mountains_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

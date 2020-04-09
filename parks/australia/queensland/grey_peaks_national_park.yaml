@@ -1,0 +1,18 @@
+draft: t
+name: Grey Peaks National Park
+country: Australia
+region: Queensland
+location:
+  - -17.042222
+  - 145.847778
+osm:
+  relation:
+    - 1481369
+    - 1481367
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Grey_Peaks_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

@@ -1,0 +1,17 @@
+draft: t
+name: D'Entrecasteaux National Park
+country: Australia
+region: Western Australia
+location:
+  - -34.746944
+  - 116.115
+osm:
+  relation:
+    - 3418316
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/D%27Entrecasteaux_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

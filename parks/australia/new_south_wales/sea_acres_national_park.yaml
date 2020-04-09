@@ -1,0 +1,14 @@
+draft: t
+name: Sea Acres National Park
+country: Australia
+region: New South Wales
+location:
+  - -31.463889
+  - 152.931111
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Sea_Acres_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

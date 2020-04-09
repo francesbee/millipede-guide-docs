@@ -1,0 +1,14 @@
+draft: t
+name: Kwiambal National Park
+country: Australia
+region: New South Wales
+location:
+  - -29.154167
+  - 150.983889
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Kwiambal_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

@@ -1,0 +1,22 @@
+draft: t
+name: Everglades National Park
+country: USA
+region: Florida
+location:
+  - 25.32
+  - -80.93
+osm:
+  relation:
+    - 25
+features:
+  national_park: true
+photos:
+  - src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Everglades_National_Park_cypress.jpg/200px-Everglades_National_Park_cypress.jpg'
+    href: 'https://en.wikipedia.org/wiki/File:Everglades_National_Park_cypress.jpg'
+    attr: Wikipedia
+    license: '?'
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Everglades_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

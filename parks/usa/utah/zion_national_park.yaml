@@ -1,0 +1,22 @@
+draft: t
+name: Zion National Park
+country: USA
+region: Utah
+location:
+  - 37.3
+  - -113.05
+osm:
+  relation:
+    - 37
+features:
+  national_park: true
+photos:
+  - src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Angels_Landing.jpg/200px-Angels_Landing.jpg'
+    href: 'https://en.wikipedia.org/wiki/File:Angels_Landing.jpg'
+    attr: Wikipedia
+    license: '?'
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Zion_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

@@ -1,0 +1,18 @@
+draft: t
+name: Bowling Green Bay National Park
+country: Australia
+region: Queensland
+location:
+  - -19.213333
+  - 147.033889
+osm:
+  relation:
+    - 2758752
+    - 1481232
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Bowling_Green_Bay_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

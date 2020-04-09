@@ -1,0 +1,22 @@
+draft: t
+name: Lassen Volcanic National Park
+country: USA
+region: California
+location:
+  - 40.49
+  - -121.51
+osm:
+  relation:
+    - 40
+features:
+  national_park: true
+photos:
+  - src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Lake_Helen_-_Flickr_-_Joe_Parks.jpg/200px-Lake_Helen_-_Flickr_-_Joe_Parks.jpg'
+    href: 'https://en.wikipedia.org/wiki/File:Lake_Helen_-_Flickr_-_Joe_Parks.jpg'
+    attr: Wikipedia
+    license: '?'
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Lassen_Volcanic_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

@@ -1,0 +1,14 @@
+draft: t
+name: Gloucester Island National Park
+country: Australia
+region: Queensland
+location:
+  - -20.015278
+  - 148.455
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Gloucester_Island_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

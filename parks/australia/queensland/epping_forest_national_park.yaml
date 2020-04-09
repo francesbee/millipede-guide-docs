@@ -1,0 +1,14 @@
+draft: t
+name: Epping Forest National Park
+country: Australia
+region: Queensland
+location:
+  - -22.351667
+  - 146.701389
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Epping_Forest_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

@@ -1,0 +1,23 @@
+draft: t
+name: Danbulla National Park and State Forest
+country: Australia
+region: Queensland
+location:
+  - -17.106111
+  - 145.611111
+osm:
+  relation:
+    - 1518838
+    - 1518845
+    - 1518750
+    - 1518834
+    - 1518852
+    - 1518805
+    - 1518819
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Danbulla_National_Park_and_State_Forest'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

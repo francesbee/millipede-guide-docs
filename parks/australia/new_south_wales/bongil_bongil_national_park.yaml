@@ -1,0 +1,14 @@
+draft: t
+name: Bongil Bongil National Park
+country: Australia
+region: New South Wales
+location:
+  - -30.398611
+  - 153.034722
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Bongil_Bongil_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

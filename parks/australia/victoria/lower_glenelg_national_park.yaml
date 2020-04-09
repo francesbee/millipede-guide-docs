@@ -1,0 +1,17 @@
+draft: t
+name: Lower Glenelg National Park
+country: Australia
+region: Victoria
+location:
+  - -38.066111
+  - 141.288889
+osm:
+  relation:
+    - 374610
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Lower_Glenelg_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

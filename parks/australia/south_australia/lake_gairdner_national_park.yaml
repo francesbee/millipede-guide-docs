@@ -1,0 +1,17 @@
+draft: t
+name: Lake Gairdner National Park
+country: Australia
+region: South Australia
+location:
+  - -31.697222
+  - 135.853889
+osm:
+  relation:
+    - 1204236
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Lake_Gairdner_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

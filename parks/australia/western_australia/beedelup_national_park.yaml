@@ -1,0 +1,14 @@
+draft: t
+name: Beedelup National Park
+country: Australia
+region: Western Australia
+location:
+  - -34.418333
+  - 115.878056
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Beedelup_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

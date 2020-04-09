@@ -1,0 +1,14 @@
+draft: t
+name: Burrum Coast National Park
+country: Australia
+region: Queensland
+location:
+  - -24.999167
+  - 152.4675
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Burrum_Coast_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

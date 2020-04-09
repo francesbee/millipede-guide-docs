@@ -1,0 +1,14 @@
+draft: t
+name: Lockyer National Park
+country: Australia
+region: Queensland
+location:
+  - -27.439722
+  - 152.243056
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Lockyer_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

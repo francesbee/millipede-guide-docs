@@ -1,0 +1,22 @@
+draft: t
+name: Biscayne National Park
+country: USA
+region: Florida
+location:
+  - 25.65
+  - -80.08
+osm:
+  relation:
+    - 25
+features:
+  national_park: true
+photos:
+  - src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Biscayne_NP_snorkeling.jpg/200px-Biscayne_NP_snorkeling.jpg'
+    href: 'https://en.wikipedia.org/wiki/File:Biscayne_NP_snorkeling.jpg'
+    attr: Wikipedia
+    license: '?'
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Biscayne_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

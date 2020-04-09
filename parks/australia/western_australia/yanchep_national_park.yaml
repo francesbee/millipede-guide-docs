@@ -1,0 +1,14 @@
+draft: t
+name: Yanchep National Park
+country: Australia
+region: Western Australia
+location:
+  - -31.560556
+  - 115.690833
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Yanchep_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

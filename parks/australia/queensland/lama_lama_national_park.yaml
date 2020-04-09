@@ -1,0 +1,17 @@
+draft: t
+name: Lama Lama National Park
+country: Australia
+region: Queensland
+location:
+  - -14.418889
+  - 143.684722
+osm:
+  relation:
+    - 1476121
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Lama_Lama_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

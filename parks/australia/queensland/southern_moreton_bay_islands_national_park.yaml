@@ -1,0 +1,14 @@
+draft: t
+name: Southern Moreton Bay Islands National Park
+country: Australia
+region: Queensland
+location:
+  - -27.718056
+  - 153.384444
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Southern_Moreton_Bay_Islands_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

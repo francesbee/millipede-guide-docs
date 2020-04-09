@@ -1,0 +1,22 @@
+draft: t
+name: Death Valley National Park
+country: USA
+region: California
+location:
+  - 36.24
+  - -116.82
+osm:
+  relation:
+    - 36
+features:
+  national_park: true
+photos:
+  - src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Mesquite_Sand_Dunes_in_Death_Valley.jpg/200px-Mesquite_Sand_Dunes_in_Death_Valley.jpg'
+    href: 'https://en.wikipedia.org/wiki/File:Mesquite_Sand_Dunes_in_Death_Valley.jpg'
+    attr: Wikipedia
+    license: '?'
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Death_Valley_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

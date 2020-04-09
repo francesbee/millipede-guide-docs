@@ -1,0 +1,14 @@
+draft: t
+name: Swain Reefs National Park
+country: Australia
+region: Queensland
+location:
+  - -21.239444
+  - 151.846667
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Swain_Reefs_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

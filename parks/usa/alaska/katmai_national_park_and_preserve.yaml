@@ -1,0 +1,22 @@
+draft: t
+name: Katmai National Park and Preserve
+country: USA
+region: Alaska
+location:
+  - 58.5
+  - -155
+osm:
+  relation:
+    - 58
+features:
+  national_park: true
+photos:
+  - src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Brown_bears_brooks_falls.jpg/200px-Brown_bears_brooks_falls.jpg'
+    href: 'https://en.wikipedia.org/wiki/File:Brown_bears_brooks_falls.jpg'
+    attr: Wikipedia
+    license: '?'
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Katmai_National_Park_and_Preserve'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

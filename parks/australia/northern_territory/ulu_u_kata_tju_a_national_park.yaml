@@ -1,0 +1,14 @@
+draft: t
+name: Uluṟu-Kata Tjuṯa National Park
+country: Australia
+region: Northern Territory
+location:
+  - -25.312222
+  - 131.018611
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Ulu%E1%B9%9Fu-Kata_Tju%E1%B9%AFa_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

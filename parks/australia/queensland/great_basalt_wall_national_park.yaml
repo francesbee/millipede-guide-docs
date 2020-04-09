@@ -1,0 +1,17 @@
+draft: t
+name: Great Basalt Wall National Park
+country: Australia
+region: Queensland
+location:
+  - -19.881111
+  - 145.721389
+osm:
+  relation:
+    - 1067612
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Great_Basalt_Wall_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

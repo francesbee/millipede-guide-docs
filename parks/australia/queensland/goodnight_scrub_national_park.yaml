@@ -1,0 +1,14 @@
+draft: t
+name: Goodnight Scrub National Park
+country: Australia
+region: Queensland
+location:
+  - -25.221944
+  - 151.92
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Goodnight_Scrub_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

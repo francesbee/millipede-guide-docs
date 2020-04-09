@@ -1,0 +1,14 @@
+draft: t
+name: Venman Bushland National Park
+country: Australia
+region: Queensland
+location:
+  - -27.6275
+  - 153.200278
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Venman_Bushland_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

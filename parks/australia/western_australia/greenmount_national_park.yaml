@@ -1,0 +1,14 @@
+draft: t
+name: Greenmount National Park
+country: Australia
+region: Western Australia
+location:
+  - -31.906389
+  - 116.06
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Greenmount_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

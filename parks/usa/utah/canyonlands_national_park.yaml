@@ -1,0 +1,22 @@
+draft: t
+name: Canyonlands National Park
+country: USA
+region: Utah
+location:
+  - 38.2
+  - -109.93
+osm:
+  relation:
+    - 38
+features:
+  national_park: true
+photos:
+  - src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Canyonlands_National_Park%E2%80%A6Needles_area_%286294480744%29.jpg/200px-Canyonlands_National_Park%E2%80%A6Needles_area_%286294480744%29.jpg'
+    href: 'https://en.wikipedia.org/wiki/File:Canyonlands_National_Park%E2%80%A6Needles_area_(6294480744).jpg'
+    attr: Wikipedia
+    license: '?'
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Canyonlands_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

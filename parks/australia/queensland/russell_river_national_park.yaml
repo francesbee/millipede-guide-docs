@@ -1,0 +1,18 @@
+draft: t
+name: Russell River National Park
+country: Australia
+region: Queensland
+location:
+  - -17.224722
+  - 145.938889
+osm:
+  relation:
+    - 1481371
+    - 1481372
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Russell_River_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

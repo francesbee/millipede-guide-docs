@@ -1,0 +1,22 @@
+draft: t
+name: Haleakalā National Park
+country: USA
+region: Hawaii
+location:
+  - 20.72
+  - -156.17
+osm:
+  relation:
+    - 20
+features:
+  national_park: true
+photos:
+  - src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Haleakala_Crater.jpg/200px-Haleakala_Crater.jpg'
+    href: 'https://en.wikipedia.org/wiki/File:Haleakala_Crater.jpg'
+    attr: Wikipedia
+    license: '?'
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Haleakal%C4%81_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

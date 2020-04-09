@@ -1,0 +1,14 @@
+draft: t
+name: Chillagoe-Mungana Caves National Park
+country: Australia
+region: Queensland
+location:
+  - -17.091667
+  - 144.393056
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Chillagoe-Mungana_Caves_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

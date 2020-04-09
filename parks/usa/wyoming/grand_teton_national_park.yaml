@@ -1,0 +1,22 @@
+draft: t
+name: Grand Teton National Park
+country: USA
+region: Wyoming
+location:
+  - 43.73
+  - -110.8
+osm:
+  relation:
+    - 43
+features:
+  national_park: true
+photos:
+  - src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Teton_Range_from_Glacier_View_Turnout-closeup.JPG/200px-Teton_Range_from_Glacier_View_Turnout-closeup.JPG'
+    href: 'https://en.wikipedia.org/wiki/File:Teton_Range_from_Glacier_View_Turnout-closeup.JPG'
+    attr: Wikipedia
+    license: '?'
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Grand_Teton_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

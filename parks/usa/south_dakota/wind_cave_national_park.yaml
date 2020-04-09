@@ -1,0 +1,22 @@
+draft: t
+name: Wind Cave National Park
+country: USA
+region: South Dakota
+location:
+  - 43.57
+  - -103.48
+osm:
+  relation:
+    - 43
+features:
+  national_park: true
+photos:
+  - src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Wind_Cave_lower.jpg/200px-Wind_Cave_lower.jpg'
+    href: 'https://en.wikipedia.org/wiki/File:Wind_Cave_lower.jpg'
+    attr: Wikipedia
+    license: '?'
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Wind_Cave_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

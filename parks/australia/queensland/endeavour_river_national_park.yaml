@@ -1,0 +1,17 @@
+draft: t
+name: Endeavour River National Park
+country: Australia
+region: Queensland
+location:
+  - -15.441944
+  - 145.216944
+osm:
+  relation:
+    - 1476144
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Endeavour_River_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

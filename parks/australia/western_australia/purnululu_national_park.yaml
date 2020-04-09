@@ -1,0 +1,14 @@
+draft: t
+name: Purnululu National Park
+country: Australia
+region: Western Australia
+location:
+  - -17.463056
+  - 128.564167
+features:
+  national_park: true
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Purnululu_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

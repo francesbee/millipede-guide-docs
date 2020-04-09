@@ -1,0 +1,22 @@
+draft: t
+name: Olympic National Park
+country: USA
+region: Washington (state)
+location:
+  - 47.97
+  - -123.5
+osm:
+  relation:
+    - 47
+features:
+  national_park: true
+photos:
+  - src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Acer_macrophyllum_in_Hoh_Rain_Forest.jpg/200px-Acer_macrophyllum_in_Hoh_Rain_Forest.jpg'
+    href: 'https://en.wikipedia.org/wiki/File:Acer_macrophyllum_in_Hoh_Rain_Forest.jpg'
+    attr: Wikipedia
+    license: '?'
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Olympic_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0

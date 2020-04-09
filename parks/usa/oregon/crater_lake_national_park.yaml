@@ -1,0 +1,22 @@
+draft: t
+name: Crater Lake National Park
+country: USA
+region: Oregon
+location:
+  - 42.94
+  - -122.1
+osm:
+  relation:
+    - 42
+features:
+  national_park: true
+photos:
+  - src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Crater_lake_oregon.jpg/200px-Crater_lake_oregon.jpg'
+    href: 'https://en.wikipedia.org/wiki/File:Crater_lake_oregon.jpg'
+    attr: Wikipedia
+    license: '?'
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Crater_Lake_National_Park'
+copyright:
+  - Wikipedia
+license: CC BY-NC-SA 4.0
