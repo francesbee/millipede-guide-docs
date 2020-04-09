@@ -11,7 +11,12 @@
         "path": "^0.12.7",
         "xmldom": "^0.3.0"
     },
-    "devDependencies": {},
+    "devDependencies": {
+        "cheerio": "^1.0.0-rc.3",
+        "isomorphic-unfetch": "^3.0.0",
+        "mkdirp": "^1.0.4",
+        "underscore.string": "^3.3.5"
+    },
     "scripts": {
         "convert_gpx": "node scripts/convert_gpx.js",
         "test": "node scripts/validate.js"

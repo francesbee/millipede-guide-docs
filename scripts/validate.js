@@ -1,14 +1,16 @@
+/* eslint-disable no-console */
+
 const FS = require('fs');
 const Glob = require('glob');
 const YAML = require('js-yaml');
 const Path = require('path');
-var Validator = require('jsonschema').Validator;
+const { Validator } = require('jsonschema');
 
 const validator = new Validator();
 let pass = true;
 
-const document_schema = YAML.safeLoad(FS.readFileSync('./schemas/document.yaml'));
-const geojson_schema = JSON.parse(FS.readFileSync('./schemas/geo.json'));
+const documentSchema = YAML.safeLoad(FS.readFileSync('./schemas/document.yaml'));
+const geoJsonSchema = JSON.parse(FS.readFileSync('./schemas/geo.json'));
 
 ['attractions', 'campsites', 'parks', 'routes'].forEach(category => {
     Glob.sync(`./${category}/**/*.*`).forEach(filePath => {
@@ -16,15 +18,15 @@ const geojson_schema = JSON.parse(FS.readFileSync('./schemas/geo.json'));
         let schema = null;
         let content = null;
         if (ext === '.yaml') {
-            schema = document_schema;
+            schema = documentSchema;
             content = YAML.safeLoad(FS.readFileSync(filePath));
         } else if (ext === '.json') {
-            schema = geojson_schema;
+            schema = geoJsonSchema;
             content = JSON.parse(FS.readFileSync(filePath));
         } else {
             pass = false;
             console.log(`FAIL: ${filePath}`);
-            console.log(` => Unknown file type!`)
+            console.log(` => Unknown file type!`);
         }
         if (content) {
             const result = validator.validate(content, schema, { throwError: false });
@@ -39,4 +41,4 @@ const geojson_schema = JSON.parse(FS.readFileSync('./schemas/geo.json'));
     });
 });
 
-if (!pass) throw "There were document validation errors!";
+if (!pass) throw new Error('There were document validation errors!');
