@@ -88,7 +88,7 @@ const run = html => {
                         );
                         console.log(filePath);
 
-                        let doc = {};
+                        let doc = { draft: 't' };
 
                         if (fs.existsSync(filePath)) {
                             doc = YAML.safeLoad(fs.readFileSync(filePath));
