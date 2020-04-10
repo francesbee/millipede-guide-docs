@@ -1,0 +1,35 @@
+name: The Staircase to Mount Bogong
+park: Alpine National Park
+region: Victoria
+country: Australia
+location: [-36.699996, 147.252466]
+features:
+  mountain_peak: true
+photos:
+  - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/vic/alpine_national_park/mt_bogong/IMG_6189.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/vic/alpine_national_park/mt_bogong/IMG_6189.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+  - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/vic/alpine_national_park/mt_bogong/IMG_6177.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/vic/alpine_national_park/mt_bogong/IMG_6177.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+  - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/vic/alpine_national_park/mt_bogong/IMG_6179.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/vic/alpine_national_park/mt_bogong/IMG_6179.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+  - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/vic/alpine_national_park/mt_bogong/IMG_6187.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/vic/alpine_national_park/mt_bogong/IMG_6187.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+  - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/vic/alpine_national_park/mt_bogong/IMG_6198.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/vic/alpine_national_park/mt_bogong/IMG_6198.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+  - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/vic/alpine_national_park/mt_bogong/IMG_6215.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/vic/alpine_national_park/mt_bogong/IMG_6215.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+copyright:
+  - Reilly Beacom
+license: CC BY-NC-SA 4.0

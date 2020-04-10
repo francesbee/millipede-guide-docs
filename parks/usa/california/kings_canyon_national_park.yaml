@@ -1,4 +1,3 @@
-draft: t
 name: Kings Canyon National Park
 country: USA
 region: California
@@ -11,10 +10,10 @@ osm:
 features:
   national_park: true
 photos:
-  - src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/KingsCanyonNP.JPG/200px-KingsCanyonNP.JPG'
-    href: 'https://en.wikipedia.org/wiki/File:KingsCanyonNP.JPG'
-    attr: Wikipedia
-    license: '?'
+  - src: 'https://reillybeacom.net/photos/shared/millipede/routes/usa/ca/kings_canyon_national_park/zumwalt_meadow/IMG_9273.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/routes/usa/ca/kings_canyon_national_park/zumwalt_meadow/IMG_9273.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
 links:
   wikipedia: 'https://en.wikipedia.org/wiki/Kings_Canyon_National_Park'
 copyright:

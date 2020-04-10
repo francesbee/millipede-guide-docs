@@ -1,0 +1,27 @@
+name: Lower Emerald Pool
+park: Zion National Park
+region: Utah
+country: USA
+location:
+  - 37.251175
+  - -112.957349
+photos:
+  - src: 'https://reillybeacom.net/photos/shared/millipede/routes/usa/ut/zion_national_park/lower_emerald_pool/IMG_9690.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/routes/usa/ut/zion_national_park/lower_emerald_pool/IMG_9690.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+  - src: 'https://reillybeacom.net/photos/shared/millipede/routes/usa/ut/zion_national_park/lower_emerald_pool/IMG_9691.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/routes/usa/ut/zion_national_park/lower_emerald_pool/IMG_9691.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+  - src: 'https://reillybeacom.net/photos/shared/millipede/routes/usa/ut/zion_national_park/lower_emerald_pool/IMG_9692.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/routes/usa/ut/zion_national_park/lower_emerald_pool/IMG_9692.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+  - src: 'https://reillybeacom.net/photos/shared/millipede/routes/usa/ut/zion_national_park/lower_emerald_pool/IMG_9694.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/routes/usa/ut/zion_national_park/lower_emerald_pool/IMG_9694.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+copyright:
+  - Reilly Beacom
+license: CC BY-NC-SA 4.0

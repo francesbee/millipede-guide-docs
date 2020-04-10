@@ -1,4 +1,3 @@
-draft: t
 name: Zion National Park
 country: USA
 region: Utah
@@ -11,10 +10,10 @@ osm:
 features:
   national_park: true
 photos:
-  - src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Angels_Landing.jpg/200px-Angels_Landing.jpg'
-    href: 'https://en.wikipedia.org/wiki/File:Angels_Landing.jpg'
-    attr: Wikipedia
-    license: '?'
+  - src: 'https://reillybeacom.net/photos/shared/millipede/routes/usa/ut/zion_national_park/angels_landing/IMG_9698.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/routes/usa/ut/zion_national_park/angels_landing/IMG_9698.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
 links:
   wikipedia: 'https://en.wikipedia.org/wiki/Zion_National_Park'
 copyright:
