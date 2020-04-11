@@ -31,7 +31,7 @@ const geoJsonSchema = JSON.parse(FS.readFileSync('./schemas/geo.json'));
         if (content) {
             const result = validator.validate(content, schema, { throwError: false });
             if (result.errors.length === 0) {
-                console.log(`OK: ${filePath}`);
+                // console.log(`OK: ${filePath}`);
             } else {
                 pass = false;
                 console.log(`FAIL: ${filePath}`);

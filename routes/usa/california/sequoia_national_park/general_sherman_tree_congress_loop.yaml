@@ -4,10 +4,6 @@ region: California
 country: USA
 location: [36.572737, -118.749511]
 photos:
-  - src: 'https://reillybeacom.net/photos/shared/millipede/routes/usa/ca/sequoia_national_park/congress_trail/IMG_9124.jpg'
-    href: 'https://reillybeacom.net/photos/shared/millipede/routes/usa/ca/sequoia_national_park/congress_trail/IMG_9124.jpg'
-    attr: Reilly Beacom
-    license: CC BY-NC-SA 4.0
   - src: 'https://reillybeacom.net/photos/shared/millipede/routes/usa/ca/sequoia_national_park/general_sherman_tree/IMG_9151.jpg'
     href: 'https://reillybeacom.net/photos/shared/millipede/routes/usa/ca/sequoia_national_park/general_sherman_tree/IMG_9151.jpg'
     attr: Reilly Beacom
@@ -36,6 +32,10 @@ photos:
     href: 'https://reillybeacom.net/photos/shared/millipede/routes/usa/ca/sequoia_national_park/congress_trail/IMG_9121.jpg'
     attr: Reilly Beacom
     license: CC BY-NC-SA 4.0
+  - src: 'https://reillybeacom.net/photos/shared/millipede/routes/usa/ca/sequoia_national_park/congress_trail/IMG_9124.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/routes/usa/ca/sequoia_national_park/congress_trail/IMG_9124.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
   - src: 'https://reillybeacom.net/photos/shared/millipede/routes/usa/ca/sequoia_national_park/congress_trail/IMG_9131.jpg'
     href: 'https://reillybeacom.net/photos/shared/millipede/routes/usa/ca/sequoia_national_park/congress_trail/IMG_9131.jpg'
     attr: Reilly Beacom
@@ -48,6 +48,7 @@ photos:
     href: 'https://reillybeacom.net/photos/shared/millipede/routes/usa/ca/sequoia_national_park/congress_trail/IMG_9137.jpg'
     attr: Reilly Beacom
     license: CC BY-NC-SA 4.0
+    feature: t
   - src: 'https://reillybeacom.net/photos/shared/millipede/routes/usa/ca/sequoia_national_park/congress_trail/IMG_9387.jpg'
     href: 'https://reillybeacom.net/photos/shared/millipede/routes/usa/ca/sequoia_national_park/congress_trail/IMG_9387.jpg'
     attr: Reilly Beacom

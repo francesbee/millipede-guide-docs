@@ -68,7 +68,7 @@ parking:
         license: CC BY-NC-SA 4.0
 toilets:
   - type: pit
-    wheelchair: true
+    accessible: true
     location: [-33.80045, 150.61907]
     photos:
       - src: 'https://reillybeacom.net/photos/shared/millipede/campsites/australia/nsw/blue_mountains_national_park/euroka_bennetts_ridge/IMG_4451.jpg'

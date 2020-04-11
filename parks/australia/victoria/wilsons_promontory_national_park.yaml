@@ -33,12 +33,14 @@ parking:
     location:
       - -39.032695
       - 146.35539
-    fee: free
+    time_limit: false
+    fee: false
   - name: Tidal River
     location:
       - -39.03047
       - 146.32189
-    fee: free
+    time_limit: false
+    fee: false
     osm:
       way: 30161859
 park_office:

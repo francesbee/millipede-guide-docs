@@ -50,10 +50,12 @@ getting_there:
 parking:
   - name: Telegraph Saddle
     location: [-39.032695, 146.35539]
-    fee: free
+    time_limit: false
+    fee: false
   - name: Overnight Hikers Carpark, Tidal River (with shuttle bus to Telegraph Saddle)
     location: [-39.030996, 146.326805]
-    fee: free
+    time_limit: false
+    fee: false
 water:
   - type: tap
     source: river

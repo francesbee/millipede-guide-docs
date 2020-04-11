@@ -1,0 +1,211 @@
+name: Warburton Rail Trail
+region: Victoria
+country: Australia
+location:
+  - -37.753793
+  - 145.350056
+features:
+  rail_trail: true
+  walking: true
+  cycling: true
+  gravel_track: true
+  sealed_surface: false
+restrictions:
+  bicycles: true
+  dogs: true
+  dogs_off_leash: false
+  horses: true
+  camping: false
+  vehicles: false
+  campfires: false
+  motorbikes: false
+photos:
+  - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/victoria/warburton_rail_trail/IMG_5149.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/victoria/warburton_rail_trail/IMG_5149.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+  - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/victoria/warburton_rail_trail/IMG_5150.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/victoria/warburton_rail_trail/IMG_5150.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+  - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/victoria/warburton_rail_trail/IMG_5154.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/victoria/warburton_rail_trail/IMG_5154.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+  - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/victoria/warburton_rail_trail/IMG_5174.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/victoria/warburton_rail_trail/IMG_5174.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+    feature: t
+  - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/victoria/warburton_rail_trail/IMG_5177.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/victoria/warburton_rail_trail/IMG_5177.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+  - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/victoria/warburton_rail_trail/IMG_5178.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/victoria/warburton_rail_trail/IMG_5178.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+  - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/victoria/warburton_rail_trail/IMG_5184.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/victoria/warburton_rail_trail/IMG_5184.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+  - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/victoria/warburton_rail_trail/IMG_5189.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/victoria/warburton_rail_trail/IMG_5189.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+  - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/victoria/warburton_rail_trail/IMG_5191.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/victoria/warburton_rail_trail/IMG_5191.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+getting_there:
+  car: true
+  public_transport: true
+water:
+  - name: Lilydale
+    location: [-37.75163,145.35196]
+    osm:
+      node: 3830479441
+  - name: Mount Evelyn
+    location: [-37.78532,145.37924]
+    osm:
+      node: 3820467500
+  - name: Wandin North
+    location: [ -37.7775034, 145.4260410]
+    osm:
+      node: 4730155678
+  - name: Woori Yallock
+    location: [-37.7751863, 145.5272882]
+    osm:
+      node: 3820478324
+  - name: Launching Place
+    location: [-37.7760890, 145.5865789]
+    osm:
+      node: 3820480694
+  - name: Wesburn
+    location: [-37.76418,145.64066]
+  - name: Warburton
+    location: [-37.75466,145.68845]
+    osm:
+      node: 3820511186
+toilets:
+  - name: Mount Evelyn
+    location: [-37.78473,145.37863]
+    osm:
+      node: 2292079556
+  - name: Woori Yallock
+    location: [-37.77598,145.52806]
+    photos:
+      - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/victoria/warburton_rail_trail/infrastructure/IMG_5137.jpg'
+        href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/victoria/warburton_rail_trail/infrastructure/IMG_5137.jpg'
+        attr: Reilly Beacom
+        license: CC BY-NC-SA 4.0
+      - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/victoria/warburton_rail_trail/infrastructure/IMG_5138.jpg'
+        href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/victoria/warburton_rail_trail/infrastructure/IMG_5138.jpg'
+        attr: Reilly Beacom
+        license: CC BY-NC-SA 4.0
+  - name: Yarra Junction Reserve
+    location: [-37.7813935, 145.6119294]
+    osm:
+      node: 802008379
+    photos:
+      - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/victoria/warburton_rail_trail/infrastructure/IMG_5156.jpg'
+        href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/victoria/warburton_rail_trail/infrastructure/IMG_5156.jpg'
+        attr: Reilly Beacom
+        license: CC BY-NC-SA 4.0
+  - name: Sawmill
+    location: [-37.7549049, 145.6538735]
+    osm:
+      node: 835059499
+  - name: Warburton Reserve
+    location: [-37.7525787, 145.6958579]
+    osm:
+      node: 2449261651
+shelter:
+  - name: Mount Evelyn
+    location: [-37.78523,145.37919]
+    osm:
+      node: 3820467501
+  - name: Woori Yallock
+    location: [-37.77517,145.52721]
+    osm:
+      way: 556111181
+    photos:
+      - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/victoria/warburton_rail_trail/infrastructure/IMG_5197.jpg'
+        href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/victoria/warburton_rail_trail/infrastructure/IMG_5197.jpg'
+        attr: Reilly Beacom
+        license: CC BY-NC-SA 4.0
+  - name: Wesburn
+    location: [-37.76418,145.64066]
+    photos:
+      - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/victoria/warburton_rail_trail/infrastructure/IMG_5171.jpg'
+        href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/victoria/warburton_rail_trail/infrastructure/IMG_5171.jpg'
+        attr: Reilly Beacom
+        license: CC BY-NC-SA 4.0
+  - name: Warburton
+    location: [-37.75473,145.68843]
+    osm:
+      way: 221339585
+    photos:
+      - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/victoria/warburton_rail_trail/infrastructure/IMG_5181.jpg'
+        href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/victoria/warburton_rail_trail/infrastructure/IMG_5181.jpg'
+        attr: Reilly Beacom
+        license: CC BY-NC-SA 4.0
+transport:
+  - name: Lilydale Train Station
+    type: train
+    location: [-37.75567,145.34754]
+    osm:
+      node: 1763901262
+parking:
+  - name: Lilydale
+    location: [-37.76341,145.36534]
+    osm:
+      way: 49830522
+  - name: Mount Evelyn
+    location: [-37.78550,145.37901]
+    osm:
+      way: 218056713
+  - name: Wandin North
+    location: [-37.77727,145.42641]
+    osm:
+      way: 239529961
+  - name: Woori Yallock
+    location: [-37.77541,145.52767]
+    osm:
+      way: 239526239
+    photos:
+      - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/victoria/warburton_rail_trail/infrastructure/IMG_5139.jpg'
+        href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/victoria/warburton_rail_trail/infrastructure/IMG_5139.jpg'
+        attr: Reilly Beacom
+        license: CC BY-NC-SA 4.0
+  - name: Yarra Junction Reserve
+    location: [-37.78122, 145.61284]
+    osm:
+      way: 612125337
+  - name: Sawmill
+    location: [-37.75470,145.65390]
+    osm:
+      node: 835059504
+  - name: Warburton
+    sealed_surface: true
+    time_limit: true
+    fee: false
+    location: [-37.75440,145.68871]
+    osm:
+      way: 219201160
+    photos:
+      - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/victoria/warburton_rail_trail/infrastructure/IMG_5187.jpg'
+        href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/victoria/warburton_rail_trail/infrastructure/IMG_5187.jpg'
+        attr: Reilly Beacom
+        license: CC BY-NC-SA 4.0
+      - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/victoria/warburton_rail_trail/infrastructure/IMG_5188.jpg'
+        href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/victoria/warburton_rail_trail/infrastructure/IMG_5188.jpg'
+        attr: Reilly Beacom
+        license: CC BY-NC-SA 4.0
+  - name: Warburton Reserve
+    location: [-37.75287,145.69583]
+    osm:
+      way: 236970551
+copyright:
+  - Reilly Beacom
+license: CC BY-NC-SA 4.0
