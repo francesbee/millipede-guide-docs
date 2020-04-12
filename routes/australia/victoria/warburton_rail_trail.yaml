@@ -20,6 +20,10 @@ restrictions:
   campfires: false
   motorbikes: false
 photos:
+  - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/victoria/warburton_rail_trail/IMG_5191.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/victoria/warburton_rail_trail/IMG_5191.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
   - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/victoria/warburton_rail_trail/IMG_5149.jpg'
     href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/victoria/warburton_rail_trail/IMG_5149.jpg'
     attr: Reilly Beacom
@@ -37,6 +41,10 @@ photos:
     attr: Reilly Beacom
     license: CC BY-NC-SA 4.0
     feature: t
+  - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/victoria/warburton_rail_trail/IMG_5189.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/victoria/warburton_rail_trail/IMG_5189.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
   - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/victoria/warburton_rail_trail/IMG_5177.jpg'
     href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/victoria/warburton_rail_trail/IMG_5177.jpg'
     attr: Reilly Beacom
@@ -47,14 +55,6 @@ photos:
     license: CC BY-NC-SA 4.0
   - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/victoria/warburton_rail_trail/IMG_5184.jpg'
     href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/victoria/warburton_rail_trail/IMG_5184.jpg'
-    attr: Reilly Beacom
-    license: CC BY-NC-SA 4.0
-  - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/victoria/warburton_rail_trail/IMG_5189.jpg'
-    href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/victoria/warburton_rail_trail/IMG_5189.jpg'
-    attr: Reilly Beacom
-    license: CC BY-NC-SA 4.0
-  - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/victoria/warburton_rail_trail/IMG_5191.jpg'
-    href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/victoria/warburton_rail_trail/IMG_5191.jpg'
     attr: Reilly Beacom
     license: CC BY-NC-SA 4.0
 getting_there:
