@@ -99,10 +99,6 @@ toilets:
         href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/victoria/warburton_rail_trail/infrastructure/IMG_5137.jpg'
         attr: Reilly Beacom
         license: CC BY-NC-SA 4.0
-      - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/victoria/warburton_rail_trail/infrastructure/IMG_5138.jpg'
-        href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/victoria/warburton_rail_trail/infrastructure/IMG_5138.jpg'
-        attr: Reilly Beacom
-        license: CC BY-NC-SA 4.0
   - name: Yarra Junction Reserve
     location: [-37.7813935, 145.6119294]
     osm:

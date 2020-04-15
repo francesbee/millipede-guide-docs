@@ -1,6 +1,6 @@
 name: Wentworth Falls Track
 park: Blue Mountains National Park
-region: NSW
+region: New South Wales
 country: Australia
 location: [-33.72556, 150.36889]
 nearest_town:
@@ -15,10 +15,6 @@ photos:
     license: CC BY-NC-SA 4.0
   - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/nsw/blue_mountains_national_park/wentworth_falls/IMG_4541.jpg'
     href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/nsw/blue_mountains_national_park/wentworth_falls/IMG_4541.jpg'
-    attr: Reilly Beacom
-    license: CC BY-NC-SA 4.0
-  - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/nsw/blue_mountains_national_park/wentworth_falls/IMG_4545.jpg'
-    href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/nsw/blue_mountains_national_park/wentworth_falls/IMG_4545.jpg'
     attr: Reilly Beacom
     license: CC BY-NC-SA 4.0
   - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/nsw/blue_mountains_national_park/wentworth_falls/IMG_4546.jpg'
