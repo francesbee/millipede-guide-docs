@@ -2,12 +2,16 @@ name: Undercliff Track
 park: Blue Mountains National Park
 region: New South Wales
 country: Australia
-location: [-33.72555,150.36645]
+location:
+  - -33.72555
+  - 150.36645
 nearest_town:
   name: Wentworth Falls
-  location: [-33.716667, 150.366667]
+  location:
+    - -33.716667
+    - 150.366667
   links:
-    wikipedia: "https://en.wikipedia.org/wiki/Wentworth_Falls%2C_New_South_Wales"
+    wikipedia: 'https://en.wikipedia.org/wiki/Wentworth_Falls%2C_New_South_Wales'
 features:
   waterfall: true
   rainforest: true
@@ -44,15 +48,19 @@ photos:
     attr: Reilly Beacom
     license: CC BY-NC-SA 4.0
 parking:
-  - location: [-33.72513,150.36863]
+  - location:
+      - -33.72513
+      - 150.36863
     osm:
       node: 243838453
 toilets:
-  - location: [-33.7249744, 150.3692618]
+  - location:
+      - -33.7249744
+      - 150.3692618
     osm:
       node: 244314452
 links:
-  official: "https://www.nationalparks.nsw.gov.au/things-to-do/walking-tracks/overcliffundercliff-track"
+  official: 'https://www.nationalparks.nsw.gov.au/things-to-do/walking-tracks/overcliffundercliff-track'
 copyright:
   - Reilly Beacom
 license: CC BY-NC-SA 4.0

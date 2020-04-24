@@ -2,7 +2,9 @@ name: General Sherman Tree and Congress Trail Loop
 park: Sequoia National Park
 region: California
 country: USA
-location: [36.572737, -118.749511]
+location:
+  - 36.572737
+  - -118.749511
 photos:
   - src: 'https://reillybeacom.net/photos/shared/millipede/routes/usa/ca/sequoia_national_park/general_sherman_tree/IMG_9151.jpg'
     href: 'https://reillybeacom.net/photos/shared/millipede/routes/usa/ca/sequoia_national_park/general_sherman_tree/IMG_9151.jpg'

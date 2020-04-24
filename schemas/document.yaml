@@ -34,17 +34,15 @@ definitions:
     minProperties: 1
     additionalProperties: false
     properties:
-      relation:
+      relation: &osm_array
         oneOf:
           - type: number
           - type: array
             minItems: 1
             items:
               type: number
-      way:
-        type: number
-      node:
-        type: number
+      way: *osm_array
+      node: *osm_array
   photo: &photo
     type: object
     required:
@@ -78,14 +76,19 @@ definitions:
       minProperties: 1
       additionalProperties: false
       properties: &infrastructure_properties
-        name: *long_label
-        location: *location
+        show: *boolean
         osm: *osm
+        location: *location
+        name: *long_label
         photos:
           type: array
           minItems: 1
           maxItems: 3
           items: *photo
+        tags: &infrastructure_tags
+          type: object
+          minProperties: 1
+          additionalProperties: false
 required:
   - name
   - location
@@ -203,61 +206,73 @@ properties:
       <<: *infrastructure_items
       properties:
         <<: *infrastructure_properties
-        type:
-          type: string
-          pattern: ^(flush|pit)$
-        accessible: *boolean
+        tags:
+          <<: *infrastructure_tags
+          properties:
+            access: *short_label
+            disposal: *short_label
+            drinking_water: *short_label
+            position: *short_label
+            unisex: *short_label
+            wheelchair: *short_label
+            changing_table: *short_label
+            fee: *short_label
   water:
     <<: *infrastructure
     items:
       <<: *infrastructure_items
       properties:
         <<: *infrastructure_properties
-        type:
-          type: string
-          pattern: ^(natural|tap|drinking_fountain|well|pump)$
-        source:
-          type: string
-          pattern: ^(pipe|tank|river|dam|lake|spring)$
-        potable: *boolean
-        treated: *boolean
+        tags:
+          <<: *infrastructure_tags
+          properties:
+            type:
+              type: string
+              pattern: ^(natural|tap|drinking_fountain|well|pump)$
+            source:
+              type: string
+              pattern: ^(pipe|tank|river|dam|lake|spring)$
+            potable: *boolean
+            treated: *boolean
   transport:
     <<: *infrastructure
     items:
       <<: *infrastructure_items
       properties:
         <<: *infrastructure_properties
-        type:
-          type: string
-          pattern: ^(train|bus)$
+        tags:
+          <<: *infrastructure_tags
+          properties:
+            type: *short_label
+            network: *short_label
+            operator: *short_label
   parking:
     <<: *infrastructure
     items:
       <<: *infrastructure_items
       properties:
         <<: *infrastructure_properties
-        time_limit: *boolean
-        fee: *boolean
-        sealed_surface: *boolean
-  shelter:
+        tags:
+          <<: *infrastructure_tags
+          properties:
+            access: *short_label
+            capacity: *short_label
+            time_limit: *boolean
+            fee: *boolean
+            surface: *short_label
+            size: *short_label
+  shelter: *infrastructure
+  information:
     <<: *infrastructure
     items:
       <<: *infrastructure_items
       properties:
         <<: *infrastructure_properties
-        picnic_table: *boolean
-  park_office:
-    <<: *infrastructure
-    items:
-      <<: *infrastructure_items
-      properties:
-        <<: *infrastructure_properties
-  visitor_centre:
-    <<: *infrastructure
-    items:
-      <<: *infrastructure_items
-      properties:
-        <<: *infrastructure_properties
+        tags:
+          <<: *infrastructure_tags
+          properties:        
+            visitor_centre: *boolean
+            park_office: *boolean
   fees:
     type: array
     minItems: 1

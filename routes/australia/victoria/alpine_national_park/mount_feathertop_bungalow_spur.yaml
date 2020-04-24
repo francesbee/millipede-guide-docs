@@ -2,7 +2,9 @@ name: Bungalow Spur to Mount Feathertop
 park: Alpine National Park
 region: Victoria
 country: Australia
-location: [-36.891883, 147.073331]
+location:
+  - -36.891883
+  - 147.073331
 features:
   mountain_peak: true
 photos:

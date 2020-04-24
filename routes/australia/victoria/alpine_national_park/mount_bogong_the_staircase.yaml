@@ -2,7 +2,9 @@ name: The Staircase to Mount Bogong
 park: Alpine National Park
 region: Victoria
 country: Australia
-location: [-36.699996, 147.252466]
+location:
+  - -36.699996
+  - 147.252466
 features:
   mountain_peak: true
 photos:

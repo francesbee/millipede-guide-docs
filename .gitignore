@@ -1,2 +1,4 @@
 .DS_Store
 node_modules
+*.osm.base.geo.json
+*.osm.features.geo.json

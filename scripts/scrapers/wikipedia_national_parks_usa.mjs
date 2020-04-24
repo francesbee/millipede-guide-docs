@@ -1,14 +1,10 @@
-/* eslint-disable no-console */
-/* eslint-disable import/no-extraneous-dependencies */
-/* eslint-disable import/no-unresolved */
-
-const fs = require('fs');
-const cheerio = require('cheerio');
-const YAML = require('js-yaml');
-const _string = require('underscore.string');
-const path = require('path');
-const mkdirp = require('mkdirp').sync;
-const { get } = require('./get.js');
+import fs from 'fs';
+import cheerio from 'cheerio';
+import YAML from 'js-yaml';
+import slugify from 'underscore.string/slugify.js';
+import path from 'path';
+import mkdirp from 'mkdirp';
+import { get } from './get.mjs';
 
 const local = process.argv.indexOf('--fetch') === -1;
 
@@ -16,12 +12,12 @@ const sourceUrl = 'https://en.wikipedia.org/wiki/List_of_national_parks_of_the_U
 
 const country = 'USA';
 
-const dd = str => {
+const dd = (str) => {
     const b = str[str.length - 1];
     return (b === 'W' || b === 'S' ? -1 : 1) * parseFloat(str);
 };
 
-const run = html => {
+const run = (html) => {
     if (html === null) return;
     const $ = cheerio.load(html);
     $('.wikitable').each((tableIndex, table) => {
@@ -32,34 +28,15 @@ const run = html => {
                 const $cols = $(row).find($('th, td'));
 
                 if ($cols.length === 7) {
-                    const name = $cols
-                        .eq(0)
-                        .find('a')
-                        .attr('title');
-                    const href = $cols
-                        .eq(0)
-                        .find('a')
-                        .attr('href');
+                    const name = $cols.eq(0).find('a').attr('title');
+                    const href = $cols.eq(0).find('a').attr('href');
 
-                    const imgSrc = $cols
-                        .eq(1)
-                        .find('img')
-                        .attr('src');
-                    const imgHref = $cols
-                        .eq(1)
-                        .find('a.image')
-                        .attr('href');
+                    const imgSrc = $cols.eq(1).find('img').attr('src');
+                    const imgHref = $cols.eq(1).find('a.image').attr('href');
 
-                    const region = $cols
-                        .eq(2)
-                        .find('a')
-                        .first()
-                        .attr('title');
+                    const region = $cols.eq(2).find('a').first().attr('title');
 
-                    const ll = $cols
-                        .eq(2)
-                        .find('.geo-dec')
-                        .text();
+                    const ll = $cols.eq(2).find('.geo-dec').text();
                     const lat = dd(ll.split(' ')[0]);
                     const lon = dd(ll.split(' ')[1]);
 
@@ -67,9 +44,9 @@ const run = html => {
                         .eq(2)
                         .html()
                         .split('<br>')
-                        .map(s => cheerio.load(s).text())
-                        .map(s => s.trim())
-                        .map(s => parseInt(s, 10))
+                        .map((s) => cheerio.load(s).text())
+                        .map((s) => s.trim())
+                        .map((s) => parseInt(s, 10))
                         .filter(Number);
 
                     console.log(rowIndex, [name, region, lat, lon].join(', '));
@@ -78,13 +55,13 @@ const run = html => {
                         const fileDir = path.join(
                             'parks',
                             country.toLowerCase(),
-                            _string.slugify(region).replace(/[-]/g, '_'),
+                            slugify(region).replace(/[-]/g, '_'),
                         );
                         mkdirp(fileDir);
 
                         const filePath = path.join(
                             fileDir,
-                            `${_string.slugify(name).replace(/[-]/g, '_')}.yaml`,
+                            `${slugify(name).replace(/[-]/g, '_')}.yaml`,
                         );
                         console.log(filePath);
 
@@ -144,5 +121,5 @@ const run = html => {
 if (local) {
     run(fs.readFileSync('./scripts/scrapers/sources/wikipedia_national_parks_usa.html'));
 } else {
-    get(sourceUrl).then(html => run(html));
+    get(sourceUrl).then((html) => run(html));
 }

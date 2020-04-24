@@ -1,19 +1,17 @@
-/* eslint-disable no-console */
+import FS from 'fs';
+import Glob from 'glob';
+import YAML from 'js-yaml';
+import Path from 'path';
+import jsonschema from 'jsonschema';
 
-const FS = require('fs');
-const Glob = require('glob');
-const YAML = require('js-yaml');
-const Path = require('path');
-const { Validator } = require('jsonschema');
-
-const validator = new Validator();
+const validator = new jsonschema.Validator();
 let pass = true;
 
 const documentSchema = YAML.safeLoad(FS.readFileSync('./schemas/document.yaml'));
 const geoJsonSchema = JSON.parse(FS.readFileSync('./schemas/geo.json'));
 
-['attractions', 'campsites', 'parks', 'routes'].forEach(category => {
-    Glob.sync(`./${category}/**/*.*`).forEach(filePath => {
+['attractions', 'campsites', 'parks', 'routes'].forEach((category) => {
+    Glob.sync(`./${category}/**/*.*`).forEach((filePath) => {
         const ext = Path.extname(filePath);
         let schema = null;
         let content = null;
@@ -35,10 +33,14 @@ const geoJsonSchema = JSON.parse(FS.readFileSync('./schemas/geo.json'));
             } else {
                 pass = false;
                 console.log(`FAIL: ${filePath}`);
-                result.errors.forEach(e => console.log(' => ', e.stack));
+                result.errors.forEach((e) => console.log(' => ', e.stack));
             }
         }
     });
 });
 
-if (!pass) throw new Error('There were document validation errors!');
+if (pass) {
+    console.log('Validation passed OK.');
+} else {
+    throw new Error('Validation failed!');
+}

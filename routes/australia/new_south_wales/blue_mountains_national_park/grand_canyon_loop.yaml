@@ -2,12 +2,16 @@ name: Grand Canyon loop
 park: Blue Mountains National Park
 region: New South Wales
 country: Australia
-location: [-33.649444, 150.319752]
+location:
+  - -33.649444
+  - 150.319752
 nearest_town:
   name: Blackheath
-  location: [-33.635556, 150.283611]
+  location:
+    - -33.635556
+    - 150.283611
   links:
-    wikipedia: "https://en.wikipedia.org/wiki/Blackheath,_New_South_Wales"
+    wikipedia: 'https://en.wikipedia.org/wiki/Blackheath,_New_South_Wales'
 photos:
   - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/nsw/blue_mountains_national_park/grand_canyon_loop/IMG_4709.jpg'
     href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/nsw/blue_mountains_national_park/grand_canyon_loop/IMG_4709.jpg'
@@ -61,26 +65,38 @@ getting_there:
   sealed_road: true
 parking:
   - name: Evans Lookout
-    location: [-33.646618, 150.325067]
+    location:
+      - -33.646618
+      - 150.325067
     osm:
       way: 355963421
-    sealed_surface: true
+    tags:
+      surface: asphalt
   - name: Bus and RV
-    location: [-33.649135, 150.319797]
-    sealed_surface: false
+    location:
+      - -33.649135
+      - 150.319797
+    tags:
+      surface: asphalt
   - name: Neates Glen
-    location: [-33.6514579, 150.3145925]
+    location:
+      - -33.6514579
+      - 150.3145925
     osm:
       node: 2459173321
 toilets:
   - name: Evans Lookout
-    location: [-33.6466230, 150.3245870]
+    location:
+      - -33.646623
+      - 150.324587
     osm:
       node: 2619197951
   - name: Bus and RV Parking
-    location: [-33.6489, 150.32069]
+    location:
+      - -33.6489
+      - 150.32069
 links:
-  official: "https://www.nationalparks.nsw.gov.au/things-to-do/walking-tracks/grand-canyon-track"
+  official: 'https://www.nationalparks.nsw.gov.au/things-to-do/walking-tracks/grand-canyon-track'
 copyright:
   - Reilly Beacom
 license: CC BY-NC-SA 4.0

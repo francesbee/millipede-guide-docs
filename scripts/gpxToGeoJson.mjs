@@ -1,11 +1,9 @@
-/* eslint-disable no-console */
+import ToGeoJson from '@mapbox/togeojson';
+import FS from 'fs';
+import Glob from 'glob';
+import jsdom from 'jsdom';
 
-const ToGeoJson = require('@mapbox/togeojson');
-const FS = require('fs');
-const Glob = require('glob');
-const { DOMParser } = require('xmldom');
-
-Glob.sync('./**/*.gpx').forEach(inPath => {
+Glob.sync('./**/*.gpx').forEach((inPath) => {
     console.log(inPath);
     const outPath = inPath.replace('.gpx', '.geo.json');
     if (FS.existsSync(outPath)) {
@@ -13,8 +11,8 @@ Glob.sync('./**/*.gpx').forEach(inPath => {
     } else {
         console.log('  -> convert');
         const gpx = FS.readFileSync(inPath).toString();
-        const dom = new DOMParser().parseFromString(gpx);
-        const geoJSON = ToGeoJson.gpx(dom);
+        const document = new jsdom.JSDOM(gpx).window.document;
+        const geoJSON = ToGeoJson.gpx(document);
         FS.writeFileSync(outPath, JSON.stringify(geoJSON, null, 4));
     }
 });

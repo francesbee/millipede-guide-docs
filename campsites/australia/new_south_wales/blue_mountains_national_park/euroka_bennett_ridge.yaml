@@ -2,10 +2,14 @@ name: Bennetts Ridge - Euroka
 park: Blue Mountains National Park
 region: New South Wales
 country: Australia
-location: [-33.800874, 150.618716]
+location:
+  - -33.800874
+  - 150.618716
 nearest_town:
   name: Glenbrook
-  location: [-33.767126, 150.622493]
+  location:
+    - -33.767126
+    - 150.622493
 photos:
   - src: 'https://reillybeacom.net/photos/shared/millipede/campsites/australia/nsw/blue_mountains_national_park/euroka_bennetts_ridge/IMG_4448.jpg'
     href: 'https://reillybeacom.net/photos/shared/millipede/campsites/australia/nsw/blue_mountains_national_park/euroka_bennetts_ridge/IMG_4448.jpg'
@@ -58,7 +62,9 @@ getting_there:
   causeway: true
 parking:
   - name: Bennett Ridge Trail
-    location: [-33.80020, 150.61875]
+    location:
+      - -33.8002
+      - 150.61875
     osm:
       way: 48990761
     photos:
@@ -67,16 +73,19 @@ parking:
         attr: Reilly Beacom
         license: CC BY-NC-SA 4.0
 toilets:
-  - type: pit
-    accessible: true
-    location: [-33.80045, 150.61907]
+  - location:
+      - -33.80045
+      - 150.61907
     photos:
       - src: 'https://reillybeacom.net/photos/shared/millipede/campsites/australia/nsw/blue_mountains_national_park/euroka_bennetts_ridge/IMG_4451.jpg'
         href: 'https://reillybeacom.net/photos/shared/millipede/campsites/australia/nsw/blue_mountains_national_park/euroka_bennetts_ridge/IMG_4451.jpg'
         attr: Reilly Beacom
         license: CC BY-NC-SA 4.0
+    tags:
+      disposal: pit
+      wheelchair: 'yes'
 links:
-  official: "https://www.nationalparks.nsw.gov.au/camping-and-accommodation/campgrounds/euroka-campground"
+  official: 'https://www.nationalparks.nsw.gov.au/camping-and-accommodation/campgrounds/euroka-campground'
 copyright:
   - Reilly Beacom
 license: CC BY-NC-SA 4.0

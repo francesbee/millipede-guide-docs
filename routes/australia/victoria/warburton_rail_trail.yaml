@@ -4,6 +4,8 @@ country: Australia
 location:
   - -37.753793
   - 145.350056
+osm:
+  relation: 29695
 features:
   rail_trail: true
   walking: true
@@ -62,45 +64,77 @@ getting_there:
   public_transport: true
 water:
   - name: Lilydale
-    location: [-37.75163,145.35196]
+    location:
+      - -37.751632
+      - 145.351956
     osm:
       node: 3830479441
   - name: Mount Evelyn
-    location: [-37.78532,145.37924]
+    location:
+      - -37.785323
+      - 145.379244
     osm:
       node: 3820467500
   - name: Wandin North
-    location: [ -37.7775034, 145.4260410]
+    location:
+      - -37.777503
+      - 145.426041
     osm:
       node: 4730155678
-  - name: Woori Yallock
-    location: [-37.7751863, 145.5272882]
+  - name: Drink bottle refilling station
+    location:
+      - -37.775186
+      - 145.527288
     osm:
       node: 3820478324
   - name: Launching Place
-    location: [-37.7760890, 145.5865789]
+    location:
+      - -37.776089
+      - 145.586579
     osm:
       node: 3820480694
   - name: Wesburn
-    location: [-37.76418,145.64066]
+    location:
+      - -37.76418
+      - 145.64066
   - name: Warburton
-    location: [-37.75466,145.68845]
+    location:
+      - -37.754663
+      - 145.688452
     osm:
       node: 3820511186
+  - osm:
+      node: 2607766574
+    location:
+      - -37.752229
+      - 145.694214
+    show: false
+  - osm:
+      node: 3820511185
+    location:
+      - -37.753908
+      - 145.690364
+    show: false
 toilets:
   - name: Mount Evelyn
-    location: [-37.78473,145.37863]
+    location:
+      - -37.784722
+      - 145.378625
     osm:
       node: 2292079556
   - name: Woori Yallock
-    location: [-37.77598,145.52806]
+    location:
+      - -37.77598
+      - 145.52806
     photos:
       - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/victoria/warburton_rail_trail/infrastructure/IMG_5137.jpg'
         href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/victoria/warburton_rail_trail/infrastructure/IMG_5137.jpg'
         attr: Reilly Beacom
         license: CC BY-NC-SA 4.0
   - name: Yarra Junction Reserve
-    location: [-37.7813935, 145.6119294]
+    location:
+      - -37.781394
+      - 145.611929
     osm:
       node: 802008379
     photos:
@@ -109,20 +143,72 @@ toilets:
         attr: Reilly Beacom
         license: CC BY-NC-SA 4.0
   - name: Sawmill
-    location: [-37.7549049, 145.6538735]
+    location:
+      - -37.754905
+      - 145.653874
     osm:
       node: 835059499
   - name: Warburton Reserve
-    location: [-37.7525787, 145.6958579]
+    location:
+      - -37.752579
+      - 145.695858
     osm:
       node: 2449261651
+    tags:
+      access: 'yes'
+      wheelchair: 'yes'
+      unisex: 'yes'
+      drinking_water: 'yes'
+      disposal: flush
+      position: seated;urinal
+  - osm:
+      node: 846731849
+    location:
+      - -37.754136
+      - 145.684748
+    show: false
+  - osm:
+      node: 846788385
+    location:
+      - -37.753481
+      - 145.687825
+    tags:
+      access: 'yes'
+      changing_table: 'no'
+      fee: 'no'
+      disposal: flush
+      unisex: 'yes'
+    show: false
+  - osm:
+      node: 846788440
+    location:
+      - -37.75524
+      - 145.679678
+    tags:
+      access: 'yes'
+      wheelchair: 'yes'
+      disposal: flush
+      position: seated;urinal
+      unisex: 'yes'
+      drinking_water: 'yes'
+    show: false
+  - osm:
+      node: 6355897847
+    location:
+      - -37.782137
+      - 145.612566
+    show: false
 shelter:
   - name: Mount Evelyn
-    location: [-37.78523,145.37919]
+    location:
+      - -37.785221
+      - 145.379185
     osm:
       node: 3820467501
   - name: Woori Yallock
-    location: [-37.77517,145.52721]
+    location:
+      - -37.77516
+      - 145.527207
     osm:
       way: 556111181
     photos:
@@ -131,14 +217,18 @@ shelter:
         attr: Reilly Beacom
         license: CC BY-NC-SA 4.0
   - name: Wesburn
-    location: [-37.76418,145.64066]
+    location:
+      - -37.76418
+      - 145.64066
     photos:
       - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/victoria/warburton_rail_trail/infrastructure/IMG_5171.jpg'
         href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/victoria/warburton_rail_trail/infrastructure/IMG_5171.jpg'
         attr: Reilly Beacom
         license: CC BY-NC-SA 4.0
   - name: Warburton
-    location: [-37.75473,145.68843]
+    location:
+      - -37.754727
+      - 145.688437
     osm:
       way: 221339585
     photos:
@@ -146,27 +236,84 @@ shelter:
         href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/victoria/warburton_rail_trail/infrastructure/IMG_5181.jpg'
         attr: Reilly Beacom
         license: CC BY-NC-SA 4.0
+  - osm:
+      way: 71099827
+    location:
+      - -37.752206
+      - 145.694216
+    show: false
+  - osm:
+      node: 3820511187
+    location:
+      - -37.753921
+      - 145.690313
+    show: false
 transport:
-  - name: Lilydale Train Station
-    type: train
-    location: [-37.75567,145.34754]
+  - name: Lilydale
+    location:
+      - -37.75567
+      - 145.347548
     osm:
       node: 1763901262
+    tags:
+      network: PTV - Metropolitan Trains
+      operator: Metro Trains Melbourne
+      type: train
+  - osm:
+      node: 1228802713
+    location:
+      - -37.776867
+      - 145.602886
+    show: false
+  - osm:
+      node: 2292080865
+    location:
+      - -37.75472
+      - 145.667972
+    show: false
+  - osm:
+      node: 5759927128
+    location:
+      - -37.753998
+      - 145.688162
+    name: Warburton Memorial Park
+    show: false
+  - osm:
+      node: 6355907270
+    location:
+      - -37.77626
+      - 145.575975
+    show: false
 parking:
-  - name: Lilydale
-    location: [-37.76341,145.36534]
+  - name: Lilydale-Warburton Rail Trail Parking
+    location:
+      - -37.763421
+      - 145.365291
     osm:
       way: 49830522
+    tags:
+      size: small
+      surface: gravel
   - name: Mount Evelyn
-    location: [-37.78550,145.37901]
+    location:
+      - -37.785503
+      - 145.378966
     osm:
       way: 218056713
+    tags:
+      size: small
   - name: Wandin North
-    location: [-37.77727,145.42641]
+    location:
+      - -37.777283
+      - 145.426391
     osm:
       way: 239529961
+    tags:
+      size: small
   - name: Woori Yallock
-    location: [-37.77541,145.52767]
+    location:
+      - -37.775425
+      - 145.527674
     osm:
       way: 239526239
     photos:
@@ -174,19 +321,27 @@ parking:
         href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/victoria/warburton_rail_trail/infrastructure/IMG_5139.jpg'
         attr: Reilly Beacom
         license: CC BY-NC-SA 4.0
+    tags:
+      size: small
   - name: Yarra Junction Reserve
-    location: [-37.78122, 145.61284]
+    location:
+      - -37.781258
+      - 145.612576
     osm:
       way: 612125337
+    tags:
+      size: small
+      surface: asphalt
   - name: Sawmill
-    location: [-37.75470,145.65390]
+    location:
+      - -37.754699
+      - 145.6539
     osm:
       node: 835059504
   - name: Warburton
-    sealed_surface: true
-    time_limit: true
-    fee: false
-    location: [-37.75440,145.68871]
+    location:
+      - -37.754387
+      - 145.688704
     osm:
       way: 219201160
     photos:
@@ -198,10 +353,261 @@ parking:
         href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/victoria/warburton_rail_trail/infrastructure/IMG_5188.jpg'
         attr: Reilly Beacom
         license: CC BY-NC-SA 4.0
+    tags:
+      size: small
+      surface: asphalt
+      time_limit: true
+      fee: false
   - name: Warburton Reserve
-    location: [-37.75287,145.69583]
+    location:
+      - -37.75269
+      - 145.695646
     osm:
       way: 236970551
+    tags:
+      size: small
+  - osm:
+      way: 49891770
+    location:
+      - -37.754777
+      - 145.348813
+    name: Lilydale Station Parking
+    tags:
+      size: large
+    show: false
+  - osm:
+      way: 126481747
+    location:
+      - -37.757587
+      - 145.357254
+    name: KFC Parking
+    tags:
+      size: small
+    show: false
+  - osm:
+      way: 232018035
+    location:
+      - -37.748891
+      - 145.357931
+    tags:
+      size: small
+    show: false
+  - osm:
+      way: 239954935
+    location:
+      - -37.753236
+      - 145.689941
+    tags:
+      size: small
+    show: false
+  - osm:
+      way: 311387947
+    location:
+      - -37.754906
+      - 145.347786
+    tags:
+      size: small
+    show: false
+  - osm:
+      way: 312911027
+    location:
+      - -37.752884
+      - 145.689277
+    tags:
+      size: small
+    show: false
+  - osm:
+      way: 360013250
+    location:
+      - -37.754269
+      - 145.361849
+    tags:
+      size: small
+    show: false
+  - osm:
+      way: 431105958
+    location:
+      - -37.779204
+      - 145.606635
+    tags:
+      size: small
+    show: false
+  - osm:
+      way: 431105960
+    location:
+      - -37.779725
+      - 145.606804
+    tags:
+      size: small
+    show: false
+  - osm:
+      way: 454426932
+    location:
+      - -37.790055
+      - 145.388424
+    tags:
+      size: small
+    show: false
+  - osm:
+      way: 454426934
+    location:
+      - -37.79054
+      - 145.388589
+    tags:
+      size: small
+    show: false
+  - osm:
+      way: 454644118
+    location:
+      - -37.786253
+      - 145.381951
+    tags:
+      size: small
+    show: false
+  - osm:
+      way: 454644121
+    location:
+      - -37.786336
+      - 145.382374
+    tags:
+      size: small
+    show: false
+  - osm:
+      way: 454644122
+    location:
+      - -37.786387
+      - 145.382619
+    tags:
+      size: small
+    show: false
+  - osm:
+      way: 460854998
+    location:
+      - -37.755754
+      - 145.350655
+    tags:
+      size: small
+    show: false
+  - osm:
+      way: 460855000
+    location:
+      - -37.754982
+      - 145.351405
+    tags:
+      size: small
+    show: false
+  - osm:
+      way: 463189795
+    location:
+      - -37.771476
+      - 145.457329
+    tags:
+      size: small
+    show: false
+  - osm:
+      way: 611427376
+    location:
+      - -37.754272
+      - 145.679349
+    tags:
+      size: small
+      surface: gravel
+    show: false
+  - osm:
+      way: 612125334
+    location:
+      - -37.781099
+      - 145.610937
+    tags:
+      size: small
+      surface: asphalt
+    show: false
+  - osm:
+      way: 612125335
+    location:
+      - -37.782025
+      - 145.613177
+    tags:
+      size: medium
+      surface: asphalt
+    show: false
+  - osm:
+      way: 612125339
+    location:
+      - -37.780112
+      - 145.611625
+    tags:
+      size: small
+      surface: asphalt
+    show: false
+  - osm:
+      node: 802008380
+    location:
+      - -37.781306
+      - 145.612433
+    show: false
+  - osm:
+      node: 846731850
+    location:
+      - -37.753985
+      - 145.684184
+    show: false
+  - osm:
+      node: 846731918
+    location:
+      - -37.752501
+      - 145.690397
+    show: false
+  - osm:
+      node: 846788370
+    location:
+      - -37.752088
+      - 145.694345
+    show: false
+  - osm:
+      node: 846788395
+    location:
+      - -37.754248
+      - 145.686327
+    show: false
+  - osm:
+      node: 846788439
+    location:
+      - -37.754828
+      - 145.683413
+    show: false
+  - osm:
+      node: 846788441
+    location:
+      - -37.75501
+      - 145.679916
+    show: false
+  - osm:
+      node: 846788490
+    location:
+      - -37.752959
+      - 145.688285
+    show: false
+  - osm:
+      node: 907741214
+    location:
+      - -37.789127
+      - 145.38665
+    show: false
+  - osm:
+      node: 3820459317
+    location:
+      - -37.754897
+      - 145.351394
+    show: false
+  - osm:
+      node: 4118964978
+    location:
+      - -37.788185
+      - 145.386916
+    show: false
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Lilydale_to_Warburton_Rail_Trail'
 copyright:
   - Reilly Beacom
 license: CC BY-NC-SA 4.0
