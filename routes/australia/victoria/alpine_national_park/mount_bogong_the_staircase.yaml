@@ -142,7 +142,7 @@ natural:
       location:
         - -36.701564
         - 147.25905
-      show: true
+      show: false
 copyright:
   - Reilly Beacom
 license: CC BY-NC-SA 4.0
