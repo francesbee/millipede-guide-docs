@@ -49,49 +49,50 @@ getting_there:
   car: true
   sealed_road: true
   boat: true
-parking:
-  - name: Telegraph Saddle
-    location:
-      - -39.032695
-      - 146.35539
-    tags:
-      time_limit: false
-      fee: false
-  - name: 'Overnight Hikers Carpark, Tidal River (with shuttle bus to Telegraph Saddle)'
-    location:
-      - -39.030996
-      - 146.326805
-    tags:
-      time_limit: false
-      fee: false
-water:
-  - location:
-      - -39.022393
-      - 146.443883
-    osm:
-      node: 2857264122
-    tags:
-      type: tap
-      source: river
-      potable: true
-      treated: false
-toilets:
-  - location:
-      - -39.022872
-      - 146.443322
-    osm:
-      node: 312991693
-    tags:
-      disposal: pit
-  - location:
-      - -39.020852
-      - 146.4356785
-    osm:
-      node: 262793502
-    tags:
-      disposal: pit
 links:
   official: 'https://www.parks.vic.gov.au/places-to-see/sites/sealers-cove-hike-in-camping-area'
+infrastructure:
+  toilets:
+    - location:
+        - -39.022872
+        - 146.443322
+      osm:
+        node: 312991693
+      tags:
+        disposal: pit
+    - location:
+        - -39.020852
+        - 146.4356785
+      osm:
+        node: 262793502
+      tags:
+        disposal: pit
+  water:
+    - location:
+        - -39.022393
+        - 146.443883
+      osm:
+        node: 2857264122
+      tags:
+        type: tap
+        source: river
+        potable: true
+        treated: false
+  parking:
+    - name: Telegraph Saddle
+      location:
+        - -39.032695
+        - 146.35539
+      tags:
+        time_limit: false
+        fee: false
+    - name: 'Overnight Hikers Carpark, Tidal River (with shuttle bus to Telegraph Saddle)'
+      location:
+        - -39.030996
+        - 146.326805
+      tags:
+        time_limit: false
+        fee: false
 copyright:
   - Reilly Beacom
 license: CC BY-NC-SA 4.0

@@ -5,6 +5,17 @@ country: USA
 location:
   - 37.259024
   - -112.951122
+osm:
+  way:
+    - 319476866
+  relation:
+    - 7387173
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Angels_Landing'
+features:
+  viewpoint: true
+  mountain_peak: true
+  cliff_edges: true
 photos:
   - src: 'https://reillybeacom.net/photos/shared/millipede/routes/usa/ut/zion_national_park/angels_landing/IMG_9698.jpg'
     href: 'https://reillybeacom.net/photos/shared/millipede/routes/usa/ut/zion_national_park/angels_landing/IMG_9698.jpg'
@@ -54,6 +65,69 @@ photos:
     href: 'https://reillybeacom.net/photos/shared/millipede/routes/usa/ut/zion_national_park/angels_landing/IMG_9811.jpg'
     attr: Reilly Beacom
     license: CC BY-NC-SA 4.0
+natural:
+  viewpoint:
+    - osm:
+        node: 137813700
+      location:
+        - 37.26936
+        - -112.947857
+      show: true
+    - osm:
+        node: 4511586945
+      location:
+        - 37.274995
+        - -112.950447
+      name: Scout Lookout
+      show: true
+  moutain_peak:
+    - osm:
+        node: 356671932
+      location:
+        - 37.269315
+        - -112.94799
+      name: Angels Landing
+      show: true
+infrastructure:
+  toilets:
+    - osm:
+        node: 4511587940
+      location:
+        - 37.275234
+        - -112.950983
+      show: true
+    - osm:
+        node: 4962674821
+      location:
+        - 37.258746
+        - -112.950713
+      tags:
+        fee: 'no'
+        position: seated
+      show: true
+  water:
+    - osm:
+        node: 4962673020
+      location:
+        - 37.258771
+        - -112.950611
+      show: true
+  transport:
+    - osm:
+        node: 465620861
+      location:
+        - 37.25908
+        - -112.95084
+      name: The Grotto
+      show: true
+  information:
+    - osm:
+        way: 159431521
+      location:
+        - 37.20013
+        - -112.987004
+      name: Zion Canyon Visitor Center
+      show: true
 copyright:
   - Reilly Beacom
 license: CC BY-NC-SA 4.0

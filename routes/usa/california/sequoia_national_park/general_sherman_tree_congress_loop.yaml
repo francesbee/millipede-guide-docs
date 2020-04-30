@@ -5,6 +5,10 @@ country: USA
 location:
   - 36.572737
   - -118.749511
+osm:
+  way:
+    - 487180904
+    - 118956805
 photos:
   - src: 'https://reillybeacom.net/photos/shared/millipede/routes/usa/ca/sequoia_national_park/general_sherman_tree/IMG_9151.jpg'
     href: 'https://reillybeacom.net/photos/shared/millipede/routes/usa/ca/sequoia_national_park/general_sherman_tree/IMG_9151.jpg'
@@ -55,6 +59,117 @@ photos:
     href: 'https://reillybeacom.net/photos/shared/millipede/routes/usa/ca/sequoia_national_park/congress_trail/IMG_9387.jpg'
     attr: Reilly Beacom
     license: CC BY-NC-SA 4.0
+infrastructure:
+  toilets:
+    - osm:
+        way: 179758703
+      location:
+        - 36.584695
+        - -118.749595
+      tags:
+        access: 'yes'
+        fee: 'no'
+      show: true
+    - osm:
+        node: 3700503882
+      location:
+        - 36.580648
+        - -118.751745
+      show: true
+  water:
+    - osm:
+        node: 1902050463
+      location:
+        - 36.584716
+        - -118.749668
+      show: true
+    - osm:
+        node: 3700503883
+      location:
+        - 36.580533
+        - -118.751832
+      show: true
+  transport:
+    - osm:
+        node: 2377697340
+      location:
+        - 36.580549
+        - -118.751946
+      name: Sequoia Shuttle
+      show: true
+    - osm:
+        node: 3700503884
+      location:
+        - 36.584842
+        - -118.749759
+      name: Sequoia Shuttle
+      show: true
+  parking:
+    - osm:
+        way: 163159383
+      location:
+        - 36.585011
+        - -118.74978
+      tags:
+        size: small
+      primary: t
+      show: true
+    - osm:
+        way: 163159384
+      location:
+        - 36.5859
+        - -118.748353
+      name: RV Parking
+      tags:
+        size: small
+      show: true
+    - osm:
+        way: 163159387
+      location:
+        - 36.585231
+        - -118.749729
+      tags:
+        size: small
+      show: false
+    - osm:
+        way: 163224217
+      location:
+        - 36.580441
+        - -118.751851
+      name: General Sherman Tree Disabled Parking
+      tags:
+        size: small
+      show: true
+  information:
+    - osm:
+        way: 181002967
+      location:
+        - 36.604184
+        - -118.732029
+      name: Lodgepole Visitor Center
+      photos:
+        - src: 'https://live.staticflickr.com/6146/6014005236_1c6b530587_o_d.jpg'
+          href: 'https://www.flickr.com/photos/kycheng/6014005236'
+          attr: kycheng
+          license: CC BY-NC-SA 2.0
+      show: true
+    - osm:
+        way: 229138120
+      location:
+        - 36.564663
+        - -118.772761
+      name: Giant Forest Museum
+      photos:
+        - src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Giant_Forest_Muzeum_-_Sequoia_N.P._-_panoramio.jpg/1280px-Giant_Forest_Muzeum_-_Sequoia_N.P._-_panoramio.jpg'
+          href: 'https://commons.wikimedia.org/wiki/File:Giant_Forest_Muzeum_-_Sequoia_N.P._-_panoramio.jpg'
+          attr: Pavel Špindler
+          license: CC BY 3.0
+      links:
+        official: 'https://www.nps.gov/seki/learn/historyculture/gfgfm.htm'
+        wikipedia: 'https://en.wikipedia.org/wiki/Giant_Forest_Museum'
+      show: true
+features:
+  viewpoint: true
 copyright:
   - Reilly Beacom
 license: CC BY-NC-SA 4.0

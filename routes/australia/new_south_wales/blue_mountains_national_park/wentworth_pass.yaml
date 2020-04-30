@@ -3,8 +3,11 @@ park: Blue Mountains National Park
 region: New South Wales
 country: Australia
 location:
-  - -33.72779
-  - 150.37087
+  - -33.725593
+  - 150.369221
+osm:
+  way:
+    - 35028308
 nearest_town:
   name: Wentworth Falls
   location:
@@ -14,8 +17,10 @@ nearest_town:
     wikipedia: 'https://en.wikipedia.org/wiki/Wentworth_Falls%2C_New_South_Wales'
 features:
   waterfall: true
+  cliff_edges: true
+  viewpoint: true
   rainforest: true
-  stairs: true
+  steps: true
 accessibility:
   wheelchair: false
   stroller: false
@@ -68,30 +73,90 @@ photos:
     href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/nsw/blue_mountains_national_park/wentworth_pass/IMG_4601.jpg'
     attr: Reilly Beacom
     license: CC BY-NC-SA 4.0
-parking:
-  - location:
-      - -33.72513
-      - 150.36863
-    osm:
-      node: 243838453
-  - location:
-      - -33.72
-      - 150.36333
-    osm:
-      way: 692401163
-toilets:
-  - location:
-      - -33.7249744
-      - 150.3692618
-    osm:
-      node: 244314452
-  - location:
-      - -33.7199796
-      - 150.3629289
-    osm:
-      node: 250302984
 links:
   official: 'https://www.nationalparks.nsw.gov.au/things-to-do/walking-tracks/wentworth-pass-loop-walking-track'
+infrastructure:
+  toilets:
+    - location:
+        - -33.7249744
+        - 150.3692618
+      osm:
+        node: 244314452
+    - location:
+        - -33.7199796
+        - 150.3629289
+      osm:
+        node: 250302984
+  parking:
+    - location:
+        - -33.72513
+        - 150.36863
+      osm:
+        node: 243838453
+    - location:
+        - -33.72
+        - 150.36333
+      osm:
+        way: 692401163
+  information:
+    - osm:
+        way: 169174221
+      location:
+        - -33.732079
+        - 150.312582
+      name: Katoomba Tourist Information Centre
+      show: true
+    - osm:
+        way: 447951525
+      location:
+        - -33.724572
+        - 150.329633
+      name: Leuralla NSW Toy & Railway Museum
+      show: false
+    - osm:
+        node: 3479937781
+      location:
+        - -33.714221
+        - 150.333262
+      name: Treasured Teapot Museum
+      show: false
+    - osm:
+        node: 4353240933
+      location:
+        - -33.697852
+        - 150.373498
+      name: Tarella Cottage And Research Centre
+      show: false
+natural:
+  waterfall:
+    - osm:
+        node: 247038569
+      location:
+        - -33.722772
+        - 150.360275
+      name: Brittania Falls
+      show: true
+    - osm:
+        node: 247038576
+      location:
+        - -33.723056
+        - 150.360339
+      name: Red Rock Falls
+      show: true
+    - osm:
+        node: 247038705
+      location:
+        - -33.72802
+        - 150.374259
+      name: Upper Wentworth Falls
+      show: true
+    - osm:
+        node: 247038708
+      location:
+        - -33.727933
+        - 150.373078
+      name: Lower Wentworth Falls
+      show: true
 copyright:
   - Reilly Beacom
 license: CC BY-NC-SA 4.0

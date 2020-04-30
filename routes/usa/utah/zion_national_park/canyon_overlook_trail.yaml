@@ -5,6 +5,11 @@ country: USA
 location:
   - 37.213368
   - -112.940694
+osm:
+  way:
+    - 388764244
+    - 14326769
+    - 144445190
 photos:
   - src: 'https://reillybeacom.net/photos/shared/millipede/routes/usa/ut/zion_national_park/canyon_overlook_trail/IMG_9857.jpg'
     href: 'https://reillybeacom.net/photos/shared/millipede/routes/usa/ut/zion_national_park/canyon_overlook_trail/IMG_9857.jpg'
@@ -26,6 +31,59 @@ photos:
     href: 'https://reillybeacom.net/photos/shared/millipede/routes/usa/ut/zion_national_park/canyon_overlook_trail/IMG_9851.jpg'
     attr: Reilly Beacom
     license: CC BY-NC-SA 4.0
+features:
+  steps: true
+  viewpoint: true
+  cliff_edges: true
+infrastructure:
+  toilets:
+    - osm:
+        node: 3109750338
+      location:
+        - 37.213186
+        - -112.94031
+      show: true
+  parking:
+    - osm:
+        way: 388764246
+      location:
+        - 37.21331
+        - -112.940485
+      name: Zion Canyon Overlook
+      tags:
+        size: small
+      show: true
+    - osm:
+        way: 388764251
+      location:
+        - 37.214695
+        - -112.939638
+      tags:
+        size: small
+      show: true
+    - osm:
+        node: 5235867894
+      location:
+        - 37.214782
+        - -112.939418
+      show: false
+  information:
+    - osm:
+        way: 159431521
+      location:
+        - 37.20013
+        - -112.987004
+      name: Zion Canyon Visitor Center
+      show: true
+natural:
+  viewpoint:
+    - osm:
+        node: 1579907364
+      location:
+        - 37.213238
+        - -112.94599
+      name: Pine Creek Canyon
+      show: true
 copyright:
   - Reilly Beacom
 license: CC BY-NC-SA 4.0

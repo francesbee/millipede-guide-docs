@@ -5,6 +5,9 @@ country: USA
 location:
   - 37.251175
   - -112.957349
+osm:
+  relation:
+    - 6019762
 photos:
   - src: 'https://reillybeacom.net/photos/shared/millipede/routes/usa/ut/zion_national_park/lower_emerald_pool/IMG_9690.jpg'
     href: 'https://reillybeacom.net/photos/shared/millipede/routes/usa/ut/zion_national_park/lower_emerald_pool/IMG_9690.jpg'
@@ -22,6 +25,54 @@ photos:
     href: 'https://reillybeacom.net/photos/shared/millipede/routes/usa/ut/zion_national_park/lower_emerald_pool/IMG_9694.jpg'
     attr: Reilly Beacom
     license: CC BY-NC-SA 4.0
+features:
+  cliff_edges: true
+infrastructure:
+  information:
+    - osm:
+        way: 159431521
+      location:
+        - 37.20013
+        - -112.987004
+      name: Zion Canyon Visitor Center
+      show: true
+  parking:
+    - osm:
+        way: 539908447
+      location:
+        - 37.250626
+        - -112.958314
+      name: Emerald Pools
+      tags:
+        surface: asphalt
+        access: customers
+      show: true
+    - osm:
+        way: 539908483
+      location:
+        - 37.25076
+        - -112.957224
+      tags:
+        surface: asphalt
+        access: customers
+      show: false
+    - osm:
+        way: 539908484
+      location:
+        - 37.2497
+        - -112.957284
+      tags:
+        surface: asphalt
+        access: customers
+      show: false
+  transport:
+    - osm:
+        node: 699226480
+      location:
+        - 37.252473
+        - -112.95613
+      name: Zion Lodge
+      show: true
 copyright:
   - Reilly Beacom
 license: CC BY-NC-SA 4.0

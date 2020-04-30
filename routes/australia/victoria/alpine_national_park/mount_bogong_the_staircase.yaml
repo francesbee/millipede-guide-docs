@@ -5,13 +5,20 @@ country: Australia
 location:
   - -36.699996
   - 147.252466
+osm:
+  way:
+    - 47410922
+    - 47413083
+    - 47412984
+    - 744318835
+links:
+  wikipedia: 'https://en.wikipedia.org/wiki/Mount_Bogong'
 features:
   mountain_peak: true
+  water_crossing: true
+  cliff_edges: true
+  steps: false
 photos:
-  - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/vic/alpine_national_park/mt_bogong/IMG_6189.jpg'
-    href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/vic/alpine_national_park/mt_bogong/IMG_6189.jpg'
-    attr: Reilly Beacom
-    license: CC BY-NC-SA 4.0
   - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/vic/alpine_national_park/mt_bogong/IMG_6177.jpg'
     href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/vic/alpine_national_park/mt_bogong/IMG_6177.jpg'
     attr: Reilly Beacom
@@ -24,6 +31,11 @@ photos:
     href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/vic/alpine_national_park/mt_bogong/IMG_6187.jpg'
     attr: Reilly Beacom
     license: CC BY-NC-SA 4.0
+  - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/vic/alpine_national_park/mt_bogong/IMG_6189.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/vic/alpine_national_park/mt_bogong/IMG_6189.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+    feature: t
   - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/vic/alpine_national_park/mt_bogong/IMG_6198.jpg'
     href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/vic/alpine_national_park/mt_bogong/IMG_6198.jpg'
     attr: Reilly Beacom
@@ -32,6 +44,105 @@ photos:
     href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/vic/alpine_national_park/mt_bogong/IMG_6215.jpg'
     attr: Reilly Beacom
     license: CC BY-NC-SA 4.0
+infrastructure:
+  toilets:
+    - osm:
+        node: 603435288
+      location:
+        - -36.700192
+        - 147.252484
+      show: true
+    - osm:
+        node: 958086079
+      location:
+        - -36.713603
+        - 147.294944
+      tags:
+        access: public
+        disposal: pitlatrine
+        unisex: 'yes'
+      show: true
+  parking:
+    - osm:
+        way: 47345137
+      location:
+        - -36.699965
+        - 147.252221
+      tags:
+        size: small
+        surface: unpaved
+      show: true
+    - osm:
+        way: 47345138
+      location:
+        - -36.699955
+        - 147.252425
+      tags:
+        size: small
+        surface: unpaved
+      show: true
+    - osm:
+        way: 47345139
+      location:
+        - -36.699921
+        - 147.25281
+      tags:
+        size: small
+        surface: unpaved
+      show: true
+    - osm:
+        way: 630077435
+      location:
+        - -36.699978
+        - 147.252825
+      tags:
+        size: small
+        surface: unpaved
+      show: false
+    - osm:
+        node: 7005583949
+      location:
+        - -36.699775
+        - 147.271209
+      show: false
+  shelter:
+    - osm:
+        way: 44709242
+      location:
+        - -36.71374
+        - 147.295086
+      name: Bivouac Hut
+      show: true
+    - osm:
+        node: 4583441556
+      location:
+        - -36.71375
+        - 147.295089
+      name: Bivouac Hut
+      show: false
+  information:
+    - osm:
+        node: 602523492
+      location:
+        - -36.74176
+        - 147.165416
+      show: false
+natural:
+  moutain_peak:
+    - osm:
+        node: 603443998
+      location:
+        - -36.732374
+        - 147.305826
+      name: Mount Bogong
+      show: true
+  water_crossing:
+    - osm:
+        node: 5090759700
+      location:
+        - -36.701564
+        - 147.25905
+      show: true
 copyright:
   - Reilly Beacom
 license: CC BY-NC-SA 4.0

@@ -5,6 +5,9 @@ country: USA
 location:
   - 37.285208
   - -112.947648
+osm:
+  way:
+    - 14326787
 photos:
   - src: 'https://reillybeacom.net/photos/shared/millipede/routes/usa/ut/zion_national_park/the_narrows/IMG_9658.jpg'
     href: 'https://reillybeacom.net/photos/shared/millipede/routes/usa/ut/zion_national_park/the_narrows/IMG_9658.jpg'
@@ -46,6 +49,8 @@ photos:
     href: 'https://reillybeacom.net/photos/shared/millipede/routes/usa/ut/zion_national_park/the_narrows/IMG_9677.jpg'
     attr: Reilly Beacom
     license: CC BY-NC-SA 4.0
+features:
+  cliff_edges: false
 copyright:
   - Reilly Beacom
 license: CC BY-NC-SA 4.0

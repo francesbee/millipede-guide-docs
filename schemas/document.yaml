@@ -77,9 +77,13 @@ definitions:
       additionalProperties: false
       properties: &infrastructure_properties
         show: *boolean
+        primary:
+          type: string
+          pattern: ^t$
         osm: *osm
         location: *location
         name: *long_label
+        links: *links
         photos:
           type: array
           minItems: 1
@@ -132,7 +136,7 @@ properties:
       waterfall: *boolean
       canyon: *boolean
       cliff_edges: *boolean
-      stairs: *boolean
+      steps: *boolean
       walking: *boolean
       cycling: *boolean
       mountain_biking: *boolean
@@ -141,7 +145,7 @@ properties:
       water_crossing: *boolean
       water_crossing_with_stepping_stones: *boolean
       loop: *boolean
-      lookout: *boolean
+      viewpoint: *boolean
       tree_fall_risk: *boolean
       allocated_campsites: *boolean
       showers: *boolean
@@ -200,79 +204,97 @@ properties:
       mountain_bike: *boolean
       road_bicycle: *boolean
       boat: *boolean
-  toilets:
-    <<: *infrastructure
-    items:
-      <<: *infrastructure_items
-      properties:
-        <<: *infrastructure_properties
-        tags:
-          <<: *infrastructure_tags
+  natural:  
+    type: object
+    minProperties: 1
+    additionalProperties: false
+    properties:
+      viewpoint:
+        <<: *infrastructure
+      moutain_peak:
+        <<: *infrastructure
+      waterfall:
+        <<: *infrastructure
+      water_crossing:
+        <<: *infrastructure
+  infrastructure:
+    type: object
+    minProperties: 1
+    additionalProperties: false
+    properties:
+      toilets:
+        <<: *infrastructure
+        items:
+          <<: *infrastructure_items
           properties:
-            access: *short_label
-            disposal: *short_label
-            drinking_water: *short_label
-            position: *short_label
-            unisex: *short_label
-            wheelchair: *short_label
-            changing_table: *short_label
-            fee: *short_label
-  water:
-    <<: *infrastructure
-    items:
-      <<: *infrastructure_items
-      properties:
-        <<: *infrastructure_properties
-        tags:
-          <<: *infrastructure_tags
+            <<: *infrastructure_properties
+            tags:
+              <<: *infrastructure_tags
+              properties:
+                access: *short_label
+                disposal: *short_label
+                drinking_water: *short_label
+                position: *short_label
+                unisex: *short_label
+                wheelchair: *short_label
+                changing_table: *short_label
+                fee: *short_label
+      water:
+        <<: *infrastructure
+        items:
+          <<: *infrastructure_items
           properties:
-            type:
-              type: string
-              pattern: ^(natural|tap|drinking_fountain|well|pump)$
-            source:
-              type: string
-              pattern: ^(pipe|tank|river|dam|lake|spring)$
-            potable: *boolean
-            treated: *boolean
-  transport:
-    <<: *infrastructure
-    items:
-      <<: *infrastructure_items
-      properties:
-        <<: *infrastructure_properties
-        tags:
-          <<: *infrastructure_tags
+            <<: *infrastructure_properties
+            tags:
+              <<: *infrastructure_tags
+              properties:
+                type:
+                  type: string
+                  pattern: ^(natural|tap|drinking_fountain|well|pump)$
+                source:
+                  type: string
+                  pattern: ^(pipe|tank|river|dam|lake|spring)$
+                potable: *boolean
+                treated: *boolean
+      transport:
+        <<: *infrastructure
+        items:
+          <<: *infrastructure_items
           properties:
-            type: *short_label
-            network: *short_label
-            operator: *short_label
-  parking:
-    <<: *infrastructure
-    items:
-      <<: *infrastructure_items
-      properties:
-        <<: *infrastructure_properties
-        tags:
-          <<: *infrastructure_tags
+            <<: *infrastructure_properties
+            tags:
+              <<: *infrastructure_tags
+              properties:
+                type: *short_label
+                network: *short_label
+                operator: *short_label
+      parking:
+        <<: *infrastructure
+        items:
+          <<: *infrastructure_items
           properties:
-            access: *short_label
-            capacity: *short_label
-            time_limit: *boolean
-            fee: *boolean
-            surface: *short_label
-            size: *short_label
-  shelter: *infrastructure
-  information:
-    <<: *infrastructure
-    items:
-      <<: *infrastructure_items
-      properties:
-        <<: *infrastructure_properties
-        tags:
-          <<: *infrastructure_tags
-          properties:        
-            visitor_centre: *boolean
-            park_office: *boolean
+            <<: *infrastructure_properties
+            tags:
+              <<: *infrastructure_tags
+              properties:
+                access: *short_label
+                capacity: *short_label
+                time_limit: *boolean
+                fee: *boolean
+                surface: *short_label
+                size: *short_label
+      shelter: *infrastructure
+      information:
+        <<: *infrastructure
+        items:
+          <<: *infrastructure_items
+          properties:
+            <<: *infrastructure_properties
+            tags:
+              <<: *infrastructure_tags
+              properties:        
+                visitor_centre: *boolean
+                park_office: *boolean
   fees:
     type: array
     minItems: 1

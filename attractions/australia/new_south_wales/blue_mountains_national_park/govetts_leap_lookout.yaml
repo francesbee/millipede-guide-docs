@@ -27,29 +27,30 @@ photos:
     license: CC BY-NC-SA 4.0
 features:
   waterfall: true
-  lookout: true
+  viewpoint: true
 accessibility:
   wheelchair: true
   stroller: true
 getting_there:
   car: true
   sealed_road: true
-parking:
-  - name: Govetts Leap
-    location:
-      - -33.62817
-      - 150.31124
-    osm:
-      way: 355963424
-toilets:
-  - location:
-      - -33.6280155
-      - 150.3110319
-    osm:
-      node: 2484527967
 links:
   official: 'https://www.nationalparks.nsw.gov.au/things-to-do/lookouts/govetts-leap-lookout'
   wikipedia: 'https://en.wikipedia.org/wiki/Govetts_Leap_Falls'
+infrastructure:
+  toilets:
+    - location:
+        - -33.6280155
+        - 150.3110319
+      osm:
+        node: 2484527967
+  parking:
+    - name: Govetts Leap
+      location:
+        - -33.62817
+        - 150.31124
+      osm:
+        way: 355963424
 copyright:
   - Reilly Beacom
 license: CC BY-NC-SA 4.0

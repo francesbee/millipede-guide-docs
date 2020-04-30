@@ -5,11 +5,13 @@ country: USA
 location:
   - 36.79369530311438
   - -118.598429641929
+osm:
+  way:
+    - 239145699
+    - 239146220
+    - 239146215
+    - 239146365
 photos:
-  - src: 'https://reillybeacom.net/photos/shared/millipede/routes/usa/ca/kings_canyon_national_park/zumwalt_meadow/IMG_9273.jpg'
-    href: 'https://reillybeacom.net/photos/shared/millipede/routes/usa/ca/kings_canyon_national_park/zumwalt_meadow/IMG_9273.jpg'
-    attr: Reilly Beacom
-    license: CC BY-NC-SA 4.0
   - src: 'https://reillybeacom.net/photos/shared/millipede/routes/usa/ca/kings_canyon_national_park/zumwalt_meadow/IMG_9256.jpg'
     href: 'https://reillybeacom.net/photos/shared/millipede/routes/usa/ca/kings_canyon_national_park/zumwalt_meadow/IMG_9256.jpg'
     attr: Reilly Beacom
@@ -22,6 +24,11 @@ photos:
     href: 'https://reillybeacom.net/photos/shared/millipede/routes/usa/ca/kings_canyon_national_park/zumwalt_meadow/IMG_9263.jpg'
     attr: Reilly Beacom
     license: CC BY-NC-SA 4.0
+  - src: 'https://reillybeacom.net/photos/shared/millipede/routes/usa/ca/kings_canyon_national_park/zumwalt_meadow/IMG_9273.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/routes/usa/ca/kings_canyon_national_park/zumwalt_meadow/IMG_9273.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
+    feature: t
   - src: 'https://reillybeacom.net/photos/shared/millipede/routes/usa/ca/kings_canyon_national_park/zumwalt_meadow/IMG_9281.jpg'
     href: 'https://reillybeacom.net/photos/shared/millipede/routes/usa/ca/kings_canyon_national_park/zumwalt_meadow/IMG_9281.jpg'
     attr: Reilly Beacom
@@ -30,6 +37,34 @@ photos:
     href: 'https://reillybeacom.net/photos/shared/millipede/routes/usa/ca/kings_canyon_national_park/zumwalt_meadow/IMG_9282.jpg'
     attr: Reilly Beacom
     license: CC BY-NC-SA 4.0
+infrastructure:
+  toilets:
+    - osm:
+        way: 707542067
+      location:
+        - 36.793788
+        - -118.598142
+      tags:
+        fee: 'no'
+        disposal: pitlatrine
+      show: true
+  parking:
+    - osm:
+        way: 302764635
+      location:
+        - 36.793705
+        - -118.598338
+      tags:
+        size: small
+      show: true
+  information:
+    - osm:
+        way: 279697028
+      location:
+        - 36.794734
+        - -118.582749
+      name: Roads End Permit Station
+      show: true
 copyright:
   - Reilly Beacom
 license: CC BY-NC-SA 4.0

@@ -30,139 +30,140 @@ photos:
     href: 'https://commons.wikimedia.org/wiki/File:Lysterfield_Lake.JPG'
     attr: Kaiser909
     license: CC BY-3.0
-parking:
-  - osm:
-      way: 11217998
-    location:
-      - -37.954633
-      - 145.283244
-    tags:
-      size: medium
-      surface: gravel
-      access: designated
-    show: false
-  - osm:
-      way: 37722945
-    location:
-      - -37.96512
-      - 145.301691
-    tags:
-      size: small
-    show: true
-  - osm:
-      way: 37722950
-    location:
-      - -37.970526
-      - 145.301018
-    tags:
-      size: small
-    show: false
-  - osm:
-      way: 37722953
-    location:
-      - -37.965732
-      - 145.302539
-    name: Spotted Gum Car Park
-    tags:
-      size: small
-    show: true
-  - osm:
-      way: 48389292
-    location:
-      - -37.966857
-      - 145.302338
-    tags:
-      size: medium
-    show: true
-  - osm:
-      way: 167015453
-    location:
-      - -37.951937
-      - 145.281945
-    tags:
-      size: small
-    show: false
-  - osm:
-      way: 179736848
-    location:
-      - -37.965753
-      - 145.303961
-    name: 24hr Car Park
-    tags:
-      size: small
-      capacity: '15'
-    show: false
-  - osm:
-      way: 764496141
-    location:
-      - -37.934582
-      - 145.298852
-    tags:
-      size: small
-    show: false
-  - osm:
-      way: 764496142
-    location:
-      - -37.934438
-      - 145.299151
-    tags:
-      size: small
-    show: false
-  - osm:
-      node: 99717983
-    location:
-      - -37.955003
-      - 145.283491
-    tags:
-      capacity: '25'
-    show: false
-  - osm:
-      node: 1040026223
-    location:
-      - -37.971969
-      - 145.293181
-    tags:
-      capacity: '5'
-    show: false
-  - osm:
-      node: 3487892647
-    location:
-      - -37.970601
-      - 145.301081
-    show: false
-toilets:
-  - osm:
-      node: 678444685
-    location:
-      - -37.954349
-      - 145.283476
-    show: true
-  - osm:
-      node: 812733168
-    location:
-      - -37.966389
-      - 145.301322
-    show: true
-  - osm:
-      node: 1901714591
-    location:
-      - -37.969721
-      - 145.30102
-    show: true
-shelter:
-  - osm:
-      node: 1901723781
-    location:
-      - -37.971704
-      - 145.298783
-    show: true
-water:
-  - osm:
-      node: 3487892637
-    location:
-      - -37.96646
-      - 145.301535
-    show: true
+infrastructure:
+  toilets:
+    - osm:
+        node: 678444685
+      location:
+        - -37.954349
+        - 145.283476
+      show: true
+    - osm:
+        node: 812733168
+      location:
+        - -37.966389
+        - 145.301322
+      show: true
+    - osm:
+        node: 1901714591
+      location:
+        - -37.969721
+        - 145.30102
+      show: true
+  water:
+    - osm:
+        node: 3487892637
+      location:
+        - -37.96646
+        - 145.301535
+      show: true
+  parking:
+    - osm:
+        way: 11217998
+      location:
+        - -37.954633
+        - 145.283244
+      tags:
+        size: medium
+        surface: gravel
+        access: designated
+      show: false
+    - osm:
+        way: 37722945
+      location:
+        - -37.96512
+        - 145.301691
+      tags:
+        size: small
+      show: true
+    - osm:
+        way: 37722950
+      location:
+        - -37.970526
+        - 145.301018
+      tags:
+        size: small
+      show: false
+    - osm:
+        way: 37722953
+      location:
+        - -37.965732
+        - 145.302539
+      name: Spotted Gum Car Park
+      tags:
+        size: small
+      show: true
+    - osm:
+        way: 48389292
+      location:
+        - -37.966857
+        - 145.302338
+      tags:
+        size: medium
+      show: true
+    - osm:
+        way: 167015453
+      location:
+        - -37.951937
+        - 145.281945
+      tags:
+        size: small
+      show: false
+    - osm:
+        way: 179736848
+      location:
+        - -37.965753
+        - 145.303961
+      name: 24hr Car Park
+      tags:
+        size: small
+        capacity: '15'
+      show: false
+    - osm:
+        way: 764496141
+      location:
+        - -37.934582
+        - 145.298852
+      tags:
+        size: small
+      show: false
+    - osm:
+        way: 764496142
+      location:
+        - -37.934438
+        - 145.299151
+      tags:
+        size: small
+      show: false
+    - osm:
+        node: 99717983
+      location:
+        - -37.955003
+        - 145.283491
+      tags:
+        capacity: '25'
+      show: false
+    - osm:
+        node: 1040026223
+      location:
+        - -37.971969
+        - 145.293181
+      tags:
+        capacity: '5'
+      show: false
+    - osm:
+        node: 3487892647
+      location:
+        - -37.970601
+        - 145.301081
+      show: false
+  shelter:
+    - osm:
+        node: 1901723781
+      location:
+        - -37.971704
+        - 145.298783
+      show: true
 copyright:
   - Reilly Beacom
 license: CC BY-NC-SA 4.0

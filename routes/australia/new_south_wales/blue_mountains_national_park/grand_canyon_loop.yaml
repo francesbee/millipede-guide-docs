@@ -5,6 +5,9 @@ country: Australia
 location:
   - -33.649444
   - 150.319752
+osm:
+  way:
+    - 185219008
 nearest_town:
   name: Blackheath
   location:
@@ -46,16 +49,18 @@ photos:
     attr: Reilly Beacom
     license: CC BY-NC-SA 4.0
 features:
+  viewpoint: true
+  waterfall: true
+  water_crossing: true
+  cliff_edges: true
   rainforest: true
   canyon: true
-  cliff_edges: true
-  stairs: true
   mountain_biking: false
   slippery: true
   flood_risk: true
   water_crossing_with_stepping_stones: true
   loop: true
-  lookout: true
+  steps: true
 accessibility:
   wheelchair: false
   stroller: false
@@ -63,40 +68,110 @@ getting_there:
   public_transport: true
   car: true
   sealed_road: true
-parking:
-  - name: Evans Lookout
-    location:
-      - -33.646618
-      - 150.325067
-    osm:
-      way: 355963421
-    tags:
-      surface: asphalt
-  - name: Bus and RV
-    location:
-      - -33.649135
-      - 150.319797
-    tags:
-      surface: asphalt
-  - name: Neates Glen
-    location:
-      - -33.6514579
-      - 150.3145925
-    osm:
-      node: 2459173321
-toilets:
-  - name: Evans Lookout
-    location:
-      - -33.646623
-      - 150.324587
-    osm:
-      node: 2619197951
-  - name: Bus and RV Parking
-    location:
-      - -33.6489
-      - 150.32069
 links:
   official: 'https://www.nationalparks.nsw.gov.au/things-to-do/walking-tracks/grand-canyon-track'
+infrastructure:
+  toilets:
+    - name: Evans Lookout
+      location:
+        - -33.646623
+        - 150.324587
+      osm:
+        node: 2619197951
+      tags:
+        drinking_water: 'no'
+    - name: Bus and RV Parking
+      location:
+        - -33.6489
+        - 150.32069
+    - osm:
+        node: 2619197950
+      location:
+        - -33.646628
+        - 150.324528
+      tags:
+        drinking_water: 'no'
+      show: false
+  parking:
+    - name: Evans lookout parking
+      location:
+        - -33.646582
+        - 150.325148
+      osm:
+        way: 355963421
+      tags:
+        surface: asphalt
+        size: small
+    - name: Bus and RV
+      location:
+        - -33.649135
+        - 150.319797
+      tags:
+        surface: asphalt
+    - name: Neates Glen Carpark
+      location:
+        - -33.651458
+        - 150.314593
+      osm:
+        node: 2459173321
+  information:
+    - osm:
+        way: 169174221
+      location:
+        - -33.732079
+        - 150.312582
+      name: Katoomba Tourist Information Centre
+      show: true
+    - osm:
+        way: 355963432
+      location:
+        - -33.630613
+        - 150.306645
+      name: Blue Mountains Heritage Centre
+      show: true
+  shelter:
+    - osm:
+        node: 2763957231
+      location:
+        - -33.646952
+        - 150.326187
+      show: true
+natural:
+  viewpoint:
+    - osm:
+        node: 263853747
+      location:
+        - -33.646814
+        - 150.326314
+      name: Evans Lookout (Upper)
+      show: true
+    - osm:
+        node: 410054390
+      location:
+        - -33.647077
+        - 150.326516
+      name: Evans Lookout (Lower)
+      show: true
+    - osm:
+        node: 1053650554
+      location:
+        - -33.657573
+        - 150.324088
+      show: true
+  water_crossing:
+    - osm:
+        node: 2459173325
+      location:
+        - -33.655733
+        - 150.325822
+      show: true
+  waterfall:
+    - osm:
+        node: 3614676914
+      location:
+        - -33.658698
+        - 150.315238
+      show: true
 copyright:
   - Reilly Beacom
 license: CC BY-NC-SA 4.0

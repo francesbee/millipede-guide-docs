@@ -5,13 +5,15 @@ country: Australia
 location:
   - -36.891883
   - 147.073331
+osm:
+  way:
+    - 255766108
+    - 56259114
+    - 41412957
 features:
+  viewpoint: true
   mountain_peak: true
 photos:
-  - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/vic/alpine_national_park/mt_feathertop_bungalow_spur/IMG_6403.jpg'
-    href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/vic/alpine_national_park/mt_feathertop_bungalow_spur/IMG_6403.jpg'
-    attr: Reilly Beacom
-    license: CC BY-NC-SA 4.0
   - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/vic/alpine_national_park/mt_feathertop_bungalow_spur/IMG_2580.jpg'
     href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/vic/alpine_national_park/mt_feathertop_bungalow_spur/IMG_2580.jpg'
     attr: Reilly Beacom
@@ -32,6 +34,10 @@ photos:
     href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/vic/alpine_national_park/mt_feathertop_bungalow_spur/IMG_6402.jpg'
     attr: Reilly Beacom
     license: CC BY-NC-SA 4.0
+  - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/vic/alpine_national_park/mt_feathertop_bungalow_spur/IMG_6403.jpg'
+    href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/vic/alpine_national_park/mt_feathertop_bungalow_spur/IMG_6403.jpg'
+    attr: Reilly Beacom
+    license: CC BY-NC-SA 4.0
   - src: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/vic/alpine_national_park/mt_feathertop_bungalow_spur/IMG_6406.jpg'
     href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/vic/alpine_national_park/mt_feathertop_bungalow_spur/IMG_6406.jpg'
     attr: Reilly Beacom
@@ -44,6 +50,91 @@ photos:
     href: 'https://reillybeacom.net/photos/shared/millipede/routes/australia/vic/alpine_national_park/mt_feathertop_bungalow_spur/IMG_6420.jpg'
     attr: Reilly Beacom
     license: CC BY-NC-SA 4.0
+  - src: 'https://upload.wikimedia.org/wikipedia/commons/a/a5/Mt._Feathertop444_edit.jpg'
+    href: 'https://commons.wikimedia.org/wiki/File:Mt._Feathertop444_edit.jpg'
+    attr: 'Benjamint444, edited by Fir0002'
+    license: CC BY-SA
+    feature: t
+infrastructure:
+  toilets:
+    - osm:
+        node: 4032179927
+      location:
+        - -36.901702
+        - 147.122732
+      show: true
+  water:
+    - osm:
+        node: 2614544740
+      location:
+        - -36.901491
+        - 147.122532
+      name: untreated water
+      show: true
+  parking:
+    - osm:
+        way: 255766814
+      location:
+        - -36.892035
+        - 147.072878
+      tags:
+        size: small
+        surface: unpaved
+      show: false
+    - osm:
+        way: 255766815
+      location:
+        - -36.891922
+        - 147.073135
+      tags:
+        size: small
+        surface: unpaved
+      show: true
+  shelter:
+    - osm:
+        way: 255766135
+      location:
+        - -36.90149
+        - 147.12257
+      name: Federation Hut
+      photos:
+        - src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Federation-hut-mount-feathertop.jpg/1280px-Federation-hut-mount-feathertop.jpg'
+          href: 'https://commons.wikimedia.org/wiki/File:Federation-hut-mount-feathertop.jpg'
+          attr: Jimmy Harris
+          license: CC BY-SA
+      show: true
+  information:
+    - osm:
+        node: 2614540929
+      location:
+        - -36.892386
+        - 147.064241
+      name: Harrietville Museum
+      show: false
+natural:
+  moutain_peak:
+    - osm:
+        node: 251154646
+      location:
+        - -36.894163
+        - 147.138134
+      name: Mount Feathertop
+      show: true
+  viewpoint:
+    - osm:
+        node: 610533731
+      location:
+        - -36.886251
+        - 147.091581
+      name: Tobias Gap
+      show: true
+    - osm:
+        node: 2614540991
+      location:
+        - -36.891963
+        - 147.081539
+      name: Picture Point
+      show: true
 copyright:
   - Reilly Beacom
 license: CC BY-NC-SA 4.0

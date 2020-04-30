@@ -28,6 +28,7 @@
     "scripts": {
         "gpxToGeoJson": "node --experimental-modules scripts/gpxToGeoJson.mjs",
         "test": "node --experimental-modules scripts/validate.mjs",
+        "migrate": "node --experimental-modules scripts/migrate.mjs",
         "prettier": "prettier --write 'scripts/**/*.*js'",
         "lint": "eslint --fix 'scripts/**/*.*js'"
     },

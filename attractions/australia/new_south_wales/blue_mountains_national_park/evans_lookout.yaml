@@ -26,29 +26,30 @@ photos:
     attr: Reilly Beacom
     license: CC BY-NC-SA 4.0
 features:
-  lookout: true
+  viewpoint: true
 getting_there:
   car: true
   sealed_road: true
-parking:
-  - name: Evans Lookout
-    location:
-      - -33.646618
-      - 150.325067
-    osm:
-      way: 355963421
-    tags:
-      surface: asphalt
-toilets:
-  - name: Evans Lookout
-    location:
-      - -33.646623
-      - 150.324587
-    osm:
-      node: 2619197951
 links:
   official: 'https://www.nationalparks.nsw.gov.au/things-to-do/lookouts/evans-lookout'
   wikipedia: 'https://en.wikipedia.org/wiki/Evans_Lookout'
+infrastructure:
+  toilets:
+    - name: Evans Lookout
+      location:
+        - -33.646623
+        - 150.324587
+      osm:
+        node: 2619197951
+  parking:
+    - name: Evans Lookout
+      location:
+        - -33.646618
+        - 150.325067
+      osm:
+        way: 355963421
+      tags:
+        surface: asphalt
 copyright:
   - Reilly Beacom
 license: CC BY-NC-SA 4.0

@@ -1,18 +1,23 @@
+// https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL
+// http://overpass-turbo.eu/
+// https://github.com/maxogden/geojson-js-utils/blob/master/geojson-utils.js
+
 import query_overpass from 'query-overpass';
 import FS from 'fs';
 import YAML from 'js-yaml';
-import geoJSONUtils from 'geojson-utils'; // https://github.com/maxogden/geojson-js-utils/blob/master/geojson-utils.js
+import geoJSONUtils from 'geojson-utils';
 
-const allowCache = false;
-const filePath = process.argv[2];
+const allowCache = process.argv.indexOf('--cache') !== -1;
+const noShow = process.argv.indexOf('--noshow') !== -1;
+const filePath = process.argv[process.argv.length - 1];
 
-const features = {
-    'public_transport=station': ['transport', 500, ['network', 'operator']],
-    'highway=bus_stop': ['transport', 250, []],
-    'amenity=parking': ['parking', 250, ['surface', 'capacity', 'access']],
-    'amenity=shelter': ['shelter', 100, []],
+const osmTags = {
+    'public_transport=station': ['infrastructure.transport', 500, ['network', 'operator']],
+    'highway=bus_stop': ['infrastructure.transport', 250, []],
+    'amenity=parking': ['infrastructure.parking', 250, ['surface', 'capacity', 'access']],
+    'amenity=shelter': ['infrastructure.shelter', 100, []],
     'amenity=toilets': [
-        'toilets',
+        'infrastructure.toilets',
         200,
         [
             'access',
@@ -25,9 +30,15 @@ const features = {
             'drinking_water',
         ],
     ],
-    'amenity=drinking_water': ['water', 200, []],
-    'information=visitor_centre': ['information', 5000, []],
-    'information=office': ['information', 5000, []],
+    'amenity=drinking_water': ['infrastructure.water', 200, []],
+    'information=visitor_centre': ['infrastructure.information', 10000, []],
+    'information=office': ['infrastructure.information', 10000, []],
+    'tourism=museum': ['infrastructure.information', 5000, []],
+    'tourism=viewpoint': ['natural.viewpoint', 50, [], 'viewpoint'],
+    'natural=peak': ['natural.moutain_peak', 100, [], 'mountain_peak'],
+    'waterway=waterfall': ['natural.waterfall', 100, [], 'waterfall'],
+    'ford=yes': ['natural.water_crossing', 10, [], 'water_crossing'],
+    'natural=cliff': [null, 100, [], 'cliff_edges'],
 };
 
 // const getCentre = (geometry) => geoJSONUtils.centroid(geometry).coordinates;
@@ -70,6 +81,16 @@ const queryOverpassToFile = (query, cacheFilePath) => {
     });
 };
 
+const reorder = (document, keys) => {
+    keys.forEach((k) => {
+        if (k in document) {
+            const temp = document[k];
+            delete document[k];
+            document[k] = temp;
+        }
+    });
+};
+
 console.log(filePath);
 
 const document = YAML.safeLoad(FS.readFileSync(filePath));
@@ -86,21 +107,22 @@ if (typeof document.osm === 'object') {
         })
         .filter(Boolean);
 
+    // TODO: Search for junctions with other tracks:
     const baseQuery = `
-        ${source[0]}
+        (${source.join(' ')});
         (._;>;);
         out;
     `;
 
-    const nodesAndWays = Object.keys(features).map((key) =>
+    const nodesAndWays = Object.keys(osmTags).map((key) =>
         [
-            `node(around.track:${features[key][1]})[${key}];`,
-            `(way(around.track:${features[key][1]})[${key}]; >;);`,
+            `node(around.track:${osmTags[key][1]})[${key}];`,
+            `(way(around.track:${osmTags[key][1]})[${key}]; >;);`,
         ].join('\n          '),
     );
 
     const featuresQuery = `
-        ${source[0]}
+        (${source.join(' ')});
         (._;>;)->.track;
         (
           ${nodesAndWays.join('\n          ')}
@@ -108,92 +130,129 @@ if (typeof document.osm === 'object') {
         out;
     `;
 
-    queryOverpassToFile(baseQuery, filePath.replace('.yaml', '.osm.base.geo.json')).then((data) => {
-        console.log(
-            'LineString: ',
-            data.features.filter((f) => f.geometry.type === 'LineString').length,
-        );
+    queryOverpassToFile(baseQuery, filePath.replace('.yaml', '.osm.base.geo.json')).then(
+        (baseData) => {
+            console.log(
+                'LineString: ',
+                baseData.features.filter((f) => f.geometry.type === 'LineString').length,
+            );
 
-        queryOverpassToFile(
-            featuresQuery,
-            filePath.replace('.yaml', '.osm.features.geo.json'),
-        ).then((data) => {
-            data.features.forEach((feature) => {
-                if (feature.geometry.type !== 'LineString') {
-                    const [type, tagsFilter] = Object.keys(feature.properties.tags).reduce(
-                        (acc, key) => {
-                            if (acc === null) {
-                                const tag = `${key}=${feature.properties.tags[key]}`;
-                                if (tag in features) {
-                                    return [features[tag][0], features[tag][2]];
-                                }
-                            }
-                            return acc;
-                        },
-                        null,
-                    ) || [null, []];
-
-                    if (type) {
-                        const node = feature.properties.type;
-                        const id = parseInt(feature.properties.id, 10);
-                        const location =
-                            feature.geometry.type === 'Point'
-                                ? feature.geometry.coordinates
-                                : getCentre(feature.geometry);
-                        const area =
-                            feature.geometry.type === 'Point' ? 0 : getArea(feature.geometry);
-
-                        location.reverse();
-
-                        if (document[type] === undefined) document[type] = [];
-
-                        const [docItem, found] = document[type].reduce((acc, docItem) => {
-                            if (docItem.osm && docItem.osm[node] === id) {
-                                if (acc === null) {
-                                    return [docItem, true];
-                                } else {
-                                    console.log('DUPLICATE!', node, id);
-                                    docItem.enabled = false;
-                                    docItem.name = 'duplicate';
-                                }
-                            }
-                            return acc;
-                        }, null) || [{}, false];
-
-                        if (!found) {
-                            docItem.osm = { [node]: id };
-                            document[type].push(docItem);
+            queryOverpassToFile(
+                featuresQuery,
+                filePath.replace('.yaml', '.osm.features.geo.json'),
+            ).then((data) => {
+                const docFeatures = Object.keys(osmTags).reduce((obj, tag) => {
+                    const [, , , k] = osmTags[tag];
+                    if (k) {
+                        const [t, v] = tag.split('=');
+                        if (data.features.filter((i) => i.properties.tags[t] === v).length > 0) {
+                            console.log(tag, '->', k);
+                            return { ...obj, [k]: true };
                         }
-
-                        docItem.location = location.map((i) => parseFloat(i.toFixed(6), 10));
-
-                        if (feature.properties.tags.name)
-                            docItem.name = feature.properties.tags.name;
-
-                        if (docItem.tags === undefined) docItem.tags = {};
-
-                        if (type === 'parking' && area > 0) docItem.tags.size = areaSize(area);
-
-                        tagsFilter.forEach((tag) => {
-                            if (tag in feature.properties.tags)
-                                docItem.tags[tag.replace(`${type}:`, '')] =
-                                    feature.properties.tags[tag];
-                        });
-
-                        if (Object.keys(docItem.tags).length === 0) delete docItem.tags;
-
-                        if (!found) {
-                            docItem.show = false;
-                        }
-
-                        console.log(type, feature.id, location, area, found);
                     }
-                }
-            });
+                    return obj;
+                }, {});
 
-            const yaml = YAML.safeDump(document, { lineWidth: 1000, noRefs: true });
-            // console.log(yaml);
-            FS.writeFileSync(filePath, yaml);
-        });
-    });
+                if (
+                    baseData.features.filter((i) => i.properties.tags.highway === 'steps').length >
+                    0
+                ) {
+                    docFeatures.steps = true;
+                }
+
+                if (Object.keys(docFeatures).length > 0) {
+                    document.features = { ...docFeatures, ...(document.features || {}) };
+                }
+
+                data.features.forEach((feature) => {
+                    if (feature.geometry.type !== 'LineString') {
+                        const [type, tagsFilter] = Object.keys(feature.properties.tags).reduce(
+                            (acc, key) => {
+                                if (acc === null) {
+                                    const tag = `${key}=${feature.properties.tags[key]}`;
+                                    if (tag in osmTags) {
+                                        return [osmTags[tag][0], osmTags[tag][2]];
+                                    }
+                                }
+                                return acc;
+                            },
+                            null,
+                        ) || [null, []];
+
+                        if (type !== null) {
+                            const node = feature.properties.type;
+                            const id = parseInt(feature.properties.id, 10);
+                            const location =
+                                feature.geometry.type === 'Point'
+                                    ? feature.geometry.coordinates
+                                    : getCentre(feature.geometry);
+                            const area =
+                                feature.geometry.type === 'Point' ? 0 : getArea(feature.geometry);
+
+                            location.reverse();
+
+                            const [subtype, target] = type.split('.').reduce(
+                                ([, tgt], key, idx, src) => {
+                                    if (tgt[key] === undefined) {
+                                        console.log('NEW: ', key);
+                                        tgt[key] = src.length - 1 === idx ? [] : {};
+                                    }
+                                    return [key, tgt[key]];
+                                },
+                                [null, document],
+                            );
+
+                            const [docItem, found] = target.reduce((acc, docItem) => {
+                                if (docItem.osm && docItem.osm[node] === id) {
+                                    if (acc === null) {
+                                        return [docItem, true];
+                                    } else {
+                                        console.log('DUPLICATE!', node, id);
+                                        docItem.enabled = false;
+                                        docItem.name = 'duplicate';
+                                    }
+                                }
+                                return acc;
+                            }, null) || [{}, false];
+
+                            if (!found) {
+                                docItem.osm = { [node]: id };
+                                target.push(docItem);
+                            }
+
+                            docItem.location = location.map((i) => parseFloat(i.toFixed(6), 10));
+
+                            if (feature.properties.tags.name)
+                                docItem.name = feature.properties.tags.name;
+
+                            if (docItem.tags === undefined) docItem.tags = {};
+
+                            if (subtype === 'parking' && area > 0)
+                                docItem.tags.size = areaSize(area);
+
+                            tagsFilter.forEach((tag) => {
+                                if (tag in feature.properties.tags)
+                                    docItem.tags[tag.replace(`${subtype}:`, '')] =
+                                        feature.properties.tags[tag];
+                            });
+
+                            if (Object.keys(docItem.tags).length === 0) delete docItem.tags;
+
+                            if (!found) {
+                                docItem.show = !noShow;
+                            }
+
+                            console.log(type, feature.id, location, area, found);
+                        }
+                    }
+                });
+
+                reorder(document, ['copyright', 'license']);
+
+                const yaml = YAML.safeDump(document, { lineWidth: 1000, noRefs: true });
+                // console.log(yaml);
+                FS.writeFileSync(filePath, yaml);
+            });
+        },
+    );
 }
