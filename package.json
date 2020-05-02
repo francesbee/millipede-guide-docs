@@ -30,7 +30,8 @@
         "test": "node --experimental-modules scripts/validate.mjs",
         "migrate": "node --experimental-modules scripts/migrate.mjs",
         "prettier": "prettier --write 'scripts/**/*.*js'",
-        "lint": "eslint --fix 'scripts/**/*.*js'"
+        "lint": "eslint --fix 'scripts/**/*.*js'",
+        "osm": "node --experimental-modules scripts/updateDocFromOSM.mjs"
     },
     "author": "",
     "license": "ISC"

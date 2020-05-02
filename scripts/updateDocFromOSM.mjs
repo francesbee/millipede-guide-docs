@@ -1,48 +1,17 @@
-// https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL
-// http://overpass-turbo.eu/
-// https://github.com/maxogden/geojson-js-utils/blob/master/geojson-utils.js
-
-import query_overpass from 'query-overpass';
 import FS from 'fs';
 import YAML from 'js-yaml';
 import geoJSONUtils from 'geojson-utils';
+import { osmBaseLayerQuery, osmFeaturesQuery } from './utils/osm.mjs';
 
-const allowCache = process.argv.indexOf('--cache') !== -1;
+const useCache = process.argv.indexOf('--cache') !== -1;
 const noShow = process.argv.indexOf('--noshow') !== -1;
+const updateLocation = process.argv.indexOf('--location') !== -1;
 const filePath = process.argv[process.argv.length - 1];
+const getBase = process.argv.indexOf('--base') !== -1;
+const getInfrastructure = process.argv.indexOf('--infra') !== -1;
+const getNaturalFeatures = process.argv.indexOf('--natural') !== -1;
+const useBaseLayer = process.argv.indexOf('--baselayer') !== -1;
 
-const osmTags = {
-    'public_transport=station': ['infrastructure.transport', 500, ['network', 'operator']],
-    'highway=bus_stop': ['infrastructure.transport', 250, []],
-    'amenity=parking': ['infrastructure.parking', 250, ['surface', 'capacity', 'access']],
-    'amenity=shelter': ['infrastructure.shelter', 100, []],
-    'amenity=toilets': [
-        'infrastructure.toilets',
-        200,
-        [
-            'access',
-            'wheelchair',
-            'changing_table',
-            'fee',
-            'toilets:disposal',
-            'toilets:position',
-            'unisex',
-            'drinking_water',
-        ],
-    ],
-    'amenity=drinking_water': ['infrastructure.water', 200, []],
-    'information=visitor_centre': ['infrastructure.information', 10000, []],
-    'information=office': ['infrastructure.information', 10000, []],
-    'tourism=museum': ['infrastructure.information', 5000, []],
-    'tourism=viewpoint': ['natural.viewpoint', 50, [], 'viewpoint'],
-    'natural=peak': ['natural.moutain_peak', 100, [], 'mountain_peak'],
-    'waterway=waterfall': ['natural.waterfall', 100, [], 'waterfall'],
-    'ford=yes': ['natural.water_crossing', 10, [], 'water_crossing'],
-    'natural=cliff': [null, 100, [], 'cliff_edges'],
-};
-
-// const getCentre = (geometry) => geoJSONUtils.centroid(geometry).coordinates;
-// const getCentre = (geometry) => geometry.coordinates[0][0];
 const getCentre = (geometry) => {
     const coordinates = geometry.coordinates[0];
     const sum = coordinates.reduce(([x1, y1], [x2, y2]) => [x1 + x2, y1 + y2], [0, 0]);
@@ -51,208 +20,232 @@ const getCentre = (geometry) => {
 
 const getArea = (geometry) => Math.round(geoJSONUtils.area(geometry) * 100000000);
 
-const areaSize = (area) => (area > 100 && 'large') || (area > 50 && 'medium') || 'small';
+const parkingSize = (area) => (area > 100 && 'large') || (area > 50 && 'medium') || 'small';
 
-const queryOverpassToFile = (query, cacheFilePath) => {
-    console.log(query);
-    console.log(' -> ', cacheFilePath);
-    const useCache = allowCache && FS.existsSync(cacheFilePath);
-    return new Promise((resolve) => {
-        if (useCache) {
-            console.log('CACHED');
-            resolve(JSON.parse(FS.readFileSync(cacheFilePath)));
-        } else {
-            console.log('QUERY API');
-            query_overpass(query, (error, data) => {
-                if (error) {
-                    console.log('ERROR!');
-                    resolve({
-                        type: 'FeatureCollection',
-                        features: [],
-                    });
-                } else {
-                    if (!useCache) {
-                        FS.writeFileSync(cacheFilePath, JSON.stringify(data, null, 4));
-                    }
-                    resolve(data);
-                }
-            });
+const deleteEmptyObjects = (doc) => {
+    Object.keys(doc).forEach((key) => {
+        const val = doc[key];
+        if (
+            typeof val === 'object' &&
+            val.constructor === Object &&
+            Object.keys(val).length === 0
+        ) {
+            delete doc[key];
         }
     });
 };
 
-const reorder = (document, keys) => {
+const reorder = (doc, keys) => {
     keys.forEach((k) => {
-        if (k in document) {
-            const temp = document[k];
-            delete document[k];
-            document[k] = temp;
+        if (k in doc) {
+            const temp = doc[k];
+            delete doc[k];
+            doc[k] = temp;
         }
     });
 };
 
-console.log(filePath);
+const tagOpt = (docProperty, distanceAround, tagsFilter, featureProperty) => ({
+    prop: docProperty || null,
+    around: distanceAround || null,
+    tags: tagsFilter || null,
+    feat: featureProperty || null,
+});
 
-const document = YAML.safeLoad(FS.readFileSync(filePath));
-
-if (typeof document.osm === 'object') {
-    const source = ['relation', 'way', 'node']
-        .map((i) => {
-            if (i in document.osm) {
-                const ids = document.osm[i];
-                return `${i}(id:${typeof ids === 'number' ? ids : ids.join(',')});`;
-            } else {
-                return null;
+const applyDocumentFeatures = (obj, tags, geo) => {
+    Object.keys(tags).forEach((tag) => {
+        const key = tags[tag].feat;
+        if (key) {
+            const [k, v] = tag.split('=');
+            if (geo.features.filter((i) => i.properties.tags[k] === v).length > 0) {
+                if (obj[key] !== false) {
+                    obj[key] = true;
+                    console.log(' >>', tag, '->', key);
+                }
             }
-        })
-        .filter(Boolean);
+        }
+    });
 
-    // TODO: Search for junctions with other tracks:
-    const baseQuery = `
-        (${source.join(' ')});
-        (._;>;);
-        out;
-    `;
+    return obj;
+};
 
-    const nodesAndWays = Object.keys(osmTags).map((key) =>
-        [
-            `node(around.track:${osmTags[key][1]})[${key}];`,
-            `(way(around.track:${osmTags[key][1]})[${key}]; >;);`,
-        ].join('\n          '),
+const findItemByOSM = (arr, type, id) => {
+    return (
+        arr.reduce((acc, item) => {
+            // console.log(item);
+            if (item.osm && parseInt(item.osm[type], 10) === parseInt(id, 10)) {
+                if (acc === null) {
+                    return [item, true];
+                } else {
+                    console.log('DUPLICATE!', type, id);
+                    item.enabled = false;
+                    item.name = 'duplicate';
+                }
+            }
+            return acc;
+        }, null) || [
+            {
+                osm: {
+                    [type]: parseInt(id, 10),
+                },
+            },
+            false,
+        ]
     );
+};
 
-    const featuresQuery = `
-        (${source.join(' ')});
-        (._;>;)->.track;
-        (
-          ${nodesAndWays.join('\n          ')}
-        );
-        out;
-    `;
+const geoCoordinates = (geometry) => {
+    const arr = (geometry.type === 'Point' ? geometry.coordinates : getCentre(geometry)).map((i) =>
+        parseFloat(i.toFixed(6), 10),
+    );
+    return [arr[1], arr[0]];
+};
 
-    queryOverpassToFile(baseQuery, filePath.replace('.yaml', '.osm.base.geo.json')).then(
-        (baseData) => {
-            console.log(
-                'LineString: ',
-                baseData.features.filter((f) => f.geometry.type === 'LineString').length,
-            );
-
-            queryOverpassToFile(
-                featuresQuery,
-                filePath.replace('.yaml', '.osm.features.geo.json'),
-            ).then((data) => {
-                const docFeatures = Object.keys(osmTags).reduce((obj, tag) => {
-                    const [, , , k] = osmTags[tag];
-                    if (k) {
-                        const [t, v] = tag.split('=');
-                        if (data.features.filter((i) => i.properties.tags[t] === v).length > 0) {
-                            console.log(tag, '->', k);
-                            return { ...obj, [k]: true };
-                        }
+const applyDocumentItems = (obj, tags, geo) => {
+    Object.keys(tags).forEach((tag) => {
+        const key = tags[tag].prop;
+        const tagsFilter = tags[tag].tags;
+        if (key) {
+            const [k, v] = tag.split('=');
+            geo.features
+                .filter((i) => i.properties.tags[k] === v)
+                .forEach(({ geometry, properties }) => {
+                    if (obj[key] === undefined) obj[key] = [];
+                    const [item, update] = findItemByOSM(obj[key], properties.type, properties.id);
+                    if (!update) obj[key].push(item);
+                    item.location = geoCoordinates(geometry);
+                    if (properties.tags.name) item.name = properties.tags.name;
+                    if (item.tags === undefined) item.tags = {};
+                    if (key === 'parking' && geometry.type === 'Polygon') {
+                        const area = getArea(geometry);
+                        item.tags.size = parkingSize(area);
                     }
-                    return obj;
-                }, {});
-
-                if (
-                    baseData.features.filter((i) => i.properties.tags.highway === 'steps').length >
-                    0
-                ) {
-                    docFeatures.steps = true;
-                }
-
-                if (Object.keys(docFeatures).length > 0) {
-                    document.features = { ...docFeatures, ...(document.features || {}) };
-                }
-
-                data.features.forEach((feature) => {
-                    if (feature.geometry.type !== 'LineString') {
-                        const [type, tagsFilter] = Object.keys(feature.properties.tags).reduce(
-                            (acc, key) => {
-                                if (acc === null) {
-                                    const tag = `${key}=${feature.properties.tags[key]}`;
-                                    if (tag in osmTags) {
-                                        return [osmTags[tag][0], osmTags[tag][2]];
-                                    }
-                                }
-                                return acc;
-                            },
-                            null,
-                        ) || [null, []];
-
-                        if (type !== null) {
-                            const node = feature.properties.type;
-                            const id = parseInt(feature.properties.id, 10);
-                            const location =
-                                feature.geometry.type === 'Point'
-                                    ? feature.geometry.coordinates
-                                    : getCentre(feature.geometry);
-                            const area =
-                                feature.geometry.type === 'Point' ? 0 : getArea(feature.geometry);
-
-                            location.reverse();
-
-                            const [subtype, target] = type.split('.').reduce(
-                                ([, tgt], key, idx, src) => {
-                                    if (tgt[key] === undefined) {
-                                        console.log('NEW: ', key);
-                                        tgt[key] = src.length - 1 === idx ? [] : {};
-                                    }
-                                    return [key, tgt[key]];
-                                },
-                                [null, document],
-                            );
-
-                            const [docItem, found] = target.reduce((acc, docItem) => {
-                                if (docItem.osm && docItem.osm[node] === id) {
-                                    if (acc === null) {
-                                        return [docItem, true];
-                                    } else {
-                                        console.log('DUPLICATE!', node, id);
-                                        docItem.enabled = false;
-                                        docItem.name = 'duplicate';
-                                    }
-                                }
-                                return acc;
-                            }, null) || [{}, false];
-
-                            if (!found) {
-                                docItem.osm = { [node]: id };
-                                target.push(docItem);
-                            }
-
-                            docItem.location = location.map((i) => parseFloat(i.toFixed(6), 10));
-
-                            if (feature.properties.tags.name)
-                                docItem.name = feature.properties.tags.name;
-
-                            if (docItem.tags === undefined) docItem.tags = {};
-
-                            if (subtype === 'parking' && area > 0)
-                                docItem.tags.size = areaSize(area);
-
-                            tagsFilter.forEach((tag) => {
-                                if (tag in feature.properties.tags)
-                                    docItem.tags[tag.replace(`${subtype}:`, '')] =
-                                        feature.properties.tags[tag];
-                            });
-
-                            if (Object.keys(docItem.tags).length === 0) delete docItem.tags;
-
-                            if (!found) {
-                                docItem.show = !noShow;
-                            }
-
-                            console.log(type, feature.id, location, area, found);
+                    tagsFilter.forEach((t) => {
+                        if (t in properties.tags) {
+                            item.tags[t.replace(`${key}:`, '')] = properties.tags[t];
                         }
+                    });
+                    if (Object.keys(item.tags).length === 0) delete item.tags;
+                    if (!update) {
+                        item.show = !noShow;
                     }
+                    console.log(
+                        ' >>',
+                        tag,
+                        '->',
+                        properties.type,
+                        properties.id,
+                        update ? '[UPDATE]' : '[NEW]',
+                    );
                 });
+        }
+    });
 
-                reorder(document, ['copyright', 'license']);
+    return obj;
+};
 
-                const yaml = YAML.safeDump(document, { lineWidth: 1000, noRefs: true });
-                // console.log(yaml);
-                FS.writeFileSync(filePath, yaml);
-            });
-        },
+const updateBaseLayer = async (doc) => {
+    const geo = await osmBaseLayerQuery(
+        doc.osm,
+        useCache,
+        filePath.replace('.yaml', `${useBaseLayer ? '' : '.osm.base'}.geo.json`),
     );
-}
+
+    console.log(
+        'Base LineStrings: ',
+        geo.features.filter((f) => f.geometry.type === 'LineString').length,
+    );
+
+    console.log('Base Points: ', geo.features.filter((f) => f.geometry.type === 'Point').length);
+
+    if (updateLocation && geo.features.length === 1 && geo.features[0].geometry.type === 'Point') {
+        doc.location = [
+            geo.features[0].geometry.coordinates[1],
+            geo.features[0].geometry.coordinates[0],
+        ];
+    }
+
+    // todo: iucn_level
+
+    const tags = {
+        'highway=steps': tagOpt(null, null, null, 'steps'),
+    };
+
+    doc.features = applyDocumentFeatures(doc.features || {}, tags, geo);
+};
+
+const updateNaturalFeatures = async (doc) => {
+    const tags = {
+        'tourism=viewpoint': tagOpt('viewpoint', 50, [], 'viewpoint'),
+        'natural=peak': tagOpt('moutain_peak', 100, [], 'mountain_peak'),
+        'waterway=waterfall': tagOpt('waterfall', 100, [], 'waterfall'),
+        'ford=yes': tagOpt('water_crossing', 10, [], 'water_crossing'),
+        'natural=cliff': tagOpt(null, 100, [], 'cliff_edges'),
+        'natural=coastline': tagOpt(null, 500, [], 'coastal'),
+        'natural=beach': tagOpt(null, 200, [], 'beach'),
+    };
+
+    const geo = await osmFeaturesQuery(
+        doc.osm,
+        tags,
+        useCache,
+        filePath.replace('.yaml', '.osm.features.geo.json'),
+    );
+
+    doc.features = applyDocumentFeatures(doc.features || {}, tags, geo);
+    doc.natural = applyDocumentItems(doc.natural || {}, tags, geo);
+};
+
+const updateInfrastructure = async (doc) => {
+    const tags = {
+        'public_transport=station': tagOpt('transport', 500, ['network', 'operator']),
+        'highway=bus_stop': tagOpt('transport', 250, []),
+        'amenity=parking': tagOpt('parking', 250, ['surface', 'capacity', 'access']),
+        'amenity=shelter': tagOpt('shelter', 100, []),
+        'amenity=toilets': tagOpt('toilets', 200, [
+            'access',
+            'wheelchair',
+            'changing_table',
+            'fee',
+            'toilets:disposal',
+            'toilets:position',
+            'unisex',
+            'drinking_water',
+        ]),
+        'amenity=drinking_water': tagOpt('water', 200, ['drinking_water']),
+        'information=visitor_centre': tagOpt('information', 10000, []),
+        'information=office': tagOpt('information', 10000, []),
+        'tourism=museum': tagOpt('information', 5000, []),
+        'tourism=camp_site': tagOpt('campsite', 250, [], 'campsite'),
+    };
+
+    const geo = await osmFeaturesQuery(
+        doc.osm,
+        tags,
+        useCache,
+        filePath.replace('.yaml', '.osm.infrastructure.geo.json'),
+    );
+
+    doc.features = applyDocumentFeatures(doc.features || {}, tags, geo);
+    doc.infrastructure = applyDocumentItems(doc.infrastructure || {}, tags, geo);
+};
+
+const updateDocument = async () => {
+    const doc = YAML.safeLoad(FS.readFileSync(filePath));
+    if (getBase || useBaseLayer) {
+        await updateBaseLayer(doc);
+    }
+    if (getNaturalFeatures) {
+        await updateNaturalFeatures(doc);
+    }
+    if (getInfrastructure) {
+        await updateInfrastructure(doc);
+    }
+    reorder(doc, ['copyright', 'license']);
+    deleteEmptyObjects(doc);
+    const yaml = YAML.safeDump(doc, { lineWidth: 1000, noRefs: true });
+    // console.log(yaml);
+    FS.writeFileSync(filePath, yaml);
+};
+
+updateDocument().then(() => console.log('Done.'));

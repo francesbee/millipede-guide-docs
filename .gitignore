@@ -2,3 +2,4 @@
 node_modules
 *.osm.base.geo.json
 *.osm.features.geo.json
+*.osm.infrastructure.geo.json
